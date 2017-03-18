@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--> AOE3 NativeED mod Powers Starts <!-->
+    <!--> 附加到亚洲王朝Data/Abilities/powers.xml中 <!-->
+
+	<power name="WCSResSupport" type="Informers">
+		<displaynameid>500000</displaynameid>
+		<rolloverid>540000</rolloverid>
+		<icon>buildings\factory\shared_factory_portrait</icon>
+	</power>
+
+	<power name="WCSShieldWall" type="UnitModify">
+		<displaynameid>500001</displaynameid>
+		<rolloverid>540001</rolloverid>
+		<icon>buildings\fort\fort_icon</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>15</activetime>
+		<unitmodify amount="1.5" apply="multiply">MaxHP</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>2.0</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+		<rangeindicatorprotoid radius="2.0" indicatorcount="5" speed="0.6">PowerRanger</rangeindicatorprotoid>
+	</power>
+
+	<power name="WCSBlazeStorm" type="UnitAction">
+		<displaynameid>500002</displaynameid>
+		<rolloverid>540002</rolloverid>
+		<icon>art\ui\command\mode_broadside</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>5</activetime>
+		<radius>10.0</radius>
+		<placement forceonmap="1" enemy="" allowgaia="">full</placement>
+		<abstractattacktargettype>LogicalTypeRangedUnitsAttack</abstractattacktargettype>
+		<unitaction>WCSBlazeStormACT</unitaction>
+	</power>
+
+	<power name="WCSCritStrike" type="UnitAction">
+		<displaynameid>500003</displaynameid>
+		<rolloverid>540003</rolloverid>
+		<icon>art\ui\abilities\ability_swashbuckler</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>8</activetime>
+		<radius>5.0</radius>
+		<placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+		<abstractattacktargettype>Unit</abstractattacktargettype>
+		<unitaction>WCSCritStrikeACT</unitaction>
+	</power>
+
+	<power name="WCSSnipe" type="UnitAction">
+		<displaynameid>500004</displaynameid>
+		<rolloverid>540004</rolloverid>
+		<icon>art\ui\abilities\hawk_eye</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>15</activetime>
+		<radius>15.0</radius>
+		<placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+		<abstractattacktargettype>LogicalTypeValidSharpshoot</abstractattacktargettype>
+		<unitaction>WCSSnipeACT</unitaction>
+	</power>
+
+	<power name="WCSForcedMarch" type="Informers">
+		<displaynameid>500005</displaynameid>
+		<rolloverid>540005</rolloverid>
+		<icon>ui\techs\hc_riding_school\hc_riding_school</icon>
+	</power>
+
+	<power name="WCSIntruder" type="Informers">
+		<displaynameid>500006</displaynameid>
+		<rolloverid>540006</rolloverid>
+		<icon>units\mercenaries\black_rider\black_rider_portrait</icon>
+	</power>
+
+	<power name="WCSBladeofWhirl" type="UnitAction">
+		<displaynameid>500007</displaynameid>
+		<rolloverid>540007</rolloverid>
+		<icon>art\ui\abilities\ability_swashbuckler</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>8</activetime>
+		<radius>2.0</radius>
+		<placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+		<abstractattacktargettype>Unit</abstractattacktargettype>
+		<unitaction>WCSBladeofWhirlACT</unitaction>
+	</power>
+
+	<power name="WCSEaglesEyes" type="TempUnit">
+		<displaynameid>500008</displaynameid>
+		<rolloverid>540008</rolloverid>
+		<icon>art\ui\abilities\hawk_eye</icon>
+		<minimapeventtime sendalertto="ally">1</minimapeventtime>
+		<activetime>15</activetime>
+		<createunit quantity="1" radius="0" delay="0.0">SpyglassRevealer</createunit>
+		<placement forceonmap="1">LOSDontCare</placement>
+		<rangeindicatorprotoid radius="12.0" indicatorcount="16" speed="0.6">PowerRanger</rangeindicatorprotoid>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSGoodnessBless" type="Informers">
+		<displaynameid>500009</displaynameid>
+		<rolloverid>540009</rolloverid>
+		<icon>buildings\church\church_portrait</icon>
+	</power>
+
+	<power name="WCSSkullTotem" type="GoodFortune">
+		<displaynameid>500010</displaynameid>
+		<rolloverid>540010</rolloverid>
+		<icon>art\ui\abilities\ability_good_fortune</icon>
+		<minimapeventtime sendalertto="none">1</minimapeventtime>
+		<activetime>10</activetime>
+		<radius>10.0</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>LogicalTypeHealed</abstractattacktargettype>
+		<rangeindicatorprotoid radius="10.0" indicatorcount="8" speed="0.6">PowerRanger</rangeindicatorprotoid>
+		<unitaction>Heal</unitaction>
+<!-->		
+		<soundset type="StartSound" listenertype="Caster">PowerGoodFortune</soundset>
+<!-->	
+		<hitpointstoheal>150</hitpointstoheal> 
+		<rate>50</rate>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSShiftofGale" type="UnitModify">
+		<displaynameid>500011</displaynameid>
+		<rolloverid>540011</rolloverid>
+		<icon>units\animals\eagle\eagle_portrait</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>5</activetime>
+		<unitmodify amount="2" apply="multiply">Speed</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>0.1</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSRageofMars" type="UnitModify">
+		<displaynameid>500012</displaynameid>
+		<rolloverid>540012</rolloverid>
+		<icon>ui\command\generate_wood_icon</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>15</activetime>
+		<unitmodify amount="2" apply="multiply">Damage</unitmodify>
+		<unitmodify amount="4" apply="multiply">Speed</unitmodify>
+		<unitmodify amount="0.5" apply="multiply">MaxHP</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>0.1</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSInspiration" type="Informers">
+		<displaynameid>500016</displaynameid>
+		<rolloverid>540016</rolloverid>
+		<icon>ui\units\cheyenne_cav_portrait</icon>
+	</power>
+
+	<power name="WCSICBM" type="UnitAction">
+		<displaynameid>500017</displaynameid>
+		<rolloverid>540017</rolloverid>
+		<icon>units\artillery\rocket\rocket_icon</icon>
+		<minimapeventtime sendalertto="all">1</minimapeventtime>
+		<activetime>8</activetime>
+		<radius>5.0</radius>
+		<placement forceonmap="1" enemy="" allowgaia="">unit</placement>
+		<abstractattacktargettype>All</abstractattacktargettype>
+		<unitaction>WCSICBMACT</unitaction>
+	</power>
+
+	<power name="WCSTacticsGuide" type="Informers">
+		<displaynameid>500018</displaynameid>
+		<rolloverid>540018</rolloverid>
+		<icon>buildings\church\church_portrait</icon>
+	</power>
+
+	<power name="WCSFightWinOrDie" type="UnitModify">
+		<displaynameid>500019</displaynameid>
+		<rolloverid>540019</rolloverid>
+		<icon>units\asians\chinese\steppe_rider\steppe_rider_icon_portrait</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>15</activetime>
+		<unitmodify amount="2" apply="multiply">Damage</unitmodify>
+		<unitmodify amount="0.5" apply="multiply">MaxHP</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>10</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSYamatoTac" type="Informers">
+		<displaynameid>500021</displaynameid>
+		<rolloverid>540021</rolloverid>
+		<icon>units\mercenaries\samurai\ronin_portrait</icon>
+	</power>
+
+	<power name="WCSJuheEngine" type="UnitModify">
+		<displaynameid>500022</displaynameid>
+		<rolloverid>540022</rolloverid>
+		<icon>buildings\factory\shared_factory_portrait</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>30</activetime>
+		<unitmodify amount="2" apply="multiply">Speed</unitmodify>
+		<unitmodify amount="0.5" apply="multiply">MaxHP</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>0.5</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>all</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<power name="WCSSeigeFort" type="UnitModify">
+		<displaynameid>500023</displaynameid>
+		<rolloverid>540023</rolloverid>
+		<icon>buildings\factory\shared_factory_portrait</icon>
+		<minimapeventtime sendalertto="player">1</minimapeventtime>
+		<activetime>30</activetime>
+		<unitmodify amount="0.5" apply="multiply">Speed</unitmodify>
+		<unitmodify amount="2" apply="multiply">Damage</unitmodify>
+		<unitmodify amount="2" apply="multiply">MaxHP</unitmodify>
+		<powerplayerrelation>ally</powerplayerrelation>
+		<radius>0.5</radius>
+		<placement forceonmap="1" ally="">full</placement>
+		<abstractattacktargettype>all</abstractattacktargettype>
+		<allowduringnorush>1</allowduringnorush>
+	</power>
+
+	<!--> AOE3 NativeED mod Powers Ends <!-->

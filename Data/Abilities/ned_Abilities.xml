@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--> AOE3 NativeED mod Abilities Starts <!-->
+	<!--> 附加到亚洲王朝Data/Abilities/abilities.xml中 <!-->
+
+	<WCBxfjsyh>
+		<ability>
+			WCSResSupport
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCBxfjsyh>
+
+	<WCEJason>
+		<ability>
+			WCSShieldWall
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCEJason>
+
+	<WCERoderhan>
+		<ability>
+			WCSBlazeStorm
+			<rof>60</rof>
+		</ability>
+	</WCERoderhan>
+
+	<WCESteelBoots>
+		<ability>
+			WCSCritStrike
+			<rof>45</rof>
+		</ability>
+	</WCESteelBoots>
+
+	<WCERaiit>
+		<ability>
+			PowerHawkeye
+			<rof>15</rof>
+		</ability>
+		<ability>
+			WCSSnipe
+			<rof>30</rof>
+		</ability>
+		<ability>
+			PowerBalloon
+			<tech>HCShipBalloons</tech>
+			<rof>120</rof>
+		</ability>
+	</WCERaiit>
+
+	<WCERayman>
+		<ability>
+			WCSForcedMarch
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCERayman>
+
+	<WCECaroide>
+		<ability>
+			WCSIntruder
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCECaroide>
+
+	<WCEDonaraad>
+		<ability>
+			WCSBladeofWhirl
+			<rof>45</rof>
+		</ability>
+	</WCEDonaraad>
+
+	<WCEPhillip>
+		<ability>
+			WCSEaglesEyes
+			<rof>45</rof>
+		</ability>
+	</WCEPhillip>
+
+
+	<WCEAlliedMonitor>
+		<ability>
+			PowerLongRange
+			<rof>60</rof>
+		</ability>
+	</WCEAlliedMonitor>
+
+	<WCBamyjt>
+		<ability>
+			WCSGoodnessBless
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCBamyjt>
+
+	<WCEShiriki>
+		<ability>
+			WCSSkullTotem
+			<rof>60</rof>
+		</ability>
+	</WCEShiriki>
+
+	<WCEWamblee>
+		<ability>
+			WCSShiftofGale
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCEWamblee>
+
+	<WCECheveyo>
+		<ability>
+			WCSRageofMars
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCECheveyo>
+
+	<WCEBidziil>
+		<ability>
+			WCSInspiration
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCEBidziil>
+
+	<WCBjht>
+		<ability>
+			WCSICBM
+			<rof>10</rof>
+		</ability>
+	</WCBjht>
+
+	<WCEGongyi>
+		<ability>
+			WCSTacticsGuide
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCEGongyi>
+
+	<WCETianhu>
+		<ability>
+			WCSFightWinOrDie
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCETianhu>
+
+	<WCEYamato>
+		<ability>
+			WCSYamatoTac
+			<alwaysdisabledingrid>true</alwaysdisabledingrid>
+		</ability>
+	</WCEYamato>
+
+	<WCEAkatsuki>
+		<ability>
+			WCSJuheEngine
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCEAkatsuki>
+
+	<WCEVikas>
+		<ability>
+			WCSSeigeFort
+			<rof>60</rof>
+			<castonself>true</castonself>
+		</ability>
+	</WCEVikas>
+
+	<!--> AOE3 NativeED mod Abilities Ends <!-->
