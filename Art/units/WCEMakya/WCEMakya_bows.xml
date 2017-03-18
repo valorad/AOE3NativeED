@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animfile>
+	<component>
+		bows
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_1_bow</file>
+				</assetreference>
+			</none>
+			<elitewarbows>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_2_bow</file>
+				</assetreference>
+			</elitewarbows>
+			<championwarbows>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_3_bow</file>
+				</assetreference>
+			</championwarbows>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>bows</component>
+	</anim>
+</animfile>
