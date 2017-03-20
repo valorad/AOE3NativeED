@@ -35,3 +35,5 @@
 # i18n
 没有！ temp. Chinese only.
 
+# LICENSE
+我大GPL v3
