@@ -27,9 +27,9 @@
 
 到本地repo的 **/Data** 下面，保持目录结构。
 
-1. 根据本repo的/Data下**ned_**开头的xml文件中的指示进行代码插入工作。
-2. 完成后删除**ned_**开头的所有文件
-3. 复制本repo的**Art**、**Data**、**Sound**三个文件夹到相应目录。参考 **Installation** 环节。
+1. 根据本repo的/Data下 **ned_** 开头的xml文件中的指示进行代码插入工作。
+2. 完成后删除 **ned_** 开头的所有文件
+3. 复制本repo的 **Art** 、 **Data** 、 **Sound** 三个文件夹到相应目录。参考 **Installation** 环节。
 
 
 # i18n
