@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<!--> AOE3 NativeED mod Powers Starts <!-->
     <!--> 附加到亚洲王朝Data/Abilities/powers.xml中 <!-->
 
+	<!--> AOE3 NativeED mod Powers Strats <!-->
 	<power name="WCSResSupport" type="Informers">
 		<displaynameid>500000</displaynameid>
 		<rolloverid>540000</rolloverid>

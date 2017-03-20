@@ -1,5 +1,6 @@
     <?xml version="1.0" encoding="utf-8"?>
     <!--> 附加到亚洲王朝Data/stringtabley.xml中 <!-->
+	<!--NativeED String Starts-->
 		<String _locID="200000">西方军事议会</String>
 		<String _locID="220000">WCB 西方军事议会</String>
 		<String _locID="240000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</String>
@@ -242,3 +243,4 @@
 		<String _locID="8000">聚合条约</String>
 		<String _locID="800000">签订聚合条约，取得组织的帮助</String>
 		<String _locID="840000">签订聚合条约，取得组织的帮助</String>
+	<!--NativeED String Ends-->
