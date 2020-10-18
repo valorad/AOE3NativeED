@@ -2,37 +2,36 @@
 
 <!--> 附加到决定版Data/protoy.xml中 <!-->
 
-<!--> AOE3 NativeED mod Powers Starts <!-->
-    
-
 <!-- 欧洲国家 -->
-<Unit id ='288' name ='Explorer'>
+<Unit id="288" name="Explorer">
     <!-- ... -->
-    <Train row ='1' page ='6' column ='0'>WCBxfjsyh</Train>
+    <train row="1" page="6" column="0">WCBxfjsyh</train>
     <!-- ... -->
 </Unit>
 
 <!-- 美洲国家 -->
-<Unit id ='712' name ='xpIroquoisWarChief'>
+<Unit id="712" name="xpIroquoisWarChief">
     <!-- ... -->
-    <Train row ='0' page ='6' column ='5'>WCBamyjt</Train>
+    <train row="0" page="6" column="5">WCBamyjt</train>
     <!-- ... -->
 </Unit>
 
-<!--(然后对 id ='741' id ='760' 也做相同修改)-->
+<!--(然后对 id="741" id="760" 也做相同修改)-->
 
 <!-- 亚洲国家 -->
-<Unit id ='918' name ='ypMonkChinese'>
+<Unit id="918" name="ypMonkChinese">
     <!-- ... -->
-    <Train row ='0' page ='6' column ='5'>WCBjht</Train>
+    <train row="0" page="6" column="5">WCBjht</train>
     <!-- ... -->
 </Unit>
 
-<!--(然后对 id ='1359' 也做相同修改)-->
+<!--(然后对 id="1359" 也做相同修改)-->
 
 
 <!-- 下面的内容加入文件最后一排Proto闭标签前面-->
-	<Unit id ='2000' name ='WCBxfjsyh'>
+
+<!-- AOE3 NativeED mod Proto Starts -->
+	<Unit id="2000" name="WCBxfjsyh">
 		<DBID>2000</DBID>
 		<DisplayNameID>200000</DisplayNameID>
 		<EditorNameID>220000</EditorNameID>
@@ -54,11 +53,11 @@
 		<Bounty>2000.0000</Bounty>
 		<BuildBounty>2000.0000</BuildBounty>
 		<BuildPoints>150.0000</BuildPoints>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype="Wood">800.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>2</BuildLimit>
-		<Armor type ='Siege' value ='0.0000'></Armor>
+		<Armor type="Siege" value="0.0000"></Armor>
 		<UnitType>LogicalTypeValidSabotage</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
 		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
@@ -88,39 +87,39 @@
 		<Flag>Tracked</Flag>
 		<Flag>TieToWaterSurface</Flag>
 		<Flag>SnapPlacement</Flag>
-		<Train row ='0' page ='0' column ='0'>WCEJason</Train>
-		<Train row ='0' page ='0' column ='3'>WCERoderhan</Train>
-		<Train row ='0' page ='0' column ='2'>WCESteelBoots</Train>
-		<Train row ='0' page ='0' column ='5'>WCERaiit</Train>
-		<Train row ='0' page ='0' column ='6'>WCERayman</Train>
-		<Train row ='0' page ='0' column ='7'>WCECaroide</Train>
-		<Train row ='0' page ='0' column ='8'>WCEGraRockMis</Train>
-		<Train row ='0' page ='0' column ='9'>WCEDonaraad</Train>
-		<Train row ='0' page ='0' column ='10'>WCEPhillip</Train>
-		<Train row ='0' page ='0' column ='11'>WCEChampion</Train>
-		<Train row ='0' page ='0' column ='12'>WCEAlliedMonitor</Train>
+		<train row="0" page="0" column="0">WCEJason</train>
+		<train row="0" page="0" column="3">WCERoderhan</train>
+		<train row="0" page="0" column="2">WCESteelBoots</train>
+		<train row="0" page="0" column="5">WCERaiit</train>
+		<train row="0" page="0" column="6">WCERayman</train>
+		<train row="0" page="0" column="7">WCECaroide</train>
+		<train row="0" page="0" column="8">WCEGraRockMis</train>
+		<train row="0" page="0" column="9">WCEDonaraad</train>
+		<train row="0" page="0" column="10">WCEPhillip</train>
+		<train row="0" page="0" column="11">WCEChampion</train>
+		<train row="0" page="0" column="12">WCEAlliedMonitor</train>
 		<Contain>AbstractVillager</Contain>
-		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
-		<Command page ='10' column ='3'>Delete</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="0">SetGatherPointMilitary</Command>
+		<Command page="10" column="3">Delete</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCBxfjsyh.tactics</Tactics>
 		<ProtoAction>
 			<Name>WCSResSupportACT</Name>
-			<Rate type ='Gold'>2.000000</Rate>
+			<Rate type="Gold">2.000000</Rate>
 		</ProtoAction>
 
 		<ProtoAction>
 			<Name>WCSResSupportACT</Name>
-			<Rate type ='Wood'>2.000000</Rate>
+			<Rate type="Wood">2.000000</Rate>
 		</ProtoAction>
 
 		<ProtoAction>
 			<Name>WCSResSupportACT</Name>
-			<Rate type ='Food'>2.000000</Rate>
+			<Rate type="Food">2.000000</Rate>
 		</ProtoAction>
 
 	</Unit>
-	<Unit id ='2100' name ='WCEJason'>
+	<Unit id="2100" name="WCEJason">
 		<DBID>2100</DBID>
 		<DisplayNameID>210000</DisplayNameID>
 		<EditorNameID>230000</EditorNameID>
@@ -146,11 +145,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>650.0000</Cost>
-		<Cost resourcetype ='Gold'>350.0000</Cost>
+		<Cost resourcetype="Food">650.0000</Cost>
+		<Cost resourcetype="Gold">350.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.8000'></Armor>
+		<Armor type="Hand" value="0.8000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -183,9 +182,9 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEJason.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -204,24 +203,24 @@
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">7.00000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">7.00000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">7.00000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSShieldWallACT</Name>
@@ -230,7 +229,7 @@
 
 	</Unit>
 
-	<Unit id ='2101' name ='WCERoderhan'>
+	<Unit id="2101" name="WCERoderhan">
 		<DBID>2101</DBID>
 		<DisplayNameID>210001</DisplayNameID>
 		<EditorNameID>230001</EditorNameID>
@@ -257,11 +256,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000</BuildBounty>
-		<Cost resourcetype ='Food'>800.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype="Food">800.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.2000'></Armor>
+		<Armor type="Hand" value="0.2000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -296,10 +295,10 @@
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='9' column ='0'>ToggleStealth</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="9" column="0">ToggleStealth</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCERoderhan.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -314,7 +313,7 @@
 			<DamageType>Siege</DamageType>
 			<MaxRange>12.000000</MaxRange>
 			<ROF>5.000000</ROF>
-			<DamageBonus type ='Janissary'>8.000000</DamageBonus>
+			<DamageBonus type="Janissary">8.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
@@ -332,13 +331,13 @@
 			<MaxRange>20.000000</MaxRange>
 			<ROF>0.050000</ROF>
 			<DamageCap>100.000000</DamageCap>
-			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageBonus type="Building">3.000000</DamageBonus>
 			<DamageArea>15.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2102' name ='WCESteelBoots'>
+	<Unit id="2102" name="WCESteelBoots">
 		<DBID>2102</DBID>
 		<DisplayNameID>210002</DisplayNameID>
 		<EditorNameID>230002</EditorNameID>
@@ -365,9 +364,9 @@
 		<Bounty>3000.0000</Bounty>
 		<BuildBounty>3000.0000</BuildBounty>
 		<BuildLimit>1</BuildLimit>
-		<Cost resourcetype ='Gold'>3000.0000</Cost>
+		<Cost resourcetype="Gold">3000.0000</Cost>
 		<AllowedAge>3</AllowedAge>
-		<Armor type ='Ranged' value ='3.0000'></Armor>
+		<Armor type="Ranged" value="3.0000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -405,9 +404,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCESteelBoots.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -420,7 +419,7 @@
 			<Damage>80.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>GuardianAttack</Name>
@@ -433,7 +432,7 @@
 			<Damage>80.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>TrampleHandAttack</Name>
@@ -441,7 +440,7 @@
 			<DamageType>Hand</DamageType>
 			<ROF>2.000000</ROF>
 			<DamageCap>78.000000</DamageCap>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
 		</ProtoAction>
@@ -450,13 +449,13 @@
 			<Damage>500.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>2.000000</ROF>
-			<DamageBonus type ='AbstractInfantry'>3.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">3.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2103' name ='WCERaiit'>
+	<Unit id="2103" name="WCERaiit">
 		<DBID>2103</DBID>
 		<DisplayNameID>210003</DisplayNameID>
 		<EditorNameID>230003</EditorNameID>
@@ -479,11 +478,11 @@
 		<AutoAttackRange>16.0000</AutoAttackRange>
 		<UnitAIType>RangedCombative</UnitAIType>
 		<Bounty>500.0000</Bounty>
-		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
 		<TrainPoints>150.0000</TrainPoints>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.4000'></Armor>
+		<Armor type="Hand" value="0.4000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -516,9 +515,9 @@
 		<Flag>RotateInPlace</Flag>
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='2'>Stop</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="2">Stop</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCERaiit.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -555,7 +554,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2104' name ='WCERayman'>
+	<Unit id="2104" name="WCERayman">
 		<DBID>2104</DBID>
 		<DisplayNameID>210004</DisplayNameID>
 		<EditorNameID>230004</EditorNameID>
@@ -581,11 +580,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>330.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype="Food">330.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -622,9 +621,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>KnockoutDeath</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='10'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="10">Abilities</Command>
 		<Tactics>WCERayman.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -637,7 +636,7 @@
 			<Damage>40.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>GuardianAttack</Name>
@@ -650,7 +649,7 @@
 			<Damage>40.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>TrampleHandAttack</Name>
@@ -658,13 +657,13 @@
 			<DamageType>Hand</DamageType>
 			<ROF>2.000000</ROF>
 			<DamageCap>78.000000</DamageCap>
-			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">6.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2105' name ='WCECaroide'>
+	<Unit id="2105" name="WCECaroide">
 		<DBID>2105</DBID>
 		<DisplayNameID>210005</DisplayNameID>
 		<EditorNameID>230005</EditorNameID>
@@ -691,11 +690,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<ScoreValue>28.0000</ScoreValue>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.4000'></Armor>
+		<Armor type="Hand" value="0.4000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -734,9 +733,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCECaroide.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -746,23 +745,23 @@
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
-			<DamageBonus type ='AbstractVillager'>0.500000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.500000</DamageBonus>
 			<Damage>80.000000</Damage>
 			<DamageType>Ranged</DamageType>
 			<MaxRange>12.000000</MaxRange>
 			<ROF>3.000000</ROF>
-			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
-			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyCavalry">5.00000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
-			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyCavalry">5.00000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerRangedAttack</Name>
@@ -770,14 +769,14 @@
 			<DamageType>Ranged</DamageType>
 			<MaxRange>12.000000</MaxRange>
 			<ROF>3.000000</ROF>
-			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>1.00000</DamageBonus>
-			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyCavalry">5.00000</DamageBonus>
+			<DamageBonus type="AbstractVillager">1.00000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">4.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2106' name ='WCEGraRockMis'>
+	<Unit id="2106" name="WCEGraRockMis">
 		<DBID>2106</DBID>
 		<DisplayNameID>210006</DisplayNameID>
 		<EditorNameID>230006</EditorNameID>
@@ -803,11 +802,11 @@
 		<TrainPoints>120.0000</TrainPoints>
 		<Bounty>300.0000</Bounty>
 		<BuildBounty>300.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>100.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>5</BuildLimit>
-		<Armor type ='Ranged' value ='0.7500'></Armor>
+		<Armor type="Ranged" value="0.7500"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -837,11 +836,11 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='2'>Delete</Command>
-		<Command page ='9' column ='1'>Tactic3</Command>
-		<Command page ='9' column ='0'>Tactic4</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
+		<Command page="9" column="1">Tactic3</Command>
+		<Command page="9" column="0">Tactic4</Command>
 		<Tactics>rocket.tactics</Tactics>
 		<ProtoAction>
 			<Name>CannonAttack</Name>
@@ -851,15 +850,15 @@
 			<MaxRange>30.000000</MaxRange>
 			<ROF>3.000000</ROF>
 			<DamageCap>800.000000</DamageCap>
-			<DamageBonus type ='Ship'>5.000000</DamageBonus>
+			<DamageBonus type="Ship">5.000000</DamageBonus>
 			<DamageArea>6.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='AbstractArtillery'>1.0000</DamageBonus>
-			<DamageBonus type ='xpArrowKnight'>0.700000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">1.0000</DamageBonus>
+			<DamageBonus type="xpArrowKnight">0.700000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2107' name ='WCEDonaraad'>
+	<Unit id="2107" name="WCEDonaraad">
 		<DBID>2107</DBID>
 		<DisplayNameID>210007</DisplayNameID>
 		<EditorNameID>230007</EditorNameID>
@@ -887,9 +886,9 @@
 		<BuildBounty>1000.0000</BuildBounty>
 		<BuildLimit>1</BuildLimit>
 		<AllowedAge>2</AllowedAge>
-		<Cost resourcetype ='Food'>500.0000</Cost>
-		<Cost resourcetype ='Wood'>350.0000</Cost>
-		<Armor type ='Hand' value ='0.2000'></Armor>
+		<Cost resourcetype="Food">500.0000</Cost>
+		<Cost resourcetype="Wood">350.0000</Cost>
+		<Armor type="Hand" value="0.2000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -924,10 +923,10 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='9' column ='0'>ToggleStealth</Command>
-		<Command page ='11' column ='10'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="9" column="0">ToggleStealth</Command>
+		<Command page="11" column="10">Abilities</Command>
 		<Tactics>WCEDonaraad.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -946,42 +945,42 @@
 			<Damage>9.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">30.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">10.00000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
 			<Damage>18.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">30.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">10.00000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>18.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">30.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">10.00000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSBladeofWhirlACT</Name>
 			<Damage>500.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.000000</ROF>
-			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">30.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">10.00000</DamageBonus>
 			<DamageArea>5.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2108' name ='WCEPhillip'>
+	<Unit id="2108" name="WCEPhillip">
 		<DBID>2108</DBID>
 		<DisplayNameID>210008</DisplayNameID>
 		<EditorNameID>230008</EditorNameID>
@@ -1010,10 +1009,10 @@
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
 		<BuildLimit>1</BuildLimit>
-		<Cost resourcetype ='Food'>600.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype="Food">600.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1048,9 +1047,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEPhillip.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -1063,11 +1062,11 @@
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
@@ -1076,33 +1075,33 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>30.000000</MaxRange>
 			<ROF>2.00000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerHandAttack</Name>
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerRangedAttack</Name>
@@ -1111,22 +1110,22 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>30.000000</MaxRange>
 			<ROF>2.00000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyHandAttack</Name>
 			<Damage>22.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyRangedAttack</Name>
@@ -1135,11 +1134,11 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>30.000000</MaxRange>
 			<ROF>2.00000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSEaglesEyes</Name>
@@ -1148,7 +1147,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2109' name ='WCEChampion'>
+	<Unit id="2109" name="WCEChampion">
 		<DBID>2109</DBID>
 		<DisplayNameID>210009</DisplayNameID>
 		<EditorNameID>230009</EditorNameID>
@@ -1174,10 +1173,10 @@
 		<TrainPoints>60.0000</TrainPoints>
 		<Bounty>45.0000</Bounty>
 		<BuildBounty>10.0000</BuildBounty>
-		<Cost resourcetype ='Food'>155.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype="Food">155.0000</Cost>
+		<Cost resourcetype="Gold">200.0000</Cost>
 		<AllowedAge>1</AllowedAge>
-		<Armor type ='Hand' value ='0.1000'></Armor>
+		<Armor type="Hand" value="0.1000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1208,9 +1207,9 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>swordsman.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -1228,25 +1227,25 @@
 			<Damage>10.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.000000</ROF>
-			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.00000</ROF>
-			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.00000</ROF>
-			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2110' name ='WCEAlliedMonitor'>
+	<Unit id="2110" name="WCEAlliedMonitor">
 		<DBID>2110</DBID>
 		<DisplayNameID>210010</DisplayNameID>
 		<EditorNameID>230010</EditorNameID>
@@ -1273,11 +1272,11 @@
 		<BuildLimit>3</BuildLimit>
 		<Bounty>300.0000</Bounty>
 		<BuildBounty>300.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<Cost resourcetype="Wood">1000.0000</Cost>
+		<Cost resourcetype="Gold">400.0000</Cost>
 		<MaxContained>50</MaxContained>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.5000'></Armor>
+		<Armor type="Ranged" value="0.5000"></Armor>
 		<UnitType>LogicalTypeNavalMilitary</UnitType>
 		<UnitType>LogicalTypeValidSabotage</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1316,11 +1315,11 @@
 		<Flag>NonAutoFormedUnit</Flag>
 		<Flag>Tracked</Flag>
 		<Contain>LogicalTypeGarrisonInShips</Contain>
-		<Command page ='10' column ='1'>Eject</Command>
-		<Command page ='10' column ='2'>Stop</Command>
-		<Command page ='10' column ='3'>Delete</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
-		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Command page="10" column="1">Eject</Command>
+		<Command page="10" column="2">Stop</Command>
+		<Command page="10" column="3">Delete</Command>
+		<Command page="11" column="0">Abilities</Command>
+		<Command page="10" column="0">SetGatherPointMilitary</Command>
 		<Tactics>WCEAlliedMonitor.tactics</Tactics>
 		<ProtoAction>
 			<Name>LongRangeAttack</Name>
@@ -1329,12 +1328,12 @@
 			<MaxRange>100.000000</MaxRange>
 			<ROF>10.000000</ROF>
 			<DamageCap>400.000000</DamageCap>
-			<DamageBonus type ='Building'>10.000000</DamageBonus>
+			<DamageBonus type="Building">10.000000</DamageBonus>
 			<DamageArea>10.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='Dock'>0.100000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>0.200000</DamageBonus>
-			<DamageBonus type ='YPDockAsian'>0.100000</DamageBonus>
+			<DamageBonus type="Dock">0.100000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.200000</DamageBonus>
+			<DamageBonus type="YPDockAsian">0.100000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MortarAttack</Name>
@@ -1343,16 +1342,16 @@
 			<MaxRange>40.000000</MaxRange>
 			<ROF>2.000000</ROF>
 			<DamageCap>160.000000</DamageCap>
-			<DamageBonus type ='Building'>15.000000</DamageBonus>
+			<DamageBonus type="Building">15.000000</DamageBonus>
 			<DamageArea>5.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='Dock'>0.100000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>0.200000</DamageBonus>
-			<DamageBonus type ='YPDockAsian'>0.100000</DamageBonus>
+			<DamageBonus type="Dock">0.100000</DamageBonus>
+			<DamageBonus type="AbstractVillager">0.200000</DamageBonus>
+			<DamageBonus type="YPDockAsian">0.100000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='2111' name ='WCVCouncilConsWagon'>
+	<Unit id="2111" name="WCVCouncilConsWagon">
 		<DBID>2111</DBID>
 		<DisplayNameID>210011</DisplayNameID>
 		<EditorNameID>230011</EditorNameID>
@@ -1377,14 +1376,14 @@
 		<TrainPoints>50.0000</TrainPoints>
 		<Bounty>50</Bounty>
 		<BuildBounty>50.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>800.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
-		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<Cost resourcetype="Wood">800.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Siege' value ='0.2000'></Armor>
+		<Armor type="Siege" value="0.2000"></Armor>
 		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -1402,7 +1401,7 @@
 		<UnitType>Unit</UnitType>
 		<UnitType>UnitClass</UnitType>
 		<UnitType>Economic</UnitType>
-		<Train row ='0' page ='6' column ='0'>WCBxfjsyh</Train>
+		<train row="0" page="6" column="0">WCBxfjsyh</train>
 		<Flag>CollidesWithProjectiles</Flag>
 		<Flag>ApplyHandicapTraining</Flag>
 		<Flag>CorpseDecays</Flag>
@@ -1413,17 +1412,17 @@
 		<Flag>ConstrainOrientation</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>coveredwagon.tactics</Tactics>
 		<ProtoAction>
 			<Name>Build</Name>
-			<Rate type ='WCBxfjsyh'>1.500000</Rate>
+			<Rate type="WCBxfjsyh">1.500000</Rate>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3000' name ='WCBamyjt'>
+	<Unit id="3000" name="WCBamyjt">
 		<DBID>3000</DBID>
 		<DisplayNameID>300000</DisplayNameID>
 		<EditorNameID>320000</EditorNameID>
@@ -1444,13 +1443,13 @@
 		<Bounty>2000.0000</Bounty>
 		<BuildBounty>2000.0000</BuildBounty>
 		<BuildPoints>150.0000</BuildPoints>
-		<Cost resourcetype ='Food'>300.0000</Cost>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Wood">1000.0000</Cost>
 		<BuildingWorkRate>1.0000</BuildingWorkRate>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>2</BuildLimit>
-		<Decay delay ='60.0000' duration ='60.0000'></Decay>
-		<Armor type ='Siege' value ='0.0000'></Armor>
+		<Decay delay ="60.0000" duration ="60.0000"></Decay>
+		<Armor type="Siege" value="0.0000"></Armor>
 		<UnitType>LogicalTypeValidSabotage</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
 		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
@@ -1481,27 +1480,27 @@
 		<Flag>ColonyPlacementL</Flag>
 		<Flag>Tracked</Flag>
 		<Flag>HasGatherPoint</Flag>
-		<Train row ='0' page ='0' column ='0'>WCEShiriki</Train>
-		<Train row ='0' page ='0' column ='3'>WCEWamblee</Train>
-		<Train row ='0' page ='0' column ='2'>WCECheveyo</Train>
-		<Train row ='0' page ='0' column ='5'>WCEMakya</Train>
-		<Train row ='0' page ='0' column ='6'>WCEOhanzee</Train>
-		<Train row ='0' page ='0' column ='7'>WCEAmiasShield</Train>
-		<Train row ='0' page ='0' column ='8'>WCELycanWarrior</Train>
-		<Train row ='0' page ='0' column ='9'>WCEBidziil</Train>
+		<train row="0" page="0" column="0">WCEShiriki</train>
+		<train row="0" page="0" column="3">WCEWamblee</train>
+		<train row="0" page="0" column="2">WCECheveyo</train>
+		<train row="0" page="0" column="5">WCEMakya</train>
+		<train row="0" page="0" column="6">WCEOhanzee</train>
+		<train row="0" page="0" column="7">WCEAmiasShield</train>
+		<train row="0" page="0" column="8">WCELycanWarrior</train>
+		<train row="0" page="0" column="9">WCEBidziil</train>
 		<Contain>AbstractVillager</Contain>
-		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
-		<Command page ='10' column ='0'>Delete</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="0">SetGatherPointMilitary</Command>
+		<Command page="10" column="0">Delete</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCBamyjt.tactics</Tactics>
 		<ProtoAction>
 			<Name>WCSGoodnessBless</Name>
-			<Rate type ='LogicalTypeHealed'>3.000000</Rate>
+			<Rate type="LogicalTypeHealed">3.000000</Rate>
 			<MaxRange>20.000000</MaxRange>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3100' name ='WCEShiriki'>
+	<Unit id="3100" name="WCEShiriki">
 		<DBID>3100</DBID>
 		<DisplayNameID>310000</DisplayNameID>
 		<EditorNameID>330000</EditorNameID>
@@ -1527,10 +1526,10 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<Cost resourcetype="Gold">1500.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.2000'></Armor>
+		<Armor type="Hand" value="0.2000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1566,9 +1565,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>KnockoutDeath</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEShiriki.tactics</Tactics>
 
 		<ProtoAction>
@@ -1592,11 +1591,11 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.000000</ROF>
 			<DamageCap>120.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
@@ -1604,11 +1603,11 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.000000</ROF>
 			<DamageCap>120.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>GuardianAttack</Name>
@@ -1623,15 +1622,15 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.000000</ROF>
 			<DamageCap>68.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3101' name ='WCEWamblee'>
+	<Unit id="3101" name="WCEWamblee">
 		<DBID>3101</DBID>
 		<DisplayNameID>310001</DisplayNameID>
 		<EditorNameID>330001</EditorNameID>
@@ -1661,10 +1660,10 @@
 		<BuildLimit>1</BuildLimit>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>600.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype="Food">600.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1702,9 +1701,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEWamblee.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -1717,7 +1716,7 @@
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyAttack</Name>
@@ -1726,11 +1725,11 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>14.000000</MaxRange>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">2.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3102' name ='WCECheveyo'>
+	<Unit id="3102" name="WCECheveyo">
 		<DBID>3102</DBID>
 		<DisplayNameID>310002</DisplayNameID>
 		<EditorNameID>330002</EditorNameID>
@@ -1757,11 +1756,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>3000.0000</Bounty>
 		<BuildBounty>3000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>2400.0000</Cost>
-		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<Cost resourcetype="Food">2400.0000</Cost>
+		<Cost resourcetype="Wood">600.0000</Cost>
 		<AllowedAge>3</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='0.1000'></Armor>
+		<Armor type="Hand" value="0.1000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1797,9 +1796,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCECheveyo.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -1818,25 +1817,25 @@
 			<Damage>24.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>3.000000</ROF>
-			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
 			<Damage>44.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>3.000000</ROF>
-			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>44.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>3.000000</ROF>
-			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">4.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3103' name ='WCEMakya'>
+	<Unit id="3103" name="WCEMakya">
 		<DBID>3103</DBID>
 		<DisplayNameID>310003</DisplayNameID>
 		<EditorNameID>330003</EditorNameID>
@@ -1865,10 +1864,10 @@
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
 		<BuildLimit>1</BuildLimit>
-		<Cost resourcetype ='Food'>600.0000</Cost>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<Cost resourcetype="Food">600.0000</Cost>
+		<Cost resourcetype="Wood">300.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -1904,8 +1903,8 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
 		<Tactics>WCEMakya.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -1918,11 +1917,11 @@
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
@@ -1930,33 +1929,33 @@
 			<DamageType>Ranged</DamageType>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerRangedAttack</Name>
@@ -1964,22 +1963,22 @@
 			<DamageType>Ranged</DamageType>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyHandAttack</Name>
 			<Damage>20.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyRangedAttack</Name>
@@ -1987,15 +1986,15 @@
 			<DamageType>Ranged</DamageType>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3104' name ='WCEOhanzee'>
+	<Unit id="3104" name="WCEOhanzee">
 		<DBID>3104</DBID>
 		<DisplayNameID>310004</DisplayNameID>
 		<EditorNameID>330004</EditorNameID>
@@ -2023,11 +2022,11 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>500.0000</Cost>
-		<Cost resourcetype ='Gold'>650.0000</Cost>
+		<Cost resourcetype="Food">500.0000</Cost>
+		<Cost resourcetype="Gold">650.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2062,9 +2061,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="9" column="0">ToggleStealth</Command>
 		<Tactics>WCEOhanzee.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2077,11 +2076,11 @@
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
@@ -2090,33 +2089,33 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>20.000000</MaxRange>
 			<ROF>9.000000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerHandAttack</Name>
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerRangedAttack</Name>
@@ -2125,22 +2124,22 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>20.000000</MaxRange>
 			<ROF>9.000000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyHandAttack</Name>
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyRangedAttack</Name>
@@ -2149,11 +2148,11 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>20.000000</MaxRange>
 			<ROF>9.000000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSSneakRangedAttack</Name>
@@ -2162,15 +2161,15 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>20.000000</MaxRange>
 			<ROF>9.000000</ROF>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3105' name ='WCVAltarConsWagon'>
+	<Unit id="3105" name="WCVAltarConsWagon">
 		<DBID>3105</DBID>
 		<DisplayNameID>310005</DisplayNameID>
 		<EditorNameID>330005</EditorNameID>
@@ -2196,13 +2195,13 @@
 		<BuildLimit>1</BuildLimit>
 		<Bounty>50.0000</Bounty>
 		<BuildBounty>50.0000</BuildBounty>
-		<Cost resourcetype ='Food'>300.0000</Cost>
-		<Cost resourcetype ='Wood'>1000.0000</Cost>
-		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Wood">1000.0000</Cost>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Siege' value ='0.2000'></Armor>
+		<Armor type="Siege" value="0.2000"></Armor>
 		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -2220,7 +2219,7 @@
 		<UnitType>CountsTowardEconomicScore</UnitType>
 		<UnitType>ValidIdleVillager</UnitType>
 		<UnitType>HasBountyValue</UnitType>
-		<Train row ='0' page ='6' column ='10'>WCBamyjt</Train>
+		<train row="0" page="6" column="10">WCBamyjt</train>
 		<Flag>CollidesWithProjectiles</Flag>
 		<Flag>ApplyHandicapTraining</Flag>
 		<Flag>CorpseDecays</Flag>
@@ -2231,17 +2230,17 @@
 		<Flag>ConstrainOrientation</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>coveredwagon.tactics</Tactics>
 		<ProtoAction>
 			<Name>Build</Name>
-			<Rate type ='WCBamyjt'>1.500000</Rate>
+			<Rate type="WCBamyjt">1.500000</Rate>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3106' name ='WCEAmiasShield'>
+	<Unit id="3106" name="WCEAmiasShield">
 		<DBID>3106</DBID>
 		<DisplayNameID>310006</DisplayNameID>
 		<EditorNameID>330006</EditorNameID>
@@ -2268,11 +2267,11 @@
 		<TrainPoints>40.0000</TrainPoints>
 		<Bounty>40.0000</Bounty>
 		<BuildBounty>40.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<Cost resourcetype="Wood">200.0000</Cost>
+		<Cost resourcetype="Gold">100.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>10</BuildLimit>
-		<Armor type ='Ranged' value ='0.6000'></Armor>
+		<Armor type="Ranged" value="0.6000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2307,9 +2306,9 @@
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>VisibleUnderFogIfGaia</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='2'>Delete</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
 		<Tactics>nativeRanged.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2333,7 +2332,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3107' name ='WCELycanWarrior'>
+	<Unit id="3107" name="WCELycanWarrior">
 		<DBID>3107</DBID>
 		<DisplayNameID>310007</DisplayNameID>
 		<EditorNameID>330007</EditorNameID>
@@ -2359,10 +2358,10 @@
 		<TrainPoints>60.0000</TrainPoints>
 		<Bounty>60.0000</Bounty>
 		<BuildBounty>60.0000</BuildBounty>
-		<Cost resourcetype ='Food'>250.0000</Cost>
-		<Cost resourcetype ='Wood'>275.0000</Cost>
+		<Cost resourcetype="Food">250.0000</Cost>
+		<Cost resourcetype="Wood">275.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.1000'></Armor>
+		<Armor type="Ranged" value="0.1000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2394,10 +2393,10 @@
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>VisibleUnderFogIfGaia</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='9' column ='0'>ToggleStealth</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="9" column="0">ToggleStealth</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>swordsman.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2431,7 +2430,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='3108' name ='WCEBidziil'>
+	<Unit id="3108" name="WCEBidziil">
 		<DBID>3108</DBID>
 		<DisplayNameID>310008</DisplayNameID>
 		<EditorNameID>330008</EditorNameID>
@@ -2459,10 +2458,10 @@
 		<BuildLimit>1</BuildLimit>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>700.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype="Food">700.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.1000'></Armor>
+		<Armor type="Ranged" value="0.1000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2500,9 +2499,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>KnockoutDeath</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEBidziil.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2538,7 +2537,7 @@
 			<DamageFlags>Enemy</DamageFlags>
 		</ProtoAction>
 	</Unit>
-	<Unit id ='9999' name ='WCMGodsForce'>
+	<Unit id="9999" name="WCMGodsForce">
 		<DBID>9999</DBID>
 		<DisplayNameID>999999</DisplayNameID>
 		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
@@ -2570,7 +2569,7 @@
 		<Flag>NotPlayerPlaceable</Flag>
 	</Unit>
 
-	<Unit id ='9998' name ='WCMUnrelentingForce'>
+	<Unit id="9998" name="WCMUnrelentingForce">
 		<DBID>9998</DBID>
 		<DisplayNameID>999998</DisplayNameID>
 		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
@@ -2600,7 +2599,7 @@
 		<Flag>NoUnitAI</Flag>
 	</Unit>
 
-	<Unit id ='4000' name ='WCBjht'>
+	<Unit id="4000" name="WCBjht">
 		<DBID>4000</DBID>
 		<DisplayNameID>400000</DisplayNameID>
 		<EditorNameID>420000</EditorNameID>
@@ -2627,12 +2626,12 @@
 		<BuildLimit>2</BuildLimit>
 		<BuildBounty>2000.0000</BuildBounty>
 		<Bounty>2000.0000</Bounty>
-		<Cost resourcetype ='Food'>300.0000</Cost>
-		<Cost resourcetype ='Wood'>700.0000</Cost>
-		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Wood">700.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
 		<BuildingWorkRate>1.0000</BuildingWorkRate>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Siege' value ='0.0000'></Armor>
+		<Armor type="Siege" value="0.0000"></Armor>
 		<UnitType>LogicalTypeValidSabotage</UnitType>
 		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -2666,17 +2665,17 @@
 		<Flag>HasGatherPoint</Flag>
 		<Flag>TieToWaterSurface</Flag>
 		<Flag>SnapPlacement</Flag>
-		<Train row ='0' page ='0' column ='0'>WCEGongyi</Train>
-		<Train row ='0' page ='0' column ='3'>WCETianhu</Train>
-		<Train row ='0' page ='0' column ='2'>WCEKunal</Train>
-		<Train row ='0' page ='0' column ='5'>WCEYamato</Train>
-		<Train row ='0' page ='0' column ='6'>WCEAkatsuki</Train>
-		<Train row ='0' page ='0' column ='7'>WCEVikas</Train>
-		<Train row ='0' page ='0' column ='8'>WCEJuhePikeman</Train>
-		<Train row ='0' page ='0' column ='9'>WCEJuheHorseArcher</Train>
-		<Command page ='10' column ='1'>Delete</Command>
-		<Command page ='11' column ='1'>Abilities</Command>
-		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<train row="0" page="0" column="0">WCEGongyi</train>
+		<train row="0" page="0" column="3">WCETianhu</train>
+		<train row="0" page="0" column="2">WCEKunal</train>
+		<train row="0" page="0" column="5">WCEYamato</train>
+		<train row="0" page="0" column="6">WCEAkatsuki</train>
+		<train row="0" page="0" column="7">WCEVikas</train>
+		<train row="0" page="0" column="8">WCEJuhePikeman</train>
+		<train row="0" page="0" column="9">WCEJuheHorseArcher</train>
+		<Command page="10" column="1">Delete</Command>
+		<Command page="11" column="1">Abilities</Command>
+		<Command page="10" column="0">SetGatherPointMilitary</Command>
 		<Tactics>WCBjht.tactics</Tactics>
 		<ProtoAction>
 			<Name>WCSICBMACT</Name>
@@ -2685,16 +2684,16 @@
 			<MaxRange>255.000000</MaxRange>
 			<ROF>10.000000</ROF>
 			<DamageCap>1000.000000</DamageCap>
-			<DamageBonus type ='Building'>10.000000</DamageBonus>
+			<DamageBonus type="Building">10.000000</DamageBonus>
 			<DamageArea>10.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='Dock'>1.000000</DamageBonus>
-			<DamageBonus type ='AbstractVillager'>1.000000</DamageBonus>
-			<DamageBonus type ='YPDockAsian'>1.000000</DamageBonus>
+			<DamageBonus type="Dock">1.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">1.000000</DamageBonus>
+			<DamageBonus type="YPDockAsian">1.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4100' name ='WCEGongyi'>
+	<Unit id="4100" name="WCEGongyi">
 		<DBID>4100</DBID>
 		<DisplayNameID>410000</DisplayNameID>
 		<EditorNameID>430000</EditorNameID>
@@ -2722,11 +2721,11 @@
 		<TrainPoints>24.0000</TrainPoints>
 		<Bounty>9.0000</Bounty>
 		<BuildBounty>9.0000</BuildBounty>
-		<Cost resourcetype ='Food'>355.0000</Cost>
-		<Cost resourcetype ='Gold'>555.0000</Cost>
+		<Cost resourcetype="Food">355.0000</Cost>
+		<Cost resourcetype="Gold">555.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Ranged' value ='0.2000'></Armor>
+		<Armor type="Ranged" value="0.2000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2761,9 +2760,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='1'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="1">Abilities</Command>
 		<Tactics>WCEGongyi.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2776,11 +2775,11 @@
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
@@ -2789,33 +2788,33 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>1.000000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerHandAttack</Name>
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>StaggerRangedAttack</Name>
@@ -2824,22 +2823,22 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>1.000000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyHandAttack</Name>
 			<Damage>12.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.500000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyRangedAttack</Name>
@@ -2848,15 +2847,15 @@
 			<MinRange>2.000000</MinRange>
 			<MaxRange>16.000000</MaxRange>
 			<ROF>1.000000</ROF>
-			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type="AbstractLightCavalry">4.000000</DamageBonus>
+			<DamageBonus type="xpEagleKnight">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">4.000000</DamageBonus>
+			<DamageBonus type="xpCoyoteMan">1.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.50000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4101' name ='WCETianhu'>
+	<Unit id="4101" name="WCETianhu">
 		<DBID>4101</DBID>
 		<DisplayNameID>410001</DisplayNameID>
 		<EditorNameID>430001</EditorNameID>
@@ -2882,10 +2881,10 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Gold'>1005.0000</Cost>
+		<Cost resourcetype="Gold">1005.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -2922,9 +2921,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>KnockoutDeath</Flag>
 		<Flag>NotDeleteable</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='1'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="1">Abilities</Command>
 		<Tactics>WCETianhu.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -2937,8 +2936,8 @@
 			<Damage>30.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">1.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>GuardianAttack</Name>
@@ -2951,8 +2950,8 @@
 			<Damage>30.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">1.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>TrampleHandAttack</Name>
@@ -2960,10 +2959,10 @@
 			<DamageType>Hand</DamageType>
 			<ROF>2.000000</ROF>
 			<DamageCap>20.000000</DamageCap>
-			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractInfantry">4.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyInfantry">1.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSFightWinOrDie</Name>
@@ -2971,7 +2970,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4102' name ='WCEKunal'>
+	<Unit id="4102" name="WCEKunal">
 		<DBID>4102</DBID>
 		<DisplayNameID>410002</DisplayNameID>
 		<EditorNameID>430002</EditorNameID>
@@ -2998,11 +2997,11 @@
 		<TrainPoints>600.0000</TrainPoints>
 		<Bounty>3000.0000</Bounty>
 		<BuildBounty>3000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>200.0000</Cost>
-		<Cost resourcetype ='Gold'>2800.0000</Cost>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">2800.0000</Cost>
 		<AllowedAge>3</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Ranged' value ='0.5000'></Armor>
+		<Armor type="Ranged" value="0.5000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -3039,10 +3038,10 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='9' column ='0'>ToggleStealth</Command>
-		<Command page ='11' column ='10'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="9" column="0">ToggleStealth</Command>
+		<Command page="11" column="10">Abilities</Command>
 		<Tactics>WCEKunal.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -3059,14 +3058,14 @@
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendRangedAttack</Name>
-			<DamageBonus type ='AbstractLightInfantry'>0.500000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">0.500000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.500000</DamageBonus>
 			<Damage>48.000000</Damage>
 			<DamageType>Siege</DamageType>
 			<MaxRange>12.000000</MaxRange>
 			<ROF>3.000000</ROF>
 			<DamageCap>44.000000</DamageCap>
-			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageBonus type="Building">3.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
@@ -3089,11 +3088,11 @@
 			<MaxRange>12.000000</MaxRange>
 			<ROF>3.000000</ROF>
 			<DamageCap>44.000000</DamageCap>
-			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageBonus type="Building">3.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>1.500000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">1.500000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.500000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>VolleyHandAttack</Name>
@@ -3108,11 +3107,11 @@
 			<MaxRange>12.000000</MaxRange>
 			<ROF>3.000000</ROF>
 			<DamageCap>36.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalryInfantry'>3.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalryInfantry">3.000000</DamageBonus>
 			<DamageArea>3.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>1.500000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">1.500000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">1.500000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>WCSSneakBuildingAttack</Name>
@@ -3123,7 +3122,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4103' name ='WCEYamato'>
+	<Unit id="4103" name="WCEYamato">
 		<DBID>4103</DBID>
 		<DisplayNameID>410003</DisplayNameID>
 		<EditorNameID>430003</EditorNameID>
@@ -3149,10 +3148,10 @@
 		<TrainPoints>300.0000</TrainPoints>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<Cost resourcetype="Gold">1000.0000</Cost>
 		<AllowedAge>2</AllowedAge>
 		<BuildLimit>1</BuildLimit>
-		<Armor type ='Hand' value ='2.0000'></Armor>
+		<Armor type="Hand" value="2.0000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -3187,8 +3186,8 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
 		<Tactics>WCEYamato.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -3210,10 +3209,10 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
 			<DamageCap>58.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
@@ -3221,10 +3220,10 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
 			<DamageCap>116.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>GuardianAttack</Name>
@@ -3232,7 +3231,7 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
 			<DamageCap>116.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
@@ -3240,14 +3239,14 @@
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
 			<DamageCap>116.000000</DamageCap>
-			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">6.000000</DamageBonus>
 			<DamageArea>2.000000</DamageArea>
 			<DamageFlags>Enemy</DamageFlags>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4104' name ='WCEAkatsuki'>
+	<Unit id="4104" name="WCEAkatsuki">
 		<DBID>4104</DBID>
 		<DisplayNameID>410004</DisplayNameID>
 		<EditorNameID>430004</EditorNameID>
@@ -3274,11 +3273,11 @@
 		<BuildLimit>1</BuildLimit>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>900.0000</Cost>
-		<Cost resourcetype ='Gold'>900.0000</Cost>
+		<Cost resourcetype="Wood">900.0000</Cost>
+		<Cost resourcetype="Gold">900.0000</Cost>
 		<MaxContained>50</MaxContained>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.9900'></Armor>
+		<Armor type="Ranged" value="0.9900"></Armor>
 		<UnitType>LogicalTypeNavalMilitary</UnitType>
 		<UnitType>LogicalTypeValidSabotage</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -3317,10 +3316,10 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Contain>LogicalTypeGarrisonInShips</Contain>
-		<Command page ='10' column ='1'>Eject</Command>
-		<Command page ='10' column ='2'>Stop</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
-		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Command page="10" column="1">Eject</Command>
+		<Command page="10" column="2">Stop</Command>
+		<Command page="11" column="0">Abilities</Command>
+		<Command page="10" column="0">SetGatherPointMilitary</Command>
 		<Tactics>WCEAkatsuki.tactics</Tactics>
 		<ProtoAction>
 			<Name>BroadsideAttack</Name>
@@ -3329,7 +3328,7 @@
 			<MaxRange>46.000000</MaxRange>
 			<ROF>0.050000</ROF>
 			<DamageCap>80.000000</DamageCap>
-			<DamageBonus type ='Ship'>4.000000</DamageBonus>
+			<DamageBonus type="Ship">4.000000</DamageBonus>
 			<DamageArea>1.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
@@ -3340,7 +3339,7 @@
 			<MaxRange>28.000000</MaxRange>
 			<ROF>2.000000</ROF>
 			<DamageCap>180.000000</DamageCap>
-			<DamageBonus type ='AbstractArtillery'>1.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">1.000000</DamageBonus>
 			<DamageArea>1.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
 		</ProtoAction>
@@ -3350,7 +3349,7 @@
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4105' name ='WCEVikas'>
+	<Unit id="4105" name="WCEVikas">
 		<DBID>4105</DBID>
 		<DisplayNameID>410005</DisplayNameID>
 		<EditorNameID>430005</EditorNameID>
@@ -3377,11 +3376,11 @@
 		<BuildLimit>1</BuildLimit>
 		<Bounty>1000.0000</Bounty>
 		<BuildBounty>1000.0000</BuildBounty>
-		<Cost resourcetype ='Food'>500.0000</Cost>
-		<Cost resourcetype ='Wood'>400.0000</Cost>
-		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<Cost resourcetype="Food">500.0000</Cost>
+		<Cost resourcetype="Wood">400.0000</Cost>
+		<Cost resourcetype="Gold">500.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<Armor type="Ranged" value="0.3000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -3414,9 +3413,9 @@
 		<Flag>Tracked</Flag>
 		<Flag>NotDeleteable</Flag>
 		<Flag>KnockoutDeath</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="11" column="0">Abilities</Command>
 		<Tactics>WCEVikas.tactics</Tactics>
 		<ProtoAction>
 			<Name>CannonAttack</Name>
@@ -3426,17 +3425,17 @@
 			<MaxRange>28.000000</MaxRange>
 			<ROF>9.000000</ROF>
 			<DamageCap>400.000000</DamageCap>
-			<DamageBonus type ='AbstractVillager'>2.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">2.000000</DamageBonus>
 			<DamageArea>1.000000</DamageArea>
 			<DamageFlags>GAIAEnemy</DamageFlags>
-			<DamageBonus type ='Building'>20.000000</DamageBonus>
-			<DamageBonus type ='Ship'>16.000000</DamageBonus>
-			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
-			<DamageBonus type ='AbstractArtillery'>10.000000</DamageBonus>
+			<DamageBonus type="Building">20.000000</DamageBonus>
+			<DamageBonus type="Ship">16.000000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">2.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">10.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4106' name ='WCEJuhePikeman'>
+	<Unit id="4106" name="WCEJuhePikeman">
 		<DBID>4106</DBID>
 		<DisplayNameID>410006</DisplayNameID>
 		<EditorNameID>430006</EditorNameID>
@@ -3463,10 +3462,10 @@
 		<TrainPoints>24.0000</TrainPoints>
 		<Bounty>7.0000</Bounty>
 		<BuildBounty>7.0000</BuildBounty>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<Cost resourcetype="Wood">300.0000</Cost>
+		<Cost resourcetype="Gold">200.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Hand' value ='0.2000'></Armor>
+		<Armor type="Hand" value="0.2000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -3498,9 +3497,9 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>ObscuredByUnits</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>pikeman.tactics</Tactics>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -3519,28 +3518,28 @@
 			<Damage>7.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>DefendHandAttack</Name>
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>MeleeHandAttack</Name>
 			<Damage>14.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>1.500000</ROF>
-			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
-			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<DamageBonus type="AbstractCavalry">10.000000</DamageBonus>
+			<DamageBonus type="AbstractLightInfantry">4.50000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4107' name ='WCEJuheHorseArcher'>
+	<Unit id="4107" name="WCEJuheHorseArcher">
 		<DBID>4107</DBID>
 		<DisplayNameID>410007</DisplayNameID>
 		<EditorNameID>430007</EditorNameID>
@@ -3567,10 +3566,10 @@
 		<TrainPoints>60.0000</TrainPoints>
 		<Bounty>60.0000</Bounty>
 		<BuildBounty>60.0000</BuildBounty>
-		<Cost resourcetype ='Food'>220.0000</Cost>
-		<Cost resourcetype ='Gold'>220.0000</Cost>
+		<Cost resourcetype="Food">220.0000</Cost>
+		<Cost resourcetype="Gold">220.0000</Cost>
 		<AllowedAge>2</AllowedAge>
-		<Armor type ='Hand' value ='0.4000'></Armor>
+		<Armor type="Hand" value="0.4000"></Armor>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeValidSharpshoot</UnitType>
 		<UnitType>LogicalTypeNeededForVictory</UnitType>
@@ -3606,9 +3605,9 @@
 		<Flag>ConstrainOrientation</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='2'>Delete</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page="10" column="2">Delete</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="0">Garrison</Command>
 		<Tactics>bowCavalry.tactics</Tactics>
 		<ProtoAction>
 			<Name>BowAttack</Name>
@@ -3616,10 +3615,10 @@
 			<DamageType>Ranged</DamageType>
 			<MaxRange>12.000000</MaxRange>
 			<ROF>0.75000</ROF>
-			<DamageBonus type ='AbstractVillager'>1.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyCavalry'>2.500000</DamageBonus>
-			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractVillager">1.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyCavalry">2.500000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">4.000000</DamageBonus>
 		</ProtoAction>
 		<ProtoAction>
 			<Name>BuildingAttack</Name>
@@ -3633,13 +3632,13 @@
 			<Damage>28.000000</Damage>
 			<DamageType>Hand</DamageType>
 			<ROF>0.750000</ROF>
-			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractHeavyCavalry'>4.000000</DamageBonus>
-			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+			<DamageBonus type="AbstractArtillery">4.000000</DamageBonus>
+			<DamageBonus type="AbstractHeavyCavalry">4.000000</DamageBonus>
+			<DamageBonus type="AbstractCoyoteMan">4.000000</DamageBonus>
 		</ProtoAction>
 	</Unit>
 
-	<Unit id ='4108' name ='WCVJuheConsWagon'>
+	<Unit id="4108" name="WCVJuheConsWagon">
 		<DBID>4108</DBID>
 		<DisplayNameID>410008</DisplayNameID>
 		<EditorNameID>430008</EditorNameID>
@@ -3665,14 +3664,14 @@
 		<Bounty>50.0000</Bounty>
 		<BuildBounty>50.0000</BuildBounty>
 		<BuildLimit>1</BuildLimit>
-		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
-		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Food">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Wood">1.0000</CarryCapacity>
+		<CarryCapacity resourcetype="Gold">1.0000</CarryCapacity>
 		<AllowedAge>2</AllowedAge>
-		<Cost resourcetype ='Food'>300.0000</Cost>
-		<Cost resourcetype ='Gold'>700.0000</Cost>
-		<Cost resourcetype ='Wood'>300.0000</Cost>
-		<Armor type ='Siege' value ='0.2000'></Armor>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Gold">700.0000</Cost>
+		<Cost resourcetype="Wood">300.0000</Cost>
+		<Armor type="Siege" value="0.2000"></Armor>
 		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
 		<UnitType>LogicalTypeHealed</UnitType>
 		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
@@ -3690,7 +3689,7 @@
 		<UnitType>Economic</UnitType>
 		<UnitType>UnitClass</UnitType>
 		<UnitType>Unit</UnitType>
-		<Train row ='0' page ='6' column ='0'>WCBjht</Train>
+		<train row="0" page="6" column="0">WCBjht</train>
 		<Flag>CollidesWithProjectiles</Flag>
 		<Flag>ApplyHandicapTraining</Flag>
 		<Flag>CorpseDecays</Flag>
@@ -3701,12 +3700,14 @@
 		<Flag>ConstrainOrientation</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>Tracked</Flag>
-		<Command page ='10' column ='0'>Garrison</Command>
-		<Command page ='10' column ='1'>Stop</Command>
-		<Command page ='10' column ='2'>Delete</Command>
+		<Command page="10" column="0">Garrison</Command>
+		<Command page="10" column="1">Stop</Command>
+		<Command page="10" column="2">Delete</Command>
 		<Tactics>coveredwagon.tactics</Tactics>
 		<ProtoAction>
 			<Name>Build</Name>
-			<Rate type ='WCBjht'>3.000000</Rate>
+			<Rate type="WCBjht">3.000000</Rate>
 		</ProtoAction>
 	</Unit>
+
+<!-- AOE3 NativeED mod Proto Ends -->
