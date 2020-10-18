@@ -1,0 +1,3712 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--> 附加到决定版Data/protoy.xml中 <!-->
+
+<!--> AOE3 NativeED mod Powers Starts <!-->
+    
+
+<!-- 欧洲国家 -->
+<Unit id ='288' name ='Explorer'>
+    <!-- ... -->
+    <Train row ='1' page ='6' column ='0'>WCBxfjsyh</Train>
+    <!-- ... -->
+</Unit>
+
+<!-- 美洲国家 -->
+<Unit id ='712' name ='xpIroquoisWarChief'>
+    <!-- ... -->
+    <Train row ='0' page ='6' column ='5'>WCBamyjt</Train>
+    <!-- ... -->
+</Unit>
+
+<!--(然后对 id ='741' id ='760' 也做相同修改)-->
+
+<!-- 亚洲国家 -->
+<Unit id ='918' name ='ypMonkChinese'>
+    <!-- ... -->
+    <Train row ='0' page ='6' column ='5'>WCBjht</Train>
+    <!-- ... -->
+</Unit>
+
+<!--(然后对 id ='1359' 也做相同修改)-->
+
+
+<!-- 下面的内容加入文件最后一排Proto闭标签前面-->
+	<Unit id ='2000' name ='WCBxfjsyh'>
+		<DBID>2000</DBID>
+		<DisplayNameID>200000</DisplayNameID>
+		<EditorNameID>220000</EditorNameID>
+		<ObstructionRadiusX>6.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>6.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>buildings\spc\ossuary\spc_ossuary.xml</AnimFile>
+		<ImpactType>Stone</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<Icon>buildings\spc\ossuary\spc_ossuary_icon_64x64</Icon>
+		<MinimapIcon>ui\minimap\fort_star_16x16</MinimapIcon>
+		<PortraitIcon>buildings\spc\ossuary\spc_ossuary_portrait</PortraitIcon>
+		<RolloverTextID>240000</RolloverTextID>
+		<ShortRolloverTextID>260000</ShortRolloverTextID>
+		<InitialHitpoints>30000.0000</InitialHitpoints>
+		<MaxHitpoints>30000.0000</MaxHitpoints>
+		<LOS>50.0000</LOS>
+		<Bounty>2000.0000</Bounty>
+		<BuildBounty>2000.0000</BuildBounty>
+		<BuildPoints>150.0000</BuildPoints>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>2</BuildLimit>
+		<Armor type ='Siege' value ='0.0000'></Armor>
+		<UnitType>LogicalTypeValidSabotage</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWallsOrGroves</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>MilitaryBuilding</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>DontFlattenGround</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>SnapPlacement</Flag>
+		<Train row ='0' page ='0' column ='0'>WCEJason</Train>
+		<Train row ='0' page ='0' column ='3'>WCERoderhan</Train>
+		<Train row ='0' page ='0' column ='2'>WCESteelBoots</Train>
+		<Train row ='0' page ='0' column ='5'>WCERaiit</Train>
+		<Train row ='0' page ='0' column ='6'>WCERayman</Train>
+		<Train row ='0' page ='0' column ='7'>WCECaroide</Train>
+		<Train row ='0' page ='0' column ='8'>WCEGraRockMis</Train>
+		<Train row ='0' page ='0' column ='9'>WCEDonaraad</Train>
+		<Train row ='0' page ='0' column ='10'>WCEPhillip</Train>
+		<Train row ='0' page ='0' column ='11'>WCEChampion</Train>
+		<Train row ='0' page ='0' column ='12'>WCEAlliedMonitor</Train>
+		<Contain>AbstractVillager</Contain>
+		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Command page ='10' column ='3'>Delete</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCBxfjsyh.tactics</Tactics>
+		<ProtoAction>
+			<Name>WCSResSupportACT</Name>
+			<Rate type ='Gold'>2.000000</Rate>
+		</ProtoAction>
+
+		<ProtoAction>
+			<Name>WCSResSupportACT</Name>
+			<Rate type ='Wood'>2.000000</Rate>
+		</ProtoAction>
+
+		<ProtoAction>
+			<Name>WCSResSupportACT</Name>
+			<Rate type ='Food'>2.000000</Rate>
+		</ProtoAction>
+
+	</Unit>
+	<Unit id ='2100' name ='WCEJason'>
+		<DBID>2100</DBID>
+		<DisplayNameID>210000</DisplayNameID>
+		<EditorNameID>230000</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>8.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEJason\WCEJason.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\infantry\redolero\redolero_icon_64x64</Icon>
+		<PortraitIcon>units\infantry\redolero\redolero_portrait</PortraitIcon>
+		<RolloverTextID>250000</RolloverTextID>
+		<ShortRolloverTextID>270000</ShortRolloverTextID>
+		<InitialHitpoints>13500.0000</InitialHitpoints>
+		<MaxHitpoints>13500.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>650.0000</Cost>
+		<Cost resourcetype ='Gold'>350.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.8000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractConsulateUnit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<Flag>NotDeleteable</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEJason.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>7.00000</DamageBonus>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSShieldWallACT</Name>
+			<MaxRange>1.000000</MaxRange>
+		</ProtoAction>
+
+	</Unit>
+
+	<Unit id ='2101' name ='WCERoderhan'>
+		<DBID>2101</DBID>
+		<DisplayNameID>210001</DisplayNameID>
+		<EditorNameID>230001</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>7.0000</MaxVelocity>
+		<MaxRunVelocity>10.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCERoderhan\WCERoderhan.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\spc\hoop_thrower\hoop_thrower_icon</Icon>
+		<PortraitIcon>units\spc\hoop_thrower\hoop_thrower_portrait</PortraitIcon>
+		<RolloverTextID>250001</RolloverTextID>
+		<ShortRolloverTextID>270001</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>15.0000</LOS>
+		<ProjectileProtoUnit>Hoop</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000</BuildBounty>
+		<Cost resourcetype ='Food'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCERoderhan.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>40.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>15.000000</MaxRange>
+			<ROF>5.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GrenadeAttack</Name>
+			<Damage>50.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>5.000000</ROF>
+			<DamageBonus type ='Janissary'>8.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HandAttack</Name>
+			<Damage>32.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+
+		<ProtoAction>
+			<Name>WCSBlazeStormACT</Name>
+			<Damage>500.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>20.000000</MaxRange>
+			<ROF>0.050000</ROF>
+			<DamageCap>100.000000</DamageCap>
+			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageArea>15.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2102' name ='WCESteelBoots'>
+		<DBID>2102</DBID>
+		<DisplayNameID>210002</DisplayNameID>
+		<EditorNameID>230002</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>8.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCESteelBoots\WCESteelBoots_horse.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>ui\Units\elmeti_icon</Icon>
+		<PortraitIcon>ui\Units\elmeti_portrait</PortraitIcon>
+		<RolloverTextID>250002</RolloverTextID>
+		<ShortRolloverTextID>270002</ShortRolloverTextID>
+		<InitialHitpoints>15000.0000</InitialHitpoints>
+		<MaxHitpoints>15000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>600.0000</TrainPoints>
+		<Bounty>3000.0000</Bounty>
+		<BuildBounty>3000.0000</BuildBounty>
+		<BuildLimit>1</BuildLimit>
+		<Cost resourcetype ='Gold'>3000.0000</Cost>
+		<AllowedAge>3</AllowedAge>
+		<Armor type ='Ranged' value ='3.0000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Mercenary</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractHeavyCavalry</UnitType>
+		<UnitType>AbstractLancer</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCESteelBoots.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>TrampleHandAttack</Name>
+			<Damage>54.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>78.000000</DamageCap>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSCritStrikeACT</Name>
+			<Damage>500.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageBonus type ='AbstractInfantry'>3.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2103' name ='WCERaiit'>
+		<DBID>2103</DBID>
+		<DisplayNameID>210003</DisplayNameID>
+		<EditorNameID>230003</EditorNameID>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>5.0000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCERaiit\WCERaiit.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<Icon>units\spc\john_black\john_black_icon_64x64</Icon>
+		<PortraitIcon>units\spc\john_black\john_black_igc_icon</PortraitIcon>
+		<RolloverTextID>250003</RolloverTextID>
+		<ShortRolloverTextID>270003</ShortRolloverTextID>
+		<InitialHitpoints>5000.0000</InitialHitpoints>
+		<MaxHitpoints>5000.0000</MaxHitpoints>
+		<LOS>40.0000</LOS>
+		<AutoAttackRange>16.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<Bounty>500.0000</Bounty>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<TrainPoints>150.0000</TrainPoints>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.4000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Flag>RotateInPlace</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='2'>Stop</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCERaiit.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>28.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HandAttack</Name>
+			<Damage>28.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HawkeyeAttack</Name>
+			<Damage>1500.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>5.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MusketAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>5.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSSnipeACT</Name>
+			<Damage>1500.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>40.000000</MaxRange>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2104' name ='WCERayman'>
+		<DBID>2104</DBID>
+		<DisplayNameID>210004</DisplayNameID>
+		<EditorNameID>230004</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>16.0000</MaxVelocity>
+		<MaxRunVelocity>18.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCERayman\WCERayman_horse.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>units\cavalry\lancer\lancer_icon</Icon>
+		<PortraitIcon>units\cavalry\lancer\lancer_portrait</PortraitIcon>
+		<RolloverTextID>250004</RolloverTextID>
+		<ShortRolloverTextID>270004</ShortRolloverTextID>
+		<InitialHitpoints>7000.0000</InitialHitpoints>
+		<MaxHitpoints>7000.0000</MaxHitpoints>
+		<LOS>35.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>330.0000</Cost>
+		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractLancer</UnitType>
+		<UnitType>AbstractHeavyCavalry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='10'>Abilities</Command>
+		<Tactics>WCERayman.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>40.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>40.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>40.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>40.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>TrampleHandAttack</Name>
+			<Damage>26.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>78.000000</DamageCap>
+			<DamageBonus type ='AbstractInfantry'>6.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2105' name ='WCECaroide'>
+		<DBID>2105</DBID>
+		<DisplayNameID>210005</DisplayNameID>
+		<EditorNameID>230005</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>9.2500</MaxVelocity>
+		<MaxRunVelocity>11.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCECaroide\WCECaroide_horse.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>units\mercenaries\black_rider\black_rider_icon_64x64</Icon>
+		<PortraitIcon>units\mercenaries\black_rider\black_rider_portrait</PortraitIcon>
+		<RolloverTextID>250005</RolloverTextID>
+		<ShortRolloverTextID>270005</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<ScoreValue>28.0000</ScoreValue>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.4000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Mercenary</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>AbstractLightCavalry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>AbstractGunpowderCavalry</UnitType>
+		<UnitType>AbstractRangedCavalry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCECaroide.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<DamageBonus type ='AbstractVillager'>0.500000</DamageBonus>
+			<Damage>80.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
+			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
+			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageBonus type ='AbstractHeavyCavalry'>5.00000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>1.00000</DamageBonus>
+			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2106' name ='WCEGraRockMis'>
+		<DBID>2106</DBID>
+		<DisplayNameID>210006</DisplayNameID>
+		<EditorNameID>230006</EditorNameID>
+		<PopulationCount>6</PopulationCount>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>8.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<AnimFile>units\artillery\rocket\rocket.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>units\artillery\rocket\rocket_icon</Icon>
+		<PortraitIcon>units\artillery\rocket\rocket_portrait</PortraitIcon>
+		<RolloverTextID>250006</RolloverTextID>
+		<ShortRolloverTextID>270006</ShortRolloverTextID>
+		<InitialHitpoints>350.0000</InitialHitpoints>
+		<MaxHitpoints>350.0000</MaxHitpoints>
+		<LOS>35.0000</LOS>
+		<ProjectileProtoUnit>Cannonball</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>120.0000</TrainPoints>
+		<Bounty>300.0000</Bounty>
+		<BuildBounty>300.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>100.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>5</BuildLimit>
+		<Armor type ='Ranged' value ='0.7500'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractArtillery</UnitType>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>RotateInPlace</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Command page ='9' column ='1'>Tactic3</Command>
+		<Command page ='9' column ='0'>Tactic4</Command>
+		<Tactics>rocket.tactics</Tactics>
+		<ProtoAction>
+			<Name>CannonAttack</Name>
+			<Damage>500.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MinRange>0.000000</MinRange>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>800.000000</DamageCap>
+			<DamageBonus type ='Ship'>5.000000</DamageBonus>
+			<DamageArea>6.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='AbstractArtillery'>1.0000</DamageBonus>
+			<DamageBonus type ='xpArrowKnight'>0.700000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2107' name ='WCEDonaraad'>
+		<DBID>2107</DBID>
+		<DisplayNameID>210007</DisplayNameID>
+		<EditorNameID>230007</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>10.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEDonaraad\WCEDonaraad.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\asians\indians\rajput\rajput_icon_64</Icon>
+		<PortraitIcon>units\asians\indians\rajput\rajput_icon_portrait</PortraitIcon>
+		<RolloverTextID>250007</RolloverTextID>
+		<ShortRolloverTextID>270007</ShortRolloverTextID>
+		<InitialHitpoints>8000.0000</InitialHitpoints>
+		<MaxHitpoints>8000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<BuildLimit>1</BuildLimit>
+		<AllowedAge>2</AllowedAge>
+		<Cost resourcetype ='Food'>500.0000</Cost>
+		<Cost resourcetype ='Wood'>350.0000</Cost>
+		<Armor type ='Hand' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRajput</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Command page ='11' column ='10'>Abilities</Command>
+		<Tactics>WCEDonaraad.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>9.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>18.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>18.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSBladeofWhirlACT</Name>
+			<Damage>500.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.000000</ROF>
+			<DamageBonus type ='AbstractInfantry'>30.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>10.00000</DamageBonus>
+			<DamageArea>5.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2108' name ='WCEPhillip'>
+		<DBID>2108</DBID>
+		<DisplayNameID>210008</DisplayNameID>
+		<EditorNameID>230008</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>10.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEPhillip\WCEPhillip.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\infantry_ranged\longbow\longbow_icon</Icon>
+		<PortraitIcon>units\infantry_ranged\longbow\longbow_portrait</PortraitIcon>
+		<RolloverTextID>250008</RolloverTextID>
+		<ShortRolloverTextID>270008</ShortRolloverTextID>
+		<InitialHitpoints>7500.0000</InitialHitpoints>
+		<MaxHitpoints>7500.0000</MaxHitpoints>
+		<LOS>40.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<AutoAttackRange>20.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<BuildLimit>1</BuildLimit>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEPhillip.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<Damage>34.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>2.00000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>34.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>2.00000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyRangedAttack</Name>
+			<Damage>34.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>30.000000</MaxRange>
+			<ROF>2.00000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSEaglesEyes</Name>
+			<MaxRange>50.000000</MaxRange>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2109' name ='WCEChampion'>
+		<DBID>2109</DBID>
+		<DisplayNameID>210009</DisplayNameID>
+		<EditorNameID>230009</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MaxRunVelocity>6.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\infantry\boneguard\boneguard.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\infantry\boneguard\boneguard_age1_icon_64x64</Icon>
+		<PortraitIcon>units\infantry\boneguard\boneguard_age1_portrait</PortraitIcon>
+		<RolloverTextID>250009</RolloverTextID>
+		<ShortRolloverTextID>270009</ShortRolloverTextID>
+		<InitialHitpoints>1500.0000</InitialHitpoints>
+		<MaxHitpoints>1500.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>60.0000</TrainPoints>
+		<Bounty>45.0000</Bounty>
+		<BuildBounty>10.0000</BuildBounty>
+		<Cost resourcetype ='Food'>155.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<AllowedAge>1</AllowedAge>
+		<Armor type ='Hand' value ='0.1000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>swordsman.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>2.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Siege</DamageType>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.000000</ROF>
+			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.00000</ROF>
+			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.00000</ROF>
+			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2110' name ='WCEAlliedMonitor'>
+		<DBID>2110</DBID>
+		<DisplayNameID>210010</DisplayNameID>
+		<EditorNameID>230010</EditorNameID>
+		<ObstructionRadiusX>2.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.9900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>6.5000</MaxVelocity>
+		<MaxRunVelocity>8.5000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>1.0000</TurnRate>
+		<AnimFile>units\naval\monitor\monitor.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<Icon>units\naval\monitor\monitor_icon_64x64</Icon>
+		<PortraitIcon>units\naval\monitor\monitor_icon_portrait</PortraitIcon>
+		<RolloverTextID>250010</RolloverTextID>
+		<ShortRolloverTextID>270010</ShortRolloverTextID>
+		<InitialHitpoints>3000.0000</InitialHitpoints>
+		<MaxHitpoints>3000.0000</MaxHitpoints>
+		<LOS>38.0000</LOS>
+		<ProjectileProtoUnit>Cannonball</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>40.0000</TrainPoints>
+		<BuildLimit>3</BuildLimit>
+		<Bounty>300.0000</Bounty>
+		<BuildBounty>300.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<Cost resourcetype ='Gold'>400.0000</Cost>
+		<MaxContained>50</MaxContained>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.5000'></Armor>
+		<UnitType>LogicalTypeNavalMilitary</UnitType>
+		<UnitType>LogicalTypeValidSabotage</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Ship</UnitType>
+		<UnitType>Transport</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractWarShip</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>NavalUnit</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>NoFadeOnDeath</Flag>
+		<Flag>FadeOutDecalOnDeath</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>HeroName1</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>AllowAutoGarrison</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>ForceBuildingData</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Tracked</Flag>
+		<Contain>LogicalTypeGarrisonInShips</Contain>
+		<Command page ='10' column ='1'>Eject</Command>
+		<Command page ='10' column ='2'>Stop</Command>
+		<Command page ='10' column ='3'>Delete</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Tactics>WCEAlliedMonitor.tactics</Tactics>
+		<ProtoAction>
+			<Name>LongRangeAttack</Name>
+			<Damage>200.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>100.000000</MaxRange>
+			<ROF>10.000000</ROF>
+			<DamageCap>400.000000</DamageCap>
+			<DamageBonus type ='Building'>10.000000</DamageBonus>
+			<DamageArea>10.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='Dock'>0.100000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>0.200000</DamageBonus>
+			<DamageBonus type ='YPDockAsian'>0.100000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MortarAttack</Name>
+			<Damage>80.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>40.000000</MaxRange>
+			<ROF>2.000000</ROF>
+			<DamageCap>160.000000</DamageCap>
+			<DamageBonus type ='Building'>15.000000</DamageBonus>
+			<DamageArea>5.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='Dock'>0.100000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>0.200000</DamageBonus>
+			<DamageBonus type ='YPDockAsian'>0.100000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='2111' name ='WCVCouncilConsWagon'>
+		<DBID>2111</DBID>
+		<DisplayNameID>210011</DisplayNameID>
+		<EditorNameID>230011</EditorNameID>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MaxRunVelocity>6.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>5.0000</TurnRate>
+		<AnimFile>units\trade\supply_cart\supply_cart_factory.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>units\trade\factory_wagon_icon_64x64</Icon>
+		<PortraitIcon>units\trade\factory_wagon_portrait</PortraitIcon>
+		<RolloverTextID>250011</RolloverTextID>
+		<ShortRolloverTextID>270011</ShortRolloverTextID>
+		<InitialHitpoints>250.0000</InitialHitpoints>
+		<MaxHitpoints>250.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>50.0000</TrainPoints>
+		<Bounty>50</Bounty>
+		<BuildBounty>50.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>800.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Siege' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractWagon</UnitType>
+		<UnitType>CannotConvertHill</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<Train row ='0' page ='6' column ='0'>WCBxfjsyh</Train>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>coveredwagon.tactics</Tactics>
+		<ProtoAction>
+			<Name>Build</Name>
+			<Rate type ='WCBxfjsyh'>1.500000</Rate>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3000' name ='WCBamyjt'>
+		<DBID>3000</DBID>
+		<DisplayNameID>300000</DisplayNameID>
+		<EditorNameID>320000</EditorNameID>
+		<ObstructionRadiusX>7.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>7.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>buildings\spc\aztec_temple\spc_aztec_temple.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>buildings\spc\aztec_temple\aztec_temple_icon_64x64</Icon>
+		<MinimapIcon>ui\minimap\highlighted item</MinimapIcon>
+		<PortraitIcon>buildings\spc\aztec_temple\aztec_temple_portrait</PortraitIcon>
+		<RolloverTextID>340000</RolloverTextID>
+		<ShortRolloverTextID>360000</ShortRolloverTextID>
+		<InitialHitpoints>30000.0000</InitialHitpoints>
+		<MaxHitpoints>30000.0000</MaxHitpoints>
+		<LOS>50.0000</LOS>
+		<Bounty>2000.0000</Bounty>
+		<BuildBounty>2000.0000</BuildBounty>
+		<BuildPoints>150.0000</BuildPoints>
+		<Cost resourcetype ='Food'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>2</BuildLimit>
+		<Decay delay ='60.0000' duration ='60.0000'></Decay>
+		<Armor type ='Siege' value ='0.0000'></Armor>
+		<UnitType>LogicalTypeValidSabotage</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWallsOrGroves</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>MilitaryBuilding</UnitType>
+		<UnitType>Building</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>FlattenGround</Flag>
+		<Flag>InitialGarrisonOnly</Flag>
+		<Flag>ColonyBuilding</Flag>
+		<Flag>ColonyPlacementL</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Train row ='0' page ='0' column ='0'>WCEShiriki</Train>
+		<Train row ='0' page ='0' column ='3'>WCEWamblee</Train>
+		<Train row ='0' page ='0' column ='2'>WCECheveyo</Train>
+		<Train row ='0' page ='0' column ='5'>WCEMakya</Train>
+		<Train row ='0' page ='0' column ='6'>WCEOhanzee</Train>
+		<Train row ='0' page ='0' column ='7'>WCEAmiasShield</Train>
+		<Train row ='0' page ='0' column ='8'>WCELycanWarrior</Train>
+		<Train row ='0' page ='0' column ='9'>WCEBidziil</Train>
+		<Contain>AbstractVillager</Contain>
+		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Command page ='10' column ='0'>Delete</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCBamyjt.tactics</Tactics>
+		<ProtoAction>
+			<Name>WCSGoodnessBless</Name>
+			<Rate type ='LogicalTypeHealed'>3.000000</Rate>
+			<MaxRange>20.000000</MaxRange>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3100' name ='WCEShiriki'>
+		<DBID>3100</DBID>
+		<DisplayNameID>310000</DisplayNameID>
+		<EditorNameID>330000</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.0000</MaxVelocity>
+		<MaxRunVelocity>8.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEShiriki\WCEShiriki.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>ui\units\az_skull_knight_icon</Icon>
+		<PortraitIcon>ui\units\az_skull_knight_portrait</PortraitIcon>
+		<RolloverTextID>350000</RolloverTextID>
+		<ShortRolloverTextID>370000</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Gold'>1500.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>MercType1</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEShiriki.tactics</Tactics>
+
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>110.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>96.000000</DamageCap>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>54.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>48.000000</DamageCap>
+		</ProtoAction>
+
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>15.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.000000</ROF>
+			<DamageCap>120.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+
+			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.000000</ROF>
+			<DamageCap>120.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+
+			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Hand</DamageType>
+
+			<ROF>1.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.000000</ROF>
+			<DamageCap>68.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3101' name ='WCEWamblee'>
+		<DBID>3101</DBID>
+		<DisplayNameID>310001</DisplayNameID>
+		<EditorNameID>330001</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<SubCiv>Aztecs</SubCiv>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>16.0000</MaxVelocity>
+		<MaxRunVelocity>20.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEWamblee\WCEWamblee.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>ui\units\az_eagle_knight_icon</Icon>
+		<PortraitIcon>ui\units\az_eagle_knight_portrait</PortraitIcon>
+		<RolloverTextID>350001</RolloverTextID>
+		<ShortRolloverTextID>370001</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>40.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<AutoAttackRange>16.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractNativeWarrior</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractLightInfantry</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEWamblee.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>14.000000</MaxRange>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>2.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3102' name ='WCECheveyo'>
+		<DBID>3102</DBID>
+		<DisplayNameID>310002</DisplayNameID>
+		<EditorNameID>330002</EditorNameID>
+		<PopulationCount>0</PopulationCount>
+		<SubCiv>Aztecs</SubCiv>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>6.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCECheveyo\WCECheveyo.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\natives\jaguar_warrior_icon</Icon>
+		<PortraitIcon>units\natives\jaguar_warrior_portrait</PortraitIcon>
+		<RolloverTextID>350002</RolloverTextID>
+		<ShortRolloverTextID>370002</ShortRolloverTextID>
+		<InitialHitpoints>15000.0000</InitialHitpoints>
+		<MaxHitpoints>15000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>3000.0000</Bounty>
+		<BuildBounty>3000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>2400.0000</Cost>
+		<Cost resourcetype ='Wood'>600.0000</Cost>
+		<AllowedAge>3</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='0.1000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractNativeWarrior</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCECheveyo.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>120.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>6.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>60.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>6.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>24.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>3.000000</ROF>
+			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>44.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>3.000000</ROF>
+			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>44.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>3.000000</ROF>
+			<DamageBonus type ='AbstractCavalry'>4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3103' name ='WCEMakya'>
+		<DBID>3103</DBID>
+		<DisplayNameID>310003</DisplayNameID>
+		<EditorNameID>330003</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>12.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEMakya\WCEMakya.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>ui\units\sx_warbow_icon</Icon>
+		<PortraitIcon>ui\units\sx_warbow_portrait</PortraitIcon>
+		<RolloverTextID>350003</RolloverTextID>
+		<ShortRolloverTextID>370003</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>22.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<AutoAttackRange>16.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<BuildLimit>1</BuildLimit>
+		<Cost resourcetype ='Food'>600.0000</Cost>
+		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Tactics>WCEMakya.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyHandAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyRangedAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3104' name ='WCEOhanzee'>
+		<DBID>3104</DBID>
+		<DisplayNameID>310004</DisplayNameID>
+		<EditorNameID>330004</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MaxRunVelocity>7.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEOhanzee\WCEOhanzee.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>ui\units\iro_forrest_runner_icon</Icon>
+		<PortraitIcon>ui\units\iro_forrest_runner_portrait</PortraitIcon>
+		<RolloverTextID>350004</RolloverTextID>
+		<ShortRolloverTextID>370004</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>24.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<AutoAttackRange>16.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>500.0000</Cost>
+		<Cost resourcetype ='Gold'>650.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractGunpowderTrooper</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Tactics>WCEOhanzee.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>24.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<Damage>320.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>20.000000</MaxRange>
+			<ROF>9.000000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>320.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>20.000000</MaxRange>
+			<ROF>9.000000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyRangedAttack</Name>
+			<Damage>320.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>20.000000</MaxRange>
+			<ROF>9.000000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSSneakRangedAttack</Name>
+			<Damage>600.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>20.000000</MaxRange>
+			<ROF>9.000000</ROF>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3105' name ='WCVAltarConsWagon'>
+		<DBID>3105</DBID>
+		<DisplayNameID>310005</DisplayNameID>
+		<EditorNameID>330005</EditorNameID>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MaxRunVelocity>6.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>5.0000</TurnRate>
+		<AnimFile>units\trade\indian_travois\native_travois.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>units\trade\travois_icon_64</Icon>
+		<PortraitIcon>units\trade\travois_icon_portrait</PortraitIcon>
+		<RolloverTextID>350005</RolloverTextID>
+		<ShortRolloverTextID>370005</ShortRolloverTextID>
+		<InitialHitpoints>250.0000</InitialHitpoints>
+		<MaxHitpoints>250.0000</MaxHitpoints>
+		<LOS>8.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>50.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>50.0000</Bounty>
+		<BuildBounty>50.0000</BuildBounty>
+		<Cost resourcetype ='Food'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>1000.0000</Cost>
+		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Siege' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>CannotConvertHill</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractWagon</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Train row ='0' page ='6' column ='10'>WCBamyjt</Train>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>coveredwagon.tactics</Tactics>
+		<ProtoAction>
+			<Name>Build</Name>
+			<Rate type ='WCBamyjt'>1.500000</Rate>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3106' name ='WCEAmiasShield'>
+		<DBID>3106</DBID>
+		<DisplayNameID>310006</DisplayNameID>
+		<EditorNameID>330006</EditorNameID>
+		<PopulationCount>0</PopulationCount>
+		<SubCiv>Iroquois</SubCiv>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>3.5000</MaxVelocity>
+		<MaxRunVelocity>5.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>3.0000</TurnRate>
+		<AnimFile>units\natives\mantlet.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<Icon>units\natives\mantlet_icon</Icon>
+		<PortraitIcon>units\natives\mantlet_portrait</PortraitIcon>
+		<RolloverTextID>350006</RolloverTextID>
+		<ShortRolloverTextID>370006</ShortRolloverTextID>
+		<InitialHitpoints>1000.0000</InitialHitpoints>
+		<MaxHitpoints>1000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>40.0000</TrainPoints>
+		<Bounty>40.0000</Bounty>
+		<BuildBounty>40.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>100.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>10</BuildLimit>
+		<Armor type ='Ranged' value ='0.6000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractNativeWarrior</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Tactics>nativeRanged.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>45.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>2.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>HandAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyAttack</Name>
+			<Damage>25.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>10.000000</MaxRange>
+			<ROF>1.500000</ROF>
+			<Projectile>Tomahawk</Projectile>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3107' name ='WCELycanWarrior'>
+		<DBID>3107</DBID>
+		<DisplayNameID>310007</DisplayNameID>
+		<EditorNameID>330007</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>6.2500</MaxVelocity>
+		<MaxRunVelocity>8.2500</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\natives\aztec\coyote_man\coyote_man.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>ui\units\az_coyote_man_icon</Icon>
+		<PortraitIcon>ui\units\az_coyote_man_portrait</PortraitIcon>
+		<RolloverTextID>350007</RolloverTextID>
+		<ShortRolloverTextID>370007</ShortRolloverTextID>
+		<InitialHitpoints>1500.0000</InitialHitpoints>
+		<MaxHitpoints>1500.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>60.0000</TrainPoints>
+		<Bounty>60.0000</Bounty>
+		<BuildBounty>60.0000</BuildBounty>
+		<Cost resourcetype ='Food'>250.0000</Cost>
+		<Cost resourcetype ='Wood'>275.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.1000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>AbstractCoyoteMan</UnitType>
+		<UnitType>AbstractLightInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>swordsman.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>18.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>36.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>36.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='3108' name ='WCEBidziil'>
+		<DBID>3108</DBID>
+		<DisplayNameID>310008</DisplayNameID>
+		<EditorNameID>330008</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<SubCiv>Cheyenne</SubCiv>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>6.7500</MaxVelocity>
+		<MaxRunVelocity>8.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEBidziil\WCEBidziil.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>ui\units\cheyenne_cav_icon</Icon>
+		<PortraitIcon>ui\units\cheyenne_cav_portrait</PortraitIcon>
+		<RolloverTextID>350008</RolloverTextID>
+		<ShortRolloverTextID>370008</ShortRolloverTextID>
+		<InitialHitpoints>15000.0000</InitialHitpoints>
+		<MaxHitpoints>15000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>700.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.1000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractHeavyCavalry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>AbstractNativeWarrior</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>VisibleUnderFogIfGaia</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEBidziil.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>42.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>42.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>42.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>TrampleHandAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>42.000000</DamageCap>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+		</ProtoAction>
+	</Unit>
+	<Unit id ='9999' name ='WCMGodsForce'>
+		<DBID>9999</DBID>
+		<DisplayNameID>999999</DisplayNameID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>500.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>effects\projectiles\cannonball.xml</AnimFile>
+		<Lifespan>6.0000</Lifespan>
+		<LOS>0.0000</LOS>
+		<UnitType>Projectile</UnitType>
+		<UnitType>EmbellishmentClass</UnitType>
+		<Flag>InvulnerableIfGaia</Flag>
+		<Flag>NoUnitAI</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>DoNotDieAtZeroHitpoints</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>DoNotShowOnMiniMap</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>Projectile</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DestroyProjectile</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>NotPlayerPlaceable</Flag>
+	</Unit>
+
+	<Unit id ='9998' name ='WCMUnrelentingForce'>
+		<DBID>9998</DBID>
+		<DisplayNameID>999998</DisplayNameID>
+		<ObstructionRadiusX>0.1000</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1000</ObstructionRadiusZ>
+		<MaxVelocity>500.0000</MaxVelocity>
+		<MovementType>air</MovementType>
+		<AnimFile>effects\projectiles\mortarshell.xml</AnimFile>
+		<Lifespan>5.0000</Lifespan>
+		<LOS>0.0000</LOS>
+		<UnitType>Projectile</UnitType>
+		<UnitType>EmbellishmentClass</UnitType>
+		<Flag>NoIdleActions</Flag>
+		<Flag>DoNotDieAtZeroHitpoints</Flag>
+		<Flag>NoHPBar</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>DoNotShowOnMiniMap</Flag>
+		<Flag>NotSelectable</Flag>
+		<Flag>NotSearchable</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>DoNotCreateUnitGroupAutomatically</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>Projectile</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DestroyProjectile</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Invulnerable</Flag>
+		<Flag>NoUnitAI</Flag>
+	</Unit>
+
+	<Unit id ='4000' name ='WCBjht'>
+		<DBID>4000</DBID>
+		<DisplayNameID>400000</DisplayNameID>
+		<EditorNameID>420000</EditorNameID>
+		<PopulationCapAddition>20</PopulationCapAddition>
+		<ObstructionRadiusX>6.0000</ObstructionRadiusX>
+		<ObstructionRadiusZ>5.0000</ObstructionRadiusZ>
+		<MaxVelocity>0.0000</MaxVelocity>
+		<MovementType>land</MovementType>
+		<AnimFile>buildings\WCBjht\WCBjht.xml</AnimFile>
+		<DeadReplacement>BuildingRubble4x4</DeadReplacement>
+		<DeadReplacementLifespan>15</DeadReplacementLifespan>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>barracks</PhysicsInfo>
+		<PlacementFile>buildinglarge.xml</PlacementFile>
+		<Icon>buildings\wonders\toshogu_shrine\toshogu_shrine_icon_64</Icon>
+		<MinimapIcon>ui\minimap\wonder_16x16</MinimapIcon>
+		<PortraitIcon>buildings\wonders\toshogu_shrine\toshogu_shrine_icon_portrait</PortraitIcon>
+		<RolloverTextID>440000</RolloverTextID>
+		<ShortRolloverTextID>460000</ShortRolloverTextID>
+		<InitialHitpoints>30000.0000</InitialHitpoints>
+		<MaxHitpoints>30000.0000</MaxHitpoints>
+		<LOS>50.0000</LOS>
+		<BuildPoints>150.0000</BuildPoints>
+		<BuildLimit>2</BuildLimit>
+		<BuildBounty>2000.0000</BuildBounty>
+		<Bounty>2000.0000</Bounty>
+		<Cost resourcetype ='Food'>300.0000</Cost>
+		<Cost resourcetype ='Wood'>700.0000</Cost>
+		<Cost resourcetype ='Gold'>300.0000</Cost>
+		<BuildingWorkRate>1.0000</BuildingWorkRate>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Siege' value ='0.0000'></Armor>
+		<UnitType>LogicalTypeValidSabotage</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWalls</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeBuildingsNotWallsOrGroves</UnitType>
+		<UnitType>MilitaryBuilding</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>BuildingClass</UnitType>
+		<UnitType>Building</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>StartsAtFullEfficiency</Flag>
+		<Flag>Immoveable</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>NoIdleActions</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Doppled</Flag>
+		<Flag>SelectWithObstruction</Flag>
+		<Flag>PaintTextureWhenPlacing</Flag>
+		<Flag>DontFlattenGround</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>EnterHotkeyContext</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>SnapPlacement</Flag>
+		<Train row ='0' page ='0' column ='0'>WCEGongyi</Train>
+		<Train row ='0' page ='0' column ='3'>WCETianhu</Train>
+		<Train row ='0' page ='0' column ='2'>WCEKunal</Train>
+		<Train row ='0' page ='0' column ='5'>WCEYamato</Train>
+		<Train row ='0' page ='0' column ='6'>WCEAkatsuki</Train>
+		<Train row ='0' page ='0' column ='7'>WCEVikas</Train>
+		<Train row ='0' page ='0' column ='8'>WCEJuhePikeman</Train>
+		<Train row ='0' page ='0' column ='9'>WCEJuheHorseArcher</Train>
+		<Command page ='10' column ='1'>Delete</Command>
+		<Command page ='11' column ='1'>Abilities</Command>
+		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Tactics>WCBjht.tactics</Tactics>
+		<ProtoAction>
+			<Name>WCSICBMACT</Name>
+			<Damage>1000.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>255.000000</MaxRange>
+			<ROF>10.000000</ROF>
+			<DamageCap>1000.000000</DamageCap>
+			<DamageBonus type ='Building'>10.000000</DamageBonus>
+			<DamageArea>10.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='Dock'>1.000000</DamageBonus>
+			<DamageBonus type ='AbstractVillager'>1.000000</DamageBonus>
+			<DamageBonus type ='YPDockAsian'>1.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4100' name ='WCEGongyi'>
+		<DBID>4100</DBID>
+		<DisplayNameID>410000</DisplayNameID>
+		<EditorNameID>430000</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>6.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEGongyi\WCEGongyi.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_64</Icon>
+		<PortraitIcon>units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_portrait</PortraitIcon>
+		<RolloverTextID>450000</RolloverTextID>
+		<ShortRolloverTextID>470000</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>20.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<AutoAttackRange>16.0000</AutoAttackRange>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>24.0000</TrainPoints>
+		<Bounty>9.0000</Bounty>
+		<BuildBounty>9.0000</BuildBounty>
+		<Cost resourcetype ='Food'>355.0000</Cost>
+		<Cost resourcetype ='Gold'>555.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Ranged' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='1'>Abilities</Command>
+		<Tactics>WCEGongyi.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>6.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>1.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>1.000000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>1.000000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyHandAttack</Name>
+			<Damage>12.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.500000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyRangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MinRange>2.000000</MinRange>
+			<MaxRange>16.000000</MaxRange>
+			<ROF>1.000000</ROF>
+			<DamageBonus type ='AbstractLightCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpEagleKnight'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='xpCoyoteMan'>1.50000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.50000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4101' name ='WCETianhu'>
+		<DBID>4101</DBID>
+		<DisplayNameID>410001</DisplayNameID>
+		<EditorNameID>430001</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>6.7500</MaxVelocity>
+		<MaxRunVelocity>8.7500</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCETianhu\WCETianhu.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>units\asians\chinese\steppe_rider\steppe_rider_icon_64</Icon>
+		<PortraitIcon>units\asians\chinese\steppe_rider\steppe_rider_icon_portrait</PortraitIcon>
+		<RolloverTextID>450001</RolloverTextID>
+		<ShortRolloverTextID>470001</ShortRolloverTextID>
+		<InitialHitpoints>15000.0000</InitialHitpoints>
+		<MaxHitpoints>15000.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Gold'>1005.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandCavalry</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractHeavyCavalry</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='1'>Abilities</Command>
+		<Tactics>WCETianhu.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>50.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>TrampleHandAttack</Name>
+			<Damage>16.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>2.000000</ROF>
+			<DamageCap>20.000000</DamageCap>
+			<DamageBonus type ='AbstractInfantry'>4.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractHeavyInfantry'>1.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSFightWinOrDie</Name>
+			<MaxRange>10.000000</MaxRange>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4102' name ='WCEKunal'>
+		<DBID>4102</DBID>
+		<DisplayNameID>410002</DisplayNameID>
+		<EditorNameID>430002</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>13.0000</MaxVelocity>
+		<MaxRunVelocity>15.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEKunal\WCEKunal.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\asians\spc\arsonist\arsonist_icon_64</Icon>
+		<PortraitIcon>units\asians\spc\arsonist\arsonist_icon_portrait</PortraitIcon>
+		<RolloverTextID>450002</RolloverTextID>
+		<ShortRolloverTextID>470002</ShortRolloverTextID>
+		<InitialHitpoints>15000.0000</InitialHitpoints>
+		<MaxHitpoints>15000.0000</MaxHitpoints>
+		<LOS>33.0000</LOS>
+		<ProjectileProtoUnit>TorchProjectile</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>600.0000</TrainPoints>
+		<Bounty>3000.0000</Bounty>
+		<BuildBounty>3000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>200.0000</Cost>
+		<Cost resourcetype ='Gold'>2800.0000</Cost>
+		<AllowedAge>3</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Ranged' value ='0.5000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractSiegeTrooper</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedInfantry</UnitType>
+		<UnitType>AbstractCanSeeStealth</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='9' column ='0'>ToggleStealth</Command>
+		<Command page ='11' column ='10'>Abilities</Command>
+		<Tactics>WCEKunal.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>163.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>1.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendRangedAttack</Name>
+			<DamageBonus type ='AbstractLightInfantry'>0.500000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+			<Damage>48.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>44.000000</DamageCap>
+			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerHandAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>StaggerRangedAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>44.000000</DamageCap>
+			<DamageBonus type ='Building'>3.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>1.500000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyHandAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>VolleyRangedAttack</Name>
+			<Damage>48.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>3.000000</ROF>
+			<DamageCap>36.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalryInfantry'>3.000000</DamageBonus>
+			<DamageArea>3.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>1.500000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>1.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSSneakBuildingAttack</Name>
+			<Damage>600.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<MaxRange>2.000000</MaxRange>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4103' name ='WCEYamato'>
+		<DBID>4103</DBID>
+		<DisplayNameID>410003</DisplayNameID>
+		<EditorNameID>430003</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>4.5000</MaxVelocity>
+		<MaxRunVelocity>6.5000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\WCEYamato\WCEYamato.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\mercenaries\samurai\ronin_icon</Icon>
+		<PortraitIcon>units\mercenaries\samurai\ronin_portrait</PortraitIcon>
+		<RolloverTextID>450003</RolloverTextID>
+		<ShortRolloverTextID>470003</ShortRolloverTextID>
+		<InitialHitpoints>10000.0000</InitialHitpoints>
+		<MaxHitpoints>10000.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Gold'>1000.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<BuildLimit>1</BuildLimit>
+		<Armor type ='Hand' value ='2.0000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Mercenary</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Tactics>WCEYamato.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>240.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+			<DamageCap>320.000000</DamageCap>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>120.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+			<DamageCap>160.000000</DamageCap>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageCap>58.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>116.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageCap>116.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>GuardianAttack</Name>
+			<Damage>116.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageCap>116.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>116.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageCap>116.000000</DamageCap>
+			<DamageBonus type ='AbstractCavalry'>6.000000</DamageBonus>
+			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Enemy</DamageFlags>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4104' name ='WCEAkatsuki'>
+		<DBID>4104</DBID>
+		<DisplayNameID>410004</DisplayNameID>
+		<EditorNameID>430004</EditorNameID>
+		<ObstructionRadiusX>2.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>2.9900</ObstructionRadiusZ>
+		<FormationCategory>Ranged</FormationCategory>
+		<MaxVelocity>7.5000</MaxVelocity>
+		<MaxRunVelocity>9.5000</MaxRunVelocity>
+		<MovementType>water</MovementType>
+		<TurnRate>4.0000</TurnRate>
+		<AnimFile>units\WCEAkatsuki\WCEAkatsuki.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<PhysicsInfo>house</PhysicsInfo>
+		<Icon>units\asians\naval\tekkousen\tekkousen_icon_64</Icon>
+		<PortraitIcon>units\asians\naval\tekkousen\tekkousen_icon_portrait</PortraitIcon>
+		<RolloverTextID>450004</RolloverTextID>
+		<ShortRolloverTextID>470004</ShortRolloverTextID>
+		<InitialHitpoints>12500.0000</InitialHitpoints>
+		<MaxHitpoints>12500.0000</MaxHitpoints>
+		<LOS>34.0000</LOS>
+		<ProjectileProtoUnit>Cannonball</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>900.0000</Cost>
+		<Cost resourcetype ='Gold'>900.0000</Cost>
+		<MaxContained>50</MaxContained>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.9900'></Armor>
+		<UnitType>LogicalTypeNavalMilitary</UnitType>
+		<UnitType>LogicalTypeValidSabotage</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeShipsAndBuildings</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Ship</UnitType>
+		<UnitType>Transport</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractWarShip</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>TieToWaterSurface</Flag>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>NavalUnit</Flag>
+		<Flag>DecalStickToWaterSurface</Flag>
+		<Flag>NoFadeOnDeath</Flag>
+		<Flag>FadeOutDecalOnDeath</Flag>
+		<Flag>NoBloodOnDeath</Flag>
+		<Flag>HasGatherPoint</Flag>
+		<Flag>AllowAutoGarrison</Flag>
+		<Flag>ObscuresUnits</Flag>
+		<Flag>ForceBuildingData</Flag>
+		<Flag>NonAutoFormedUnit</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Contain>LogicalTypeGarrisonInShips</Contain>
+		<Command page ='10' column ='1'>Eject</Command>
+		<Command page ='10' column ='2'>Stop</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Command page ='10' column ='0'>SetGatherPointMilitary</Command>
+		<Tactics>WCEAkatsuki.tactics</Tactics>
+		<ProtoAction>
+			<Name>BroadsideAttack</Name>
+			<Damage>35.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>46.000000</MaxRange>
+			<ROF>0.050000</ROF>
+			<DamageCap>80.000000</DamageCap>
+			<DamageBonus type ='Ship'>4.000000</DamageBonus>
+			<DamageArea>1.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>180.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MaxRange>28.000000</MaxRange>
+			<ROF>2.000000</ROF>
+			<DamageCap>180.000000</DamageCap>
+			<DamageBonus type ='AbstractArtillery'>1.000000</DamageBonus>
+			<DamageArea>1.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>WCSSeigeFort</Name>
+			<MaxRange>0.500000</MaxRange>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4105' name ='WCEVikas'>
+		<DBID>4105</DBID>
+		<DisplayNameID>410005</DisplayNameID>
+		<EditorNameID>430005</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>2.0000</MaxVelocity>
+		<MaxRunVelocity>3.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>4.5000</TurnRate>
+		<AnimFile>units\WCEVikas\WCEVikas.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<Icon>units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_64</Icon>
+		<PortraitIcon>units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_portrait</PortraitIcon>
+		<RolloverTextID>450005</RolloverTextID>
+		<ShortRolloverTextID>470005</ShortRolloverTextID>
+		<InitialHitpoints>12000.0000</InitialHitpoints>
+		<MaxHitpoints>12000.0000</MaxHitpoints>
+		<LOS>29.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>300.0000</TrainPoints>
+		<BuildLimit>1</BuildLimit>
+		<Bounty>1000.0000</Bounty>
+		<BuildBounty>1000.0000</BuildBounty>
+		<Cost resourcetype ='Food'>500.0000</Cost>
+		<Cost resourcetype ='Wood'>400.0000</Cost>
+		<Cost resourcetype ='Gold'>500.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Ranged' value ='0.3000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>Hero</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>AbstractArtillery</UnitType>
+		<UnitType>AbstractLightCavalry</UnitType>
+		<UnitType>AbstractMansabdar</UnitType>
+		<UnitType>AbstractSiegeElephant</UnitType>
+		<UnitType>AbstractElephant</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Flag>NotDeleteable</Flag>
+		<Flag>KnockoutDeath</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='11' column ='0'>Abilities</Command>
+		<Tactics>WCEVikas.tactics</Tactics>
+		<ProtoAction>
+			<Name>CannonAttack</Name>
+			<Damage>160.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<MinRange>0.000000</MinRange>
+			<MaxRange>28.000000</MaxRange>
+			<ROF>9.000000</ROF>
+			<DamageCap>400.000000</DamageCap>
+			<DamageBonus type ='AbstractVillager'>2.000000</DamageBonus>
+			<DamageArea>1.000000</DamageArea>
+			<DamageFlags>GAIAEnemy</DamageFlags>
+			<DamageBonus type ='Building'>20.000000</DamageBonus>
+			<DamageBonus type ='Ship'>16.000000</DamageBonus>
+			<DamageBonus type ='AbstractCavalry'>2.000000</DamageBonus>
+			<DamageBonus type ='AbstractArtillery'>10.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4106' name ='WCEJuhePikeman'>
+		<DBID>4106</DBID>
+		<DisplayNameID>410006</DisplayNameID>
+		<EditorNameID>430006</EditorNameID>
+		<PopulationCount>1</PopulationCount>
+		<ObstructionRadiusX>0.4900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.4900</ObstructionRadiusZ>
+		<FormationCategory>Body</FormationCategory>
+		<MaxVelocity>8.0000</MaxVelocity>
+		<MaxRunVelocity>10.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\asians\chinese\qiang_pikeman\qiang_pikeman.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>dude</PhysicsInfo>
+		<Icon>units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_64</Icon>
+		<PortraitIcon>units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_portrait</PortraitIcon>
+		<SelectionPriority>20</SelectionPriority>
+		<RolloverTextID>450006</RolloverTextID>
+		<ShortRolloverTextID>470006</ShortRolloverTextID>
+		<InitialHitpoints>1500.0000</InitialHitpoints>
+		<MaxHitpoints>1250.0000</MaxHitpoints>
+		<LOS>12.0000</LOS>
+		<UnitAIType>HandCombative</UnitAIType>
+		<TrainPoints>24.0000</TrainPoints>
+		<Bounty>7.0000</Bounty>
+		<BuildBounty>7.0000</BuildBounty>
+		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<Cost resourcetype ='Gold'>200.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Hand' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractHandInfantry</UnitType>
+		<UnitType>AbstractPikeman</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractInfantry</UnitType>
+		<UnitType>AbstractHeavyInfantry</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>pikeman.tactics</Tactics>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>60.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverBuildingAttack</Name>
+			<Damage>30.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>3.000000</ROF>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>CoverHandAttack</Name>
+			<Damage>7.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>DefendHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeHandAttack</Name>
+			<Damage>14.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>1.500000</ROF>
+			<DamageBonus type ='AbstractCavalry'>10.000000</DamageBonus>
+			<DamageBonus type ='AbstractLightInfantry'>4.50000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4107' name ='WCEJuheHorseArcher'>
+		<DBID>4107</DBID>
+		<DisplayNameID>410007</DisplayNameID>
+		<EditorNameID>430007</EditorNameID>
+		<PopulationCount>2</PopulationCount>
+		<ObstructionRadiusX>0.7900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.7900</ObstructionRadiusZ>
+		<FormationCategory>Mobile</FormationCategory>
+		<MaxVelocity>7.2500</MaxVelocity>
+		<MaxRunVelocity>9.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>18.0000</TurnRate>
+		<AnimFile>units\mercenaries\manchurian_archer\manchurian_archer_horse.xml</AnimFile>
+		<ImpactType>Flesh</ImpactType>
+		<PhysicsInfo>cav</PhysicsInfo>
+		<Icon>units\mercenaries\manchurian_archer\manchurian_archer_icon_64x64</Icon>
+		<PortraitIcon>units\mercenaries\manchurian_archer\manchurian_archer_portrait</PortraitIcon>
+		<RolloverTextID>450007</RolloverTextID>
+		<ShortRolloverTextID>470007</ShortRolloverTextID>
+		<InitialHitpoints>2000.0000</InitialHitpoints>
+		<MaxHitpoints>2000.0000</MaxHitpoints>
+		<LOS>14.0000</LOS>
+		<ProjectileProtoUnit>Arrow</ProjectileProtoUnit>
+		<UnitAIType>RangedCombative</UnitAIType>
+		<TrainPoints>60.0000</TrainPoints>
+		<Bounty>60.0000</Bounty>
+		<BuildBounty>60.0000</BuildBounty>
+		<Cost resourcetype ='Food'>220.0000</Cost>
+		<Cost resourcetype ='Gold'>220.0000</Cost>
+		<AllowedAge>2</AllowedAge>
+		<Armor type ='Hand' value ='0.4000'></Armor>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeValidSharpshoot</UnitType>
+		<UnitType>LogicalTypeNeededForVictory</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeLandMilitary</UnitType>
+		<UnitType>LogicalTypeScout</UnitType>
+		<UnitType>LogicalTypeValidSPCUnitsDeadCondition</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>LogicalTypeMinimapFilterMilitary</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>AbstractRangedCavalry</UnitType>
+		<UnitType>AbstractCavalryInfantry</UnitType>
+		<UnitType>CountsTowardMilitaryScore</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>Ranged</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Military</UnitType>
+		<UnitType>Unit</UnitType>
+		<UnitType>AbstractLightCavalry</UnitType>
+		<UnitType>AbstractArcher</UnitType>
+		<UnitType>AbstractCavalry</UnitType>
+		<UnitType>Mercenary</UnitType>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Tactics>bowCavalry.tactics</Tactics>
+		<ProtoAction>
+			<Name>BowAttack</Name>
+			<Damage>54.000000</Damage>
+			<DamageType>Ranged</DamageType>
+			<MaxRange>12.000000</MaxRange>
+			<ROF>0.75000</ROF>
+			<DamageBonus type ='AbstractVillager'>1.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyCavalry'>2.500000</DamageBonus>
+			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>BuildingAttack</Name>
+			<Damage>22.000000</Damage>
+			<DamageType>Siege</DamageType>
+			<ROF>1.500000</ROF>
+			<Projectile>ArrowFlaming</Projectile>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>ChargeAttack</Name>
+			<Damage>28.000000</Damage>
+			<DamageType>Hand</DamageType>
+			<ROF>0.750000</ROF>
+			<DamageBonus type ='AbstractArtillery'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractHeavyCavalry'>4.000000</DamageBonus>
+			<DamageBonus type ='AbstractCoyoteMan'>4.000000</DamageBonus>
+		</ProtoAction>
+	</Unit>
+
+	<Unit id ='4108' name ='WCVJuheConsWagon'>
+		<DBID>4108</DBID>
+		<DisplayNameID>410008</DisplayNameID>
+		<EditorNameID>430008</EditorNameID>
+		<ObstructionRadiusX>0.9900</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.9900</ObstructionRadiusZ>
+		<FormationCategory>Protected</FormationCategory>
+		<MaxVelocity>4.0000</MaxVelocity>
+		<MaxRunVelocity>6.0000</MaxRunVelocity>
+		<MovementType>land</MovementType>
+		<TurnRate>5.0000</TurnRate>
+		<AnimFile>units\asians\shared\wagon\misc_wagon.xml</AnimFile>
+		<ImpactType>Wood</ImpactType>
+		<Icon>units\asians\shared\wagon\chinese_town_center_wagon_icon_64</Icon>
+		<PortraitIcon>units\asians\shared\wagon\chinese_town_center_wagon_icon_portrait</PortraitIcon>
+		<RolloverTextID>450008</RolloverTextID>
+		<ShortRolloverTextID>470008</ShortRolloverTextID>
+		<InitialHitpoints>250.0000</InitialHitpoints>
+		<MaxHitpoints>250.0000</MaxHitpoints>
+		<LOS>18.0000</LOS>
+		<ProjectileProtoUnit>InvisibleProjectile</ProjectileProtoUnit>
+		<UnitAIType>Civilian</UnitAIType>
+		<TrainPoints>50.0000</TrainPoints>
+		<Bounty>50.0000</Bounty>
+		<BuildBounty>50.0000</BuildBounty>
+		<BuildLimit>1</BuildLimit>
+		<CarryCapacity resourcetype ='Food'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Wood'>1.0000</CarryCapacity>
+		<CarryCapacity resourcetype ='Gold'>1.0000</CarryCapacity>
+		<AllowedAge>2</AllowedAge>
+		<Cost resourcetype ='Food'>300.0000</Cost>
+		<Cost resourcetype ='Gold'>700.0000</Cost>
+		<Cost resourcetype ='Wood'>300.0000</Cost>
+		<Armor type ='Siege' value ='0.2000'></Armor>
+		<UnitType>LogicalTypeMinimapFilterEconomic</UnitType>
+		<UnitType>LogicalTypeHealed</UnitType>
+		<UnitType>LogicalTypeHandUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeGarrisonInShips</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAutoAttack</UnitType>
+		<UnitType>LogicalTypeVillagersAttack</UnitType>
+		<UnitType>LogicalTypeHandUnitsAttack</UnitType>
+		<UnitType>LogicalTypeRangedUnitsAttack</UnitType>
+		<UnitType>HasBountyValue</UnitType>
+		<UnitType>ValidIdleVillager</UnitType>
+		<UnitType>CountsTowardEconomicScore</UnitType>
+		<UnitType>CannotConvertHill</UnitType>
+		<UnitType>AbstractWagon</UnitType>
+		<UnitType>ConvertsHerds</UnitType>
+		<UnitType>Economic</UnitType>
+		<UnitType>UnitClass</UnitType>
+		<UnitType>Unit</UnitType>
+		<Train row ='0' page ='6' column ='0'>WCBjht</Train>
+		<Flag>CollidesWithProjectiles</Flag>
+		<Flag>ApplyHandicapTraining</Flag>
+		<Flag>CorpseDecays</Flag>
+		<Flag>ShowGarrisonButton</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>ObscuredByUnits</Flag>
+		<Flag>DeadReplacementWhenDestroyed</Flag>
+		<Flag>ConstrainOrientation</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>Tracked</Flag>
+		<Command page ='10' column ='0'>Garrison</Command>
+		<Command page ='10' column ='1'>Stop</Command>
+		<Command page ='10' column ='2'>Delete</Command>
+		<Tactics>coveredwagon.tactics</Tactics>
+		<ProtoAction>
+			<Name>Build</Name>
+			<Rate type ='WCBjht'>3.000000</Rate>
+		</ProtoAction>
+	</Unit>
