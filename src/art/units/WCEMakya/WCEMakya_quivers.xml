@@ -1,0 +1,28 @@
+
+
+<animfile>
+	<component>
+		quivers
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_1_quiver</file>
+				</assetreference>
+			</none>
+			<elitewarbows>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_1_quiver</file>
+				</assetreference>
+			</elitewarbows>
+			<championwarbows>
+				<assetreference type="GrannyModel">
+					<file>units\natives\lakota\bow_warrior\bow_warrior_1_quiver</file>
+				</assetreference>
+			</championwarbows>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>quivers</component>
+	</anim>
+</animfile>

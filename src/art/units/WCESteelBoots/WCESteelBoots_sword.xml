@@ -1,0 +1,14 @@
+
+
+<animfile>
+	<component>
+		sword
+		<assetreference type="GrannyModel">
+			<file>units\mercenaries\elmeti\lance</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>sword</component>
+	</anim>
+</animfile>
