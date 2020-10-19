@@ -2,246 +2,246 @@
     <!--> 附加到决定版 Data/strings/SimplifiedChinese/stringtabley.xml中 <!-->
 
 	<!--NativeED String Starts-->
-		<String _locid="200000">西方军事议会</String>
-		<String _locid="220000">WCB 西方军事议会</String>
-		<String _locid="240000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</String>
-		<String _locid="260000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。</String>
+		<string _locid="200000">西方军事议会</string>
+		<string _locid="220000">WCB 西方军事议会</string>
+		<string _locid="240000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</string>
+		<string _locid="260000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。</string>
 
-		<String _locid="210000">盾山杰森</String>
-		<String _locid="230000">WCE 盾山杰森</String>
-		<String _locid="250000">杰森是一位出色的剑盾手，人在塔在！</String>
-		<String _locid="270000">杰森是一位出色的剑盾手，人在塔在！</String>
+		<string _locid="210000">盾山杰森</string>
+		<string _locid="230000">WCE 盾山杰森</string>
+		<string _locid="250000">杰森是一位出色的剑盾手，人在塔在！</string>
+		<string _locid="270000">杰森是一位出色的剑盾手，人在塔在！</string>
 
-		<String _locid="210001">火焰罗德汉</String>
-		<String _locid="230001">WCE 火焰罗德汉</String>
-		<String _locid="250001">特工罗德汉是一位精英火环兵，他投掷火环和手雷攻击敌人，给予其沉重打击！</String>
-		<String _locid="270001">特工罗德汉是一位精英火环兵，他投掷火环和手雷攻击敌人，给予其沉重打击！</String>
+		<string _locid="210001">火焰罗德汉</string>
+		<string _locid="230001">WCE 火焰罗德汉</string>
+		<string _locid="250001">特工罗德汉是一位精英火环兵，他投掷火环和手雷攻击敌人，给予其沉重打击！</string>
+		<string _locid="270001">特工罗德汉是一位精英火环兵，他投掷火环和手雷攻击敌人，给予其沉重打击！</string>
 
-		<String _locid="210002">首领钢靴</String>
-		<String _locid="230002">WCE 首领钢靴</String>
-		<String _locid="250002">钢铁骑士团首领，全身装备坚固的重冶重型铠甲，对步兵单位有极强的杀伤力！</String>
-		<String _locid="270002">钢铁骑士团首领，全身装备坚固的重冶重型铠甲，对步兵单位有极强的杀伤力！</String>
+		<string _locid="210002">首领钢靴</string>
+		<string _locid="230002">WCE 首领钢靴</string>
+		<string _locid="250002">钢铁骑士团首领，全身装备坚固的重冶重型铠甲，对步兵单位有极强的杀伤力！</string>
+		<string _locid="270002">钢铁骑士团首领，全身装备坚固的重冶重型铠甲，对步兵单位有极强的杀伤力！</string>
 
-		<String _locid="210003">火枪手莱伊特</String>
-		<String _locid="230003">WCE 火枪手莱伊特</String>
-		<String _locid="250003">莱伊特作为一名熟练的狙击手，可以百步穿杨。</String>
-		<String _locid="270003">莱伊特作为一名熟练的狙击手，可以百步穿杨。</String>
+		<string _locid="210003">火枪手莱伊特</string>
+		<string _locid="230003">WCE 火枪手莱伊特</string>
+		<string _locid="250003">莱伊特作为一名熟练的狙击手，可以百步穿杨。</string>
+		<string _locid="270003">莱伊特作为一名熟练的狙击手，可以百步穿杨。</string>
 
-		<String _locid="210004">风骑兵雷曼</String>
-		<String _locid="230004">WCE 风骑兵雷曼</String>
-		<String _locid="250004">风骑兵雷曼具有熟练的驾驭与侦查技术，可以快速地探索发现。</String>
-		<String _locid="270004">风骑兵雷曼具有熟练的驾驭与侦查技术，可以快速地探索发现。</String>
+		<string _locid="210004">风骑兵雷曼</string>
+		<string _locid="230004">WCE 风骑兵雷曼</string>
+		<string _locid="250004">风骑兵雷曼具有熟练的驾驭与侦查技术，可以快速地探索发现。</string>
+		<string _locid="270004">风骑兵雷曼具有熟练的驾驭与侦查技术，可以快速地探索发现。</string>
 
-		<String _locid="210005">黑骑士卡罗德</String>
-		<String _locid="230005">WCE 黑骑士卡罗德</String>
-		<String _locid="250005">精英黑骑士卡罗德拥有更特别的装备，是骑兵、炮兵和村民们的噩梦。</String>
-		<String _locid="270005">精英黑骑士卡罗德拥有更特别的装备，是骑兵、炮兵和村民们的噩梦。</String>
+		<string _locid="210005">黑骑士卡罗德</string>
+		<string _locid="230005">WCE 黑骑士卡罗德</string>
+		<string _locid="250005">精英黑骑士卡罗德拥有更特别的装备，是骑兵、炮兵和村民们的噩梦。</string>
+		<string _locid="270005">精英黑骑士卡罗德拥有更特别的装备，是骑兵、炮兵和村民们的噩梦。</string>
 
-		<String _locid="210006">重力火箭弹</String>
-		<String _locid="230006">WCE 重力火箭弹</String>
-		<String _locid="250006">经过联盟研发改进升级的火箭弹，具有更远的射程、更快的射速和更大的破坏威力。</String>
-		<String _locid="270006">经过联盟研发改进升级的火箭弹，具有更远的射程、更快的射速和更大的破坏威力。</String>
+		<string _locid="210006">重力火箭弹</string>
+		<string _locid="230006">WCE 重力火箭弹</string>
+		<string _locid="250006">经过联盟研发改进升级的火箭弹，具有更远的射程、更快的射速和更大的破坏威力。</string>
+		<string _locid="270006">经过联盟研发改进升级的火箭弹，具有更远的射程、更快的射速和更大的破坏威力。</string>
 
-		<String _locid="210007">双刀唐纳拉德</String>
-		<String _locid="230007">WCE 双刀唐纳拉德</String>
-		<String _locid="250007">特工唐纳拉德是一名双持刺客，可以轻易地结束步兵单位及轻甲骑兵的生命。</String>
-		<String _locid="270007">特工唐纳拉德是一名双持刺客，可以轻易地结束步兵单位及轻甲骑兵的生命。</String>
+		<string _locid="210007">双刀唐纳拉德</string>
+		<string _locid="230007">WCE 双刀唐纳拉德</string>
+		<string _locid="250007">特工唐纳拉德是一名双持刺客，可以轻易地结束步兵单位及轻甲骑兵的生命。</string>
+		<string _locid="270007">特工唐纳拉德是一名双持刺客，可以轻易地结束步兵单位及轻甲骑兵的生命。</string>
 
-		<String _locid="210008">鹰眼菲利普</String>
-		<String _locid="230008">WCE 鹰眼菲利普</String>
-		<String _locid="250008">天生的猎人，神射手，拥有较大的射程。</String>
-		<String _locid="270008">天生的猎人，神射手，拥有较大的射程。</String>
+		<string _locid="210008">鹰眼菲利普</string>
+		<string _locid="230008">WCE 鹰眼菲利普</string>
+		<string _locid="250008">天生的猎人，神射手，拥有较大的射程。</string>
+		<string _locid="270008">天生的猎人，神射手，拥有较大的射程。</string>
 
-		<String _locid="210009">联盟双手勇士</String>
-		<String _locid="230009">WCE 联盟双手勇士</String>
-		<String _locid="250009">联盟中最优秀的双手战士。他们让敌人闻风丧胆。</String>
-		<String _locid="270009">联盟中最优秀的双手战士。他们让敌人闻风丧胆。</String>
+		<string _locid="210009">联盟双手勇士</string>
+		<string _locid="230009">WCE 联盟双手勇士</string>
+		<string _locid="250009">联盟中最优秀的双手战士。他们让敌人闻风丧胆。</string>
+		<string _locid="270009">联盟中最优秀的双手战士。他们让敌人闻风丧胆。</string>
 
-		<String _locid="210010">联盟大火炮舰船</String>
-		<String _locid="230010">WCE 联盟大火炮舰船</String>
-		<String _locid="250010">由联盟升级改造的炮舰，拥有更快的发射速度和伤害。</String>
-		<String _locid="270010">由联盟升级改造的炮舰，拥有更快的发射速度和伤害。</String>
+		<string _locid="210010">联盟大火炮舰船</string>
+		<string _locid="230010">WCE 联盟大火炮舰船</string>
+		<string _locid="250010">由联盟升级改造的炮舰，拥有更快的发射速度和伤害。</string>
+		<string _locid="270010">由联盟升级改造的炮舰，拥有更快的发射速度和伤害。</string>
 
-		<String _locid="210011">议会工程车</String>
-		<String _locid="230011">WCV 议会工程车</String>
-		<String _locid="250011">用于快速支援西方军事议会的修建。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</String>
-		<String _locid="270011">用于快速支援西方军事议会的修建。</String>
+		<string _locid="210011">议会工程车</string>
+		<string _locid="230011">WCV 议会工程车</string>
+		<string _locid="250011">用于快速支援西方军事议会的修建。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</string>
+		<string _locid="270011">用于快速支援西方军事议会的修建。</string>
 
-		<String _locid="300000">阿米娅祭坛</String>
-		<String _locid="320000">WCB 阿米娅祭坛</String>
-		<String _locid="340000">美洲土著战士祭祀生命女神阿米娅的神殿，请求她赐予力量。</String>
-		<String _locid="360000">美洲土著战士祭祀生命女神阿米娅的神殿，请求她赐予力量。</String>
+		<string _locid="300000">阿米娅祭坛</string>
+		<string _locid="320000">WCB 阿米娅祭坛</string>
+		<string _locid="340000">美洲土著战士祭祀生命女神阿米娅的神殿，请求她赐予力量。</string>
+		<string _locid="360000">美洲土著战士祭祀生命女神阿米娅的神殿，请求她赐予力量。</string>
 
-		<String _locid="310000">狼人西里奇</String>
-		<String _locid="330000">WCE 狼人西里奇</String>
-		<String _locid="350000">西里奇是个强化骷髅武士，用狼人般的力量和迅猛来撕碎他的猎物。</String>
-		<String _locid="370000">西里奇是个强化骷髅武士，用狼人般的力量和迅猛来撕碎他的猎物。</String>
+		<string _locid="310000">狼人西里奇</string>
+		<string _locid="330000">WCE 狼人西里奇</string>
+		<string _locid="350000">西里奇是个强化骷髅武士，用狼人般的力量和迅猛来撕碎他的猎物。</string>
+		<string _locid="370000">西里奇是个强化骷髅武士，用狼人般的力量和迅猛来撕碎他的猎物。</string>
 
-		<String _locid="310001">雄鹰完博利</String>
-		<String _locid="330001">WCE 雄鹰完博利</String>
-		<String _locid="350001">强化雄鹰武士完博利具有狂风般的移动速度与敏锐的洞察力，为常人所不及。</String>
-		<String _locid="370001">强化雄鹰武士完博利具有狂风般的移动速度与敏锐的洞察力，为常人所不及。</String>
+		<string _locid="310001">雄鹰完博利</string>
+		<string _locid="330001">WCE 雄鹰完博利</string>
+		<string _locid="350001">强化雄鹰武士完博利具有狂风般的移动速度与敏锐的洞察力，为常人所不及。</string>
+		<string _locid="370001">强化雄鹰武士完博利具有狂风般的移动速度与敏锐的洞察力，为常人所不及。</string>
 
-		<String _locid="310002">战神奇威尤</String>
-		<String _locid="330002">WCE 战神奇威尤</String>
-		<String _locid="350002">强化美洲虎武士奇威尤身形魁梧，具有强大的力量，宛如战神附体。</String>
-		<String _locid="370002">强化美洲虎武士奇威尤身形魁梧，具有强大的力量，宛如战神附体。</String>
+		<string _locid="310002">战神奇威尤</string>
+		<string _locid="330002">WCE 战神奇威尤</string>
+		<string _locid="350002">强化美洲虎武士奇威尤身形魁梧，具有强大的力量，宛如战神附体。</string>
+		<string _locid="370002">强化美洲虎武士奇威尤身形魁梧，具有强大的力量，宛如战神附体。</string>
 
-		<String _locid="310003">鹰弓马克亚</String>
-		<String _locid="330003">WCE 鹰弓马克亚</String>
-		<String _locid="350003">敏捷的土著弓箭手马克亚具有较快的移动速度和射速。</String>
-		<String _locid="370003">敏捷的土著弓箭手马克亚具有较快的移动速度和射速。</String>
+		<string _locid="310003">鹰弓马克亚</string>
+		<string _locid="330003">WCE 鹰弓马克亚</string>
+		<string _locid="350003">敏捷的土著弓箭手马克亚具有较快的移动速度和射速。</string>
+		<string _locid="370003">敏捷的土著弓箭手马克亚具有较快的移动速度和射速。</string>
 
-		<String _locid="310004">暗影欧汉齐</String>
-		<String _locid="330004">WCE 暗影欧汉齐</String>
-		<String _locid="350004">欧汉齐是部落里可怕的潜行杀手，能够隐身攻击，并且招招毙命。</String>
-		<String _locid="370004">欧汉齐是部落里可怕的潜行杀手，能够隐身攻击，并且招招毙命。</String>
+		<string _locid="310004">暗影欧汉齐</string>
+		<string _locid="330004">WCE 暗影欧汉齐</string>
+		<string _locid="350004">欧汉齐是部落里可怕的潜行杀手，能够隐身攻击，并且招招毙命。</string>
+		<string _locid="370004">欧汉齐是部落里可怕的潜行杀手，能够隐身攻击，并且招招毙命。</string>
 
-		<String _locid="310005">祭坛马车</String>
-		<String _locid="330005">WCV 祭坛马车</String>
-		<String _locid="350005">用于快速支援阿米娅祭坛的修建。</String>
-		<String _locid="370005">用于快速支援阿米娅祭坛的修建。</String>
+		<string _locid="310005">祭坛马车</string>
+		<string _locid="330005">WCV 祭坛马车</string>
+		<string _locid="350005">用于快速支援阿米娅祭坛的修建。</string>
+		<string _locid="370005">用于快速支援阿米娅祭坛的修建。</string>
 
-		<String _locid="310006">阿米娅之盾</String>
-		<String _locid="330006">WCE 阿米娅之盾</String>
-		<String _locid="350006">强化的盾牌手，有强化的盾牌，可以快速攻城。</String>
-		<String _locid="370006">强化的盾牌手，有强化的盾牌，可以快速攻城。</String>
+		<string _locid="310006">阿米娅之盾</string>
+		<string _locid="330006">WCE 阿米娅之盾</string>
+		<string _locid="350006">强化的盾牌手，有强化的盾牌，可以快速攻城。</string>
+		<string _locid="370006">强化的盾牌手，有强化的盾牌，可以快速攻城。</string>
 
-		<String _locid="310007">部落狼人武士</String>
-		<String _locid="330007">WCE 部落狼人武士</String>
-		<String _locid="350007">由各部落比武冠军组建的队伍，他们自称部落狼人武士。</String>
-		<String _locid="370007">由各部落比武冠军组建的队伍，他们自称部落狼人武士。</String>
+		<string _locid="310007">部落狼人武士</string>
+		<string _locid="330007">WCE 部落狼人武士</string>
+		<string _locid="350007">由各部落比武冠军组建的队伍，他们自称部落狼人武士。</string>
+		<string _locid="370007">由各部落比武冠军组建的队伍，他们自称部落狼人武士。</string>
 
-		<String _locid="310008">壮汉比其奥</String>
-		<String _locid="330008">WCE 壮汉比其奥</String>
-		<String _locid="350008">比其奥身体强壮，有较高的生命值。</String>
-		<String _locid="370008">比其奥身体强壮，有较高的生命值。</String>
+		<string _locid="310008">壮汉比其奥</string>
+		<string _locid="330008">WCE 壮汉比其奥</string>
+		<string _locid="350008">比其奥身体强壮，有较高的生命值。</string>
+		<string _locid="370008">比其奥身体强壮，有较高的生命值。</string>
 
-		<String _locid="400000">聚合厅</String>
-		<String _locid="420000">WCB 聚合厅</String>
-		<String _locid="440000">亚洲维和军事合作组织，为战乱地区提供维和倡议与必要的武力援助。</String>
-		<String _locid="460000">亚洲维和军事合作组织，为战乱地区提供维和倡议与必要的武力援助。</String>
+		<string _locid="400000">聚合厅</string>
+		<string _locid="420000">WCB 聚合厅</string>
+		<string _locid="440000">亚洲维和军事合作组织，为战乱地区提供维和倡议与必要的武力援助。</string>
+		<string _locid="460000">亚洲维和军事合作组织，为战乱地区提供维和倡议与必要的武力援助。</string>
 
-		<String _locid="410000">神机龚毅</String>
-		<String _locid="430000">WCE 神机龚毅</String>
-		<String _locid="450000">多年作战经验的诸葛弩手，装备有组织研发的超高射速诸葛连弩。</String>
-		<String _locid="470000">多年作战经验的诸葛弩手，装备有组织研发的超高射速诸葛连弩。</String>
+		<string _locid="410000">神机龚毅</string>
+		<string _locid="430000">WCE 神机龚毅</string>
+		<string _locid="450000">多年作战经验的诸葛弩手，装备有组织研发的超高射速诸葛连弩。</string>
+		<string _locid="470000">多年作战经验的诸葛弩手，装备有组织研发的超高射速诸葛连弩。</string>
 
-		<String _locid="410001">龙骑田虎</String>
-		<String _locid="430001">WCE 龙骑田虎</String>
-		<String _locid="450001">聚合厅外联部长，锦衣卫统帅。装备聚合人体学战袍，有较高生命值。</String>
-		<String _locid="470001">聚合厅外联部长，锦衣卫统帅。装备聚合人体学战袍，有较高生命值。</String>
+		<string _locid="410001">龙骑田虎</string>
+		<string _locid="430001">WCE 龙骑田虎</string>
+		<string _locid="450001">聚合厅外联部长，锦衣卫统帅。装备聚合人体学战袍，有较高生命值。</string>
+		<string _locid="470001">聚合厅外联部长，锦衣卫统帅。装备聚合人体学战袍，有较高生命值。</string>
 
-		<String _locid="410002">渗透者库纳勒</String>
-		<String _locid="430002">WCE 渗透者库纳勒</String>
-		<String _locid="450002">聚合厅厅长。优秀的侦查员与渗透者。</String>
-		<String _locid="470002">聚合厅厅长。优秀的侦查员与渗透者。</String>
+		<string _locid="410002">渗透者库纳勒</string>
+		<string _locid="430002">WCE 渗透者库纳勒</string>
+		<string _locid="450002">聚合厅厅长。优秀的侦查员与渗透者。</string>
+		<string _locid="470002">聚合厅厅长。优秀的侦查员与渗透者。</string>
 
-		<String _locid="410003">钢铁大和</String>
-		<String _locid="430003">WCE 钢铁大和</String>
-		<String _locid="450003">聚合厅武装部长。装备聚合钢铁护甲，刀枪不入。</String>
-		<String _locid="470003">聚合厅武装部长。装备聚合钢铁护甲，刀枪不入。</String>
+		<string _locid="410003">钢铁大和</string>
+		<string _locid="430003">WCE 钢铁大和</string>
+		<string _locid="450003">聚合厅武装部长。装备聚合钢铁护甲，刀枪不入。</string>
+		<string _locid="470003">聚合厅武装部长。装备聚合钢铁护甲，刀枪不入。</string>
 
-		<String _locid="410004">拂晓号</String>
-		<String _locid="430004">WCE 拂晓号</String>
-		<String _locid="450004">由组织斥重金研发的重型战舰，生命值和护甲都很高.</String>
-		<String _locid="470004">由组织斥重金研发的重型战舰，生命值和护甲都很高。</String>
+		<string _locid="410004">拂晓号</string>
+		<string _locid="430004">WCE 拂晓号</string>
+		<string _locid="450004">由组织斥重金研发的重型战舰，生命值和护甲都很高.</string>
+		<string _locid="470004">由组织斥重金研发的重型战舰，生命值和护甲都很高。</string>
 
-		<String _locid="410005">战象维卡斯</String>
-		<String _locid="430005">WCE 战象维卡斯</String>
-		<String _locid="450005">强壮的战象，进攻速度慢但火力十足。</String>
-		<String _locid="470005">强壮的战象，进攻速度慢但火力十足。</String>
+		<string _locid="410005">战象维卡斯</string>
+		<string _locid="430005">WCE 战象维卡斯</string>
+		<string _locid="450005">强壮的战象，进攻速度慢但火力十足。</string>
+		<string _locid="470005">强壮的战象，进攻速度慢但火力十足。</string>
 
-		<String _locid="410006">聚合长枪兵</String>
-		<String _locid="430006">WCE 聚合长枪兵</String>
-		<String _locid="450006">组织训练的长枪兵，装备聚合轻量铁甲，在提高移动速度的同时提高护甲。</String>
-		<String _locid="470006">组织训练的长枪兵，装备聚合轻量铁甲，在提高移动速度的同时提高护甲。</String>
+		<string _locid="410006">聚合长枪兵</string>
+		<string _locid="430006">WCE 聚合长枪兵</string>
+		<string _locid="450006">组织训练的长枪兵，装备聚合轻量铁甲，在提高移动速度的同时提高护甲。</string>
+		<string _locid="470006">组织训练的长枪兵，装备聚合轻量铁甲，在提高移动速度的同时提高护甲。</string>
 
-		<String _locid="410007">聚合骑射手</String>
-		<String _locid="430007">WCE 聚合骑射手</String>
-		<String _locid="450007">聚合厅训练的精英骑射手，装备聚合缓冲护甲，具有较快射速和较高生命值。</String>
-		<String _locid="470007">聚合厅训练的精英骑射手，装备聚合缓冲护甲，具有较快射速和较高生命值。</String>
+		<string _locid="410007">聚合骑射手</string>
+		<string _locid="430007">WCE 聚合骑射手</string>
+		<string _locid="450007">聚合厅训练的精英骑射手，装备聚合缓冲护甲，具有较快射速和较高生命值。</string>
+		<string _locid="470007">聚合厅训练的精英骑射手，装备聚合缓冲护甲，具有较快射速和较高生命值。</string>
 
-		<String _locid="410008">聚合厅设计车</String>
-		<String _locid="430008">WCV 聚合厅设计车</String>
-		<String _locid="450008">用于快速支援聚合厅的兴建。</String>
-		<String _locid="470008">用于快速支援聚合厅的兴建。</String>
+		<string _locid="410008">聚合厅设计车</string>
+		<string _locid="430008">WCV 聚合厅设计车</string>
+		<string _locid="450008">用于快速支援聚合厅的兴建。</string>
+		<string _locid="470008">用于快速支援聚合厅的兴建。</string>
 
-		<String _locid="500000">资源援助</String>
-		<String _locid="540000">作为议会的成员，您将得到联盟的资源援助。（每秒获得2个单位的食物、木材与黄金。）</String>
+		<string _locid="500000">资源援助</string>
+		<string _locid="540000">作为议会的成员，您将得到联盟的资源援助。（每秒获得2个单位的食物、木材与黄金。）</string>
 
-		<String _locid="500001">盾墙</String>
-		<String _locid="540001">使用娴熟的举盾技能帮助队友承受打击。（15s内大幅提高周围我方士兵生命值）</String>
+		<string _locid="500001">盾墙</string>
+		<string _locid="540001">使用娴熟的举盾技能帮助队友承受打击。（15s内大幅提高周围我方士兵生命值）</string>
 
-		<String _locid="500002">火焰风暴</String>
-		<String _locid="540002">【INTEST】向某点同时投掷数枚火环，造成多倍范围伤害</String>
+		<string _locid="500002">火焰风暴</string>
+		<string _locid="540002">【INTEST】向某点同时投掷数枚火环，造成多倍范围伤害</string>
 
-		<String _locid="500003">撼地一击</String>
-		<String _locid="540003">沉重的钢靴对地猛力践踏，给周围敌方士兵巨大伤害</String>
+		<string _locid="500003">撼地一击</string>
+		<string _locid="540003">沉重的钢靴对地猛力践踏，给周围敌方士兵巨大伤害</string>
 
-		<String _locid="500004">狙击</String>
-		<String _locid="540004">【INTEST】花费时间远距离精准瞄准某兵种射击，造成巨大伤害</String>
+		<string _locid="500004">狙击</string>
+		<string _locid="540004">【INTEST】花费时间远距离精准瞄准某兵种射击，造成巨大伤害</string>
 
-		<String _locid="500005">强行军</String>
-		<String _locid="540005">提高周围我方兵种移动速度</String>
+		<string _locid="500005">强行军</string>
+		<string _locid="540005">提高周围我方兵种移动速度</string>
 
-		<String _locid="500006">侵略者</String>
-		<String _locid="540006">唆使队友进行侵略，增加周围部队的攻击力。</String>
+		<string _locid="500006">侵略者</string>
+		<string _locid="540006">唆使队友进行侵略，增加周围部队的攻击力。</string>
 
-		<String _locid="500007">旋风之刃</String>
-		<String _locid="540007">旋风般地挥刃，让周围敌方士兵血流成河。</String>
+		<string _locid="500007">旋风之刃</string>
+		<string _locid="540007">旋风般地挥刃，让周围敌方士兵血流成河。</string>
 
-		<String _locid="500008">鹰眼</String>
-		<String _locid="540008">使用鹰眼侦查一片未知区域。</String>
+		<string _locid="500008">鹰眼</string>
+		<string _locid="540008">使用鹰眼侦查一片未知区域。</string>
 
-		<String _locid="500009">神之恩惠</String>
-		<String _locid="540009">【INTEST】以一定速度治疗大范围内我军士兵。</String>
+		<string _locid="500009">神之恩惠</string>
+		<string _locid="540009">【INTEST】以一定速度治疗大范围内我军士兵。</string>
 
-		<String _locid="500010">骷髅图腾</String>
-		<String _locid="540010">使用骷髅图腾的力量可以快速小范围治疗我军士兵。</String>
+		<string _locid="500010">骷髅图腾</string>
+		<string _locid="540010">使用骷髅图腾的力量可以快速小范围治疗我军士兵。</string>
 
-		<String _locid="500011">狂风之移</String>
-		<String _locid="540011">激活体内的狂风之灵，数秒内大幅提高自身的移动速度</String>
+		<string _locid="500011">狂风之移</string>
+		<string _locid="540011">激活体内的狂风之灵，数秒内大幅提高自身的移动速度</string>
 
-		<String _locid="500012">战神之怒</String>
-		<String _locid="540012">身上伤疤的疼痛点燃压你在内心的怒火！短时间内大幅提高自身的攻击力和移动速率，但是降低生命值。</String>
+		<string _locid="500012">战神之怒</string>
+		<string _locid="540012">身上伤疤的疼痛点燃压你在内心的怒火！短时间内大幅提高自身的攻击力和移动速率，但是降低生命值。</string>
 
-		<String _locid="500016">战吼</String>
-		<String _locid="540016">雄壮的气势鼓舞了周围士兵，增强了他们的生命值。</String>
+		<string _locid="500016">战吼</string>
+		<string _locid="540016">雄壮的气势鼓舞了周围士兵，增强了他们的生命值。</string>
 
-		<String _locid="500017">洲际导弹</String>
-		<String _locid="540017">【INTEST】精准打击地图上的任意一点，造成大量伤害.</String>
+		<string _locid="500017">洲际导弹</string>
+		<string _locid="540017">【INTEST】精准打击地图上的任意一点，造成大量伤害.</string>
 
-		<String _locid="500018">战术指导</String>
-		<String _locid="540018">【INTEST】增加周围士兵攻击力。</String>
+		<string _locid="500018">战术指导</string>
+		<string _locid="540018">【INTEST】增加周围士兵攻击力。</string>
 
-		<String _locid="500019">背水一战</String>
-		<String _locid="540019">短时间内大幅增加周围士兵攻击力，但是降低生命值。</String>
+		<string _locid="500019">背水一战</string>
+		<string _locid="540019">短时间内大幅增加周围士兵攻击力，但是降低生命值。</string>
 
-		<String _locid="500020">火球术</String>
-		<String _locid="540020">【INTEST】投掷火球造成范围伤害.</String>
+		<string _locid="500020">火球术</string>
+		<string _locid="540020">【INTEST】投掷火球造成范围伤害.</string>
 
-		<String _locid="500021">大和战法</String>
-		<String _locid="540021">提高周围士兵移动速度.</String>
+		<string _locid="500021">大和战法</string>
+		<string _locid="540021">提高周围士兵移动速度.</string>
 
-		<String _locid="500022">聚合引擎</String>
-		<String _locid="540022">短时间内大幅增加自身移动速度，但是降低生命值.</String>
+		<string _locid="500022">聚合引擎</string>
+		<string _locid="540022">短时间内大幅增加自身移动速度，但是降低生命值.</string>
 
-		<String _locid="500023">攻城堡垒</String>
-		<String _locid="540023">一段时间时间内大幅增加自身生命值和攻击力，但是降低移动速度.</String>
+		<string _locid="500023">攻城堡垒</string>
+		<string _locid="540023">一段时间时间内大幅增加自身生命值和攻击力，但是降低移动速度.</string>
 
-		<String _locid="500024">渗透破坏</String>
-		<String _locid="540024">渗透破坏</String>
+		<string _locid="500024">渗透破坏</string>
+		<string _locid="540024">渗透破坏</string>
 
-		<String _locid="6000">西方联盟</String>
-		<String _locid="600000">与西方结盟，获得议会的支持</String>
-		<String _locid="640000">与西方结盟，获得议会的支持</String>
+		<string _locid="6000">西方联盟</string>
+		<string _locid="600000">与西方结盟，获得议会的支持</string>
+		<string _locid="640000">与西方结盟，获得议会的支持</string>
 
-		<String _locid="7000">阿米娅誓言</String>
-		<String _locid="700000">祭祀阿米娅女神，赢得部落的信任</String>
-		<String _locid="740000">祭祀阿米娅女神，赢得部落的信任</String>
+		<string _locid="7000">阿米娅誓言</string>
+		<string _locid="700000">祭祀阿米娅女神，赢得部落的信任</string>
+		<string _locid="740000">祭祀阿米娅女神，赢得部落的信任</string>
 
-		<String _locid="8000">聚合条约</String>
-		<String _locid="800000">签订聚合条约，取得组织的帮助</String>
-		<String _locid="840000">签订聚合条约，取得组织的帮助</String>
+		<string _locid="8000">聚合条约</string>
+		<string _locid="800000">签订聚合条约，取得组织的帮助</string>
+		<string _locid="840000">签订聚合条约，取得组织的帮助</string>
 	<!--NativeED String Ends-->
