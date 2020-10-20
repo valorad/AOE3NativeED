@@ -42,9 +42,9 @@
 		<animfile>buildings\spc\ossuary\spc_ossuary.xml</animfile>
 		<impacttype>Stone</impacttype>
 		<physicsinfo>house</physicsinfo>
-		<icon>buildings\spc\ossuary\spc_ossuary_icon_64x64</icon>
+		<icon>resources\art\buildings\spc\ossuary\spc_ossuary_icon_64x64.png</icon>
 		<minimapicon>ui\minimap\fort_star_16x16</minimapicon>
-		<portraiticon>buildings\spc\ossuary\spc_ossuary_portrait</portraiticon>
+		<portraiticon>resources\art\buildings\spc\ossuary\spc_ossuary_portrait.png</portraiticon>
 		<rollovertextid>240000</rollovertextid>
 		<shortrollovertextid>260000</shortrollovertextid>
 		<initialhitpoints>30000.0000</initialhitpoints>
@@ -131,8 +131,8 @@
 		<animfile>units\WCEJason\WCEJason.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\infantry\redolero\redolero_icon_64x64</icon>
-		<portraiticon>units\infantry\redolero\redolero_portrait</portraiticon>
+		<icon>resources\art\units\infantry\redolero\redolero_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\infantry\redolero\redolero_portrait.png</portraiticon>
 		<rollovertextid>250000</rollovertextid>
 		<shortrollovertextid>270000</shortrollovertextid>
 		<initialhitpoints>13500.0000</initialhitpoints>
@@ -239,8 +239,8 @@
 		<animfile>units\WCERoderhan\WCERoderhan.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\spc\hoop_thrower\hoop_thrower_icon</icon>
-		<portraiticon>units\spc\hoop_thrower\hoop_thrower_portrait</portraiticon>
+		<icon>resources\art\units\spc\hoop_thrower\hoop_thrower_icon.png</icon>
+		<portraiticon>resources\art\units\spc\hoop_thrower\hoop_thrower_portrait.png</portraiticon>
 		<rollovertextid>250001</rollovertextid>
 		<shortrollovertextid>270001</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -345,8 +345,8 @@
 		<animfile>units\WCESteelBoots\WCESteelBoots_horse.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>ui\Units\elmeti_icon</icon>
-		<portraiticon>ui\Units\elmeti_portrait</portraiticon>
+		<icon>ui\Units\elmeti_icon.png</icon>
+		<portraiticon>ui\Units\elmeti_portrait.png</portraiticon>
 		<rollovertextid>250002</rollovertextid>
 		<shortrollovertextid>270002</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -460,8 +460,8 @@
 		<turnrate>18.0000</turnrate>
 		<animfile>units\WCERaiit\WCERaiit.xml</animfile>
 		<impacttype>Flesh</impacttype>
-		<icon>units\spc\john_black\john_black_icon_64x64</icon>
-		<portraiticon>units\spc\john_black\john_black_igc_icon</portraiticon>
+		<icon>resources\art\units\spc\john_black\john_black_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\spc\john_black\john_black_igc_icon.png</portraiticon>
 		<rollovertextid>250003</rollovertextid>
 		<shortrollovertextid>270003</shortrollovertextid>
 		<initialhitpoints>5000.0000</initialhitpoints>
@@ -560,8 +560,8 @@
 		<animfile>units\WCERayman\WCERayman_horse.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>units\cavalry\lancer\lancer_icon</icon>
-		<portraiticon>units\cavalry\lancer\lancer_portrait</portraiticon>
+		<icon>resources\art\units\cavalry\lancer\lancer_icon.png</icon>
+		<portraiticon>resources\art\units\cavalry\lancer\lancer_portrait.png</portraiticon>
 		<rollovertextid>250004</rollovertextid>
 		<shortrollovertextid>270004</shortrollovertextid>
 		<initialhitpoints>7000.0000</initialhitpoints>
@@ -668,8 +668,8 @@
 		<animfile>units\WCECaroide\WCECaroide_horse.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>units\mercenaries\black_rider\black_rider_icon_64x64</icon>
-		<portraiticon>units\mercenaries\black_rider\black_rider_portrait</portraiticon>
+		<icon>resources\art\units\mercenaries\black_rider\black_rider_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\mercenaries\black_rider\black_rider_portrait.png</portraiticon>
 		<rollovertextid>250005</rollovertextid>
 		<shortrollovertextid>270005</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -779,8 +779,8 @@
 		<turnrate>3.0000</turnrate>
 		<animfile>units\artillery\rocket\rocket.xml</animfile>
 		<impacttype>Wood</impacttype>
-		<icon>units\artillery\rocket\rocket_icon</icon>
-		<portraiticon>units\artillery\rocket\rocket_portrait</portraiticon>
+		<icon>resources\art\units\artillery\rocket\rocket_icon.png</icon>
+		<portraiticon>resources\art\units\artillery\rocket\rocket_portrait.png</portraiticon>
 		<rollovertextid>250006</rollovertextid>
 		<shortrollovertextid>270006</shortrollovertextid>
 		<initialhitpoints>350.0000</initialhitpoints>
@@ -861,8 +861,8 @@
 		<animfile>units\WCEDonaraad\WCEDonaraad.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\asians\indians\rajput\rajput_icon_64</icon>
-		<portraiticon>units\asians\indians\rajput\rajput_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\indians\rajput\rajput_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\indians\rajput\rajput_icon_portrait.png</portraiticon>
 		<rollovertextid>250007</rollovertextid>
 		<shortrollovertextid>270007</shortrollovertextid>
 		<initialhitpoints>8000.0000</initialhitpoints>
@@ -982,8 +982,8 @@
 		<animfile>units\WCEPhillip\WCEPhillip.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\infantry_ranged\longbow\longbow_icon</icon>
-		<portraiticon>units\infantry_ranged\longbow\longbow_portrait</portraiticon>
+		<icon>resources\art\units\infantry_ranged\longbow\longbow_icon.png</icon>
+		<portraiticon>resources\art\units\infantry_ranged\longbow\longbow_portrait.png</portraiticon>
 		<rollovertextid>250008</rollovertextid>
 		<shortrollovertextid>270008</shortrollovertextid>
 		<initialhitpoints>7500.0000</initialhitpoints>
@@ -1148,8 +1148,8 @@
 		<animfile>units\infantry\boneguard\boneguard.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\infantry\boneguard\boneguard_age1_icon_64x64</icon>
-		<portraiticon>units\infantry\boneguard\boneguard_age1_portrait</portraiticon>
+		<icon>resources\art\units\infantry\boneguard\boneguard_age1_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\infantry\boneguard\boneguard_age1_portrait.png</portraiticon>
 		<rollovertextid>250009</rollovertextid>
 		<shortrollovertextid>270009</shortrollovertextid>
 		<initialhitpoints>1500.0000</initialhitpoints>
@@ -1244,8 +1244,8 @@
 		<animfile>units\naval\monitor\monitor.xml</animfile>
 		<impacttype>Wood</impacttype>
 		<physicsinfo>house</physicsinfo>
-		<icon>units\naval\monitor\monitor_icon_64x64</icon>
-		<portraiticon>units\naval\monitor\monitor_icon_portrait</portraiticon>
+		<icon>resources\art\units\naval\monitor\monitor_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\naval\monitor\monitor_icon_portrait.png</portraiticon>
 		<rollovertextid>250010</rollovertextid>
 		<shortrollovertextid>270010</shortrollovertextid>
 		<initialhitpoints>3000.0000</initialhitpoints>
@@ -1348,8 +1348,8 @@
 		<turnrate>5.0000</turnrate>
 		<animfile>units\trade\supply_cart\supply_cart_factory.xml</animfile>
 		<impacttype>Wood</impacttype>
-		<icon>units\trade\factory_wagon_icon_64x64</icon>
-		<portraiticon>units\trade\factory_wagon_portrait</portraiticon>
+		<icon>resources\art\units\trade\factory_wagon_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\trade\factory_wagon_portrait.png</portraiticon>
 		<rollovertextid>250011</rollovertextid>
 		<shortrollovertextid>270011</shortrollovertextid>
 		<initialhitpoints>250.0000</initialhitpoints>
@@ -1415,9 +1415,9 @@
 		<movementtype>land</movementtype>
 		<animfile>buildings\spc\aztec_temple\spc_aztec_temple.xml</animfile>
 		<impacttype>Wood</impacttype>
-		<icon>buildings\spc\aztec_temple\aztec_temple_icon_64x64</icon>
+		<icon>resources\art\buildings\spc\aztec_temple\aztec_temple_icon_64x64.png</icon>
 		<minimapicon>ui\minimap\highlighted item</minimapicon>
-		<portraiticon>buildings\spc\aztec_temple\aztec_temple_portrait</portraiticon>
+		<portraiticon>resources\art\buildings\spc\aztec_temple\aztec_temple_portrait.png</portraiticon>
 		<rollovertextid>340000</rollovertextid>
 		<shortrollovertextid>360000</shortrollovertextid>
 		<initialhitpoints>30000.0000</initialhitpoints>
@@ -1497,8 +1497,8 @@
 		<animfile>units\WCEShiriki\WCEShiriki.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_skull_knight_icon</icon>
-		<portraiticon>ui\units\az_skull_knight_portrait</portraiticon>
+		<icon>ui\units\az_skull_knight_icon.png</icon>
+		<portraiticon>ui\units\az_skull_knight_portrait.png</portraiticon>
 		<rollovertextid>350000</rollovertextid>
 		<shortrollovertextid>370000</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1621,8 +1621,8 @@
 		<animfile>units\WCEWamblee\WCEWamblee.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_eagle_knight_icon</icon>
-		<portraiticon>ui\units\az_eagle_knight_portrait</portraiticon>
+		<icon>ui\units\az_eagle_knight_icon.png</icon>
+		<portraiticon>ui\units\az_eagle_knight_portrait.png</portraiticon>
 		<rollovertextid>350001</rollovertextid>
 		<shortrollovertextid>370001</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1719,8 +1719,8 @@
 		<animfile>units\WCECheveyo\WCECheveyo.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\natives\jaguar_warrior_icon</icon>
-		<portraiticon>units\natives\jaguar_warrior_portrait</portraiticon>
+		<icon>resources\art\units\natives\jaguar_warrior_icon.png</icon>
+		<portraiticon>resources\art\units\natives\jaguar_warrior_portrait.png</portraiticon>
 		<rollovertextid>350002</rollovertextid>
 		<shortrollovertextid>370002</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -1823,8 +1823,8 @@
 		<animfile>units\WCEMakya\WCEMakya.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\sx_warbow_icon</icon>
-		<portraiticon>ui\units\sx_warbow_portrait</portraiticon>
+		<icon>ui\units\sx_warbow_icon.png</icon>
+		<portraiticon>ui\units\sx_warbow_portrait.png</portraiticon>
 		<rollovertextid>350003</rollovertextid>
 		<shortrollovertextid>370003</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1981,8 +1981,8 @@
 		<animfile>units\WCEOhanzee\WCEOhanzee.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\iro_forrest_runner_icon</icon>
-		<portraiticon>ui\units\iro_forrest_runner_portrait</portraiticon>
+		<icon>ui\units\iro_forrest_runner_icon.png</icon>
+		<portraiticon>ui\units\iro_forrest_runner_portrait.png</portraiticon>
 		<rollovertextid>350004</rollovertextid>
 		<shortrollovertextid>370004</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -2153,8 +2153,8 @@
 		<turnrate>5.0000</turnrate>
 		<animfile>units\trade\indian_travois\native_travois.xml</animfile>
 		<impacttype>Wood</impacttype>
-		<icon>units\trade\travois_icon_64</icon>
-		<portraiticon>units\trade\travois_icon_portrait</portraiticon>
+		<icon>resources\art\units\trade\travois_icon_64.png</icon>
+		<portraiticon>resources\art\units\trade\travois_icon_portrait.png</portraiticon>
 		<rollovertextid>350005</rollovertextid>
 		<shortrollovertextid>370005</shortrollovertextid>
 		<initialhitpoints>250.0000</initialhitpoints>
@@ -2225,8 +2225,8 @@
 		<turnrate>3.0000</turnrate>
 		<animfile>units\natives\mantlet.xml</animfile>
 		<impacttype>Flesh</impacttype>
-		<icon>units\natives\mantlet_icon</icon>
-		<portraiticon>units\natives\mantlet_portrait</portraiticon>
+		<icon>resources\art\units\natives\mantlet_icon.png</icon>
+		<portraiticon>resources\art\units\natives\mantlet_portrait.png</portraiticon>
 		<rollovertextid>350006</rollovertextid>
 		<shortrollovertextid>370006</shortrollovertextid>
 		<initialhitpoints>1000.0000</initialhitpoints>
@@ -2316,8 +2316,8 @@
 		<animfile>units\natives\aztec\coyote_man\coyote_man.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_coyote_man_icon</icon>
-		<portraiticon>ui\units\az_coyote_man_portrait</portraiticon>
+		<icon>ui\units\az_coyote_man_icon.png</icon>
+		<portraiticon>ui\units\az_coyote_man_portrait.png</portraiticon>
 		<rollovertextid>350007</rollovertextid>
 		<shortrollovertextid>370007</shortrollovertextid>
 		<initialhitpoints>1500.0000</initialhitpoints>
@@ -2414,8 +2414,8 @@
 		<animfile>units\WCEBidziil\WCEBidziil.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>ui\units\cheyenne_cav_icon</icon>
-		<portraiticon>ui\units\cheyenne_cav_portrait</portraiticon>
+		<icon>ui\units\cheyenne_cav_icon.png</icon>
+		<portraiticon>ui\units\cheyenne_cav_portrait.png</portraiticon>
 		<rollovertextid>350008</rollovertextid>
 		<shortrollovertextid>370008</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -2580,9 +2580,9 @@
 		<impacttype>Wood</impacttype>
 		<physicsinfo>barracks</physicsinfo>
 		<placementfile>buildinglarge.xml</placementfile>
-		<icon>buildings\wonders\toshogu_shrine\toshogu_shrine_icon_64</icon>
+		<icon>resources\art\buildings\wonders\toshogu_shrine\toshogu_shrine_icon_64.png</icon>
 		<minimapicon>ui\minimap\wonder_16x16</minimapicon>
-		<portraiticon>buildings\wonders\toshogu_shrine\toshogu_shrine_icon_portrait</portraiticon>
+		<portraiticon>resources\art\buildings\wonders\toshogu_shrine\toshogu_shrine_icon_portrait.png</portraiticon>
 		<rollovertextid>440000</rollovertextid>
 		<shortrollovertextid>460000</shortrollovertextid>
 		<initialhitpoints>30000.0000</initialhitpoints>
@@ -2673,8 +2673,8 @@
 		<animfile>units\WCEGongyi\WCEGongyi.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_64</icon>
-		<portraiticon>units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\chinese\chu_ko_nu\chu_ko_nu_icon_portrait.png</portraiticon>
 		<rollovertextid>450000</rollovertextid>
 		<shortrollovertextid>470000</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -2834,8 +2834,8 @@
 		<animfile>units\WCETianhu\WCETianhu.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>units\asians\chinese\steppe_rider\steppe_rider_icon_64</icon>
-		<portraiticon>units\asians\chinese\steppe_rider\steppe_rider_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\chinese\steppe_rider\steppe_rider_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\chinese\steppe_rider\steppe_rider_icon_portrait.png</portraiticon>
 		<rollovertextid>450001</rollovertextid>
 		<shortrollovertextid>470001</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -2948,8 +2948,8 @@
 		<animfile>units\WCEKunal\WCEKunal.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\asians\spc\arsonist\arsonist_icon_64</icon>
-		<portraiticon>units\asians\spc\arsonist\arsonist_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\spc\arsonist\arsonist_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\spc\arsonist\arsonist_icon_portrait.png</portraiticon>
 		<rollovertextid>450002</rollovertextid>
 		<shortrollovertextid>470002</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -3099,8 +3099,8 @@
 		<animfile>units\WCEYamato\WCEYamato.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\mercenaries\samurai\ronin_icon</icon>
-		<portraiticon>units\mercenaries\samurai\ronin_portrait</portraiticon>
+		<icon>resources\art\units\mercenaries\samurai\ronin_icon.png</icon>
+		<portraiticon>resources\art\units\mercenaries\samurai\ronin_portrait.png</portraiticon>
 		<rollovertextid>450003</rollovertextid>
 		<shortrollovertextid>470003</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -3221,8 +3221,8 @@
 		<animfile>units\WCEAkatsuki\WCEAkatsuki.xml</animfile>
 		<impacttype>Wood</impacttype>
 		<physicsinfo>house</physicsinfo>
-		<icon>units\asians\naval\tekkousen\tekkousen_icon_64</icon>
-		<portraiticon>units\asians\naval\tekkousen\tekkousen_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\naval\tekkousen\tekkousen_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\naval\tekkousen\tekkousen_icon_portrait.png</portraiticon>
 		<rollovertextid>450004</rollovertextid>
 		<shortrollovertextid>470004</shortrollovertextid>
 		<initialhitpoints>12500.0000</initialhitpoints>
@@ -3323,8 +3323,8 @@
 		<turnrate>4.5000</turnrate>
 		<animfile>units\WCEVikas\WCEVikas.xml</animfile>
 		<impacttype>Flesh</impacttype>
-		<icon>units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_64</icon>
-		<portraiticon>units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\indians\mansabdar\siege_elephant_mansabdar_icon_portrait.png</portraiticon>
 		<rollovertextid>450005</rollovertextid>
 		<shortrollovertextid>470005</shortrollovertextid>
 		<initialhitpoints>12000.0000</initialhitpoints>
@@ -3409,8 +3409,8 @@
 		<animfile>units\asians\chinese\qiang_pikeman\qiang_pikeman.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_64</icon>
-		<portraiticon>units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\chinese\qiang_pikeman\qiang_pikeman_icon_portrait.png</portraiticon>
 		<selectionpriority>20</selectionpriority>
 		<rollovertextid>450006</rollovertextid>
 		<shortrollovertextid>470006</shortrollovertextid>
@@ -3512,8 +3512,8 @@
 		<animfile>units\mercenaries\manchurian_archer\manchurian_archer_horse.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>units\mercenaries\manchurian_archer\manchurian_archer_icon_64x64</icon>
-		<portraiticon>units\mercenaries\manchurian_archer\manchurian_archer_portrait</portraiticon>
+		<icon>resources\art\units\mercenaries\manchurian_archer\manchurian_archer_icon_64x64.png</icon>
+		<portraiticon>resources\art\units\mercenaries\manchurian_archer\manchurian_archer_portrait.png</portraiticon>
 		<rollovertextid>450007</rollovertextid>
 		<shortrollovertextid>470007</shortrollovertextid>
 		<initialhitpoints>2000.0000</initialhitpoints>
@@ -3608,8 +3608,8 @@
 		<turnrate>5.0000</turnrate>
 		<animfile>units\asians\shared\wagon\misc_wagon.xml</animfile>
 		<impacttype>Wood</impacttype>
-		<icon>units\asians\shared\wagon\chinese_town_center_wagon_icon_64</icon>
-		<portraiticon>units\asians\shared\wagon\chinese_town_center_wagon_icon_portrait</portraiticon>
+		<icon>resources\art\units\asians\shared\wagon\chinese_town_center_wagon_icon_64.png</icon>
+		<portraiticon>resources\art\units\asians\shared\wagon\chinese_town_center_wagon_icon_portrait.png</portraiticon>
 		<rollovertextid>450008</rollovertextid>
 		<shortrollovertextid>470008</shortrollovertextid>
 		<initialhitpoints>250.0000</initialhitpoints>
