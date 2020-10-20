@@ -1,0 +1,14 @@
+
+
+<tactics>
+	<action>
+		<name stringid="500000">WCSResSupportACT</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+	</action>
+
+	<tactic>
+		Normal
+		<action priority="100">WCSResSupportACT</action>
+	</tactic>
+</tactics>

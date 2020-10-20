@@ -1,0 +1,14 @@
+
+
+<animfile>
+	<component>
+		two_handed_axe
+		<assetreference type="GrannyModel">
+			<file>units\natives\aztec\skull_knight\skull_knight_axe</file>
+		</assetreference>
+	</component>
+	<anim>
+		Idle
+		<component>two_handed_axe</component>
+	</anim>
+</animfile>

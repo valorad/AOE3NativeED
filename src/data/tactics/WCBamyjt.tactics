@@ -1,0 +1,17 @@
+
+
+<tactics>
+	<action>
+		<name stringid="500009">WCSGoodnessBless</name>
+		<type>Heal</type>
+		<maxrange>30</maxrange>
+		<rate type="LogicalTypeHealed">3</rate>
+		<active>1</active>
+		
+	</action>
+
+	<tactic>
+		Normal
+		<action>WCSGoodnessBless</action>
+	</tactic>
+</tactics>

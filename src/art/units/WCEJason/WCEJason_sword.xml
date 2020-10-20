@@ -1,0 +1,19 @@
+
+
+<animfile>
+	<component>
+		sword
+		<logic type="LowPoly">
+			<normal>
+				<assetreference type="GrannyModel">
+					<file>units\infantry\redolero\redolero_sword3</file>
+				</assetreference>
+			</normal>
+			<lowpoly/>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>sword</component>
+	</anim>
+</animfile>

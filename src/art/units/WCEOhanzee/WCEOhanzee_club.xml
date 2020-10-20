@@ -1,0 +1,23 @@
+
+
+<animfile>
+	<component>
+		club
+		<logic type="Tech">
+			<none>
+				<assetreference type="GrannyModel">
+					<file>units\natives\iroquois\musket_warrior\club</file>
+				</assetreference>
+			</none>
+			<championmusketwarriors>
+				<assetreference type="GrannyModel">
+					<file>units\natives\iroquois\musket_warrior\club_champion</file>
+				</assetreference>
+			</championmusketwarriors>
+		</logic>
+	</component>
+	<anim>
+		Idle
+		<component>club</component>
+	</anim>
+</animfile>

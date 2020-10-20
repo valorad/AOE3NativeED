@@ -1,0 +1,34 @@
+
+
+<tactics>
+	<action>
+		<name stringid="500017">WCSICBMACT</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+
+		<anim>RangedAttackShip</anim>
+
+		<idleanim>Idle</idleanim>
+		<projectile>RocketShell</projectile>
+		<numberprojectiles>1</numberprojectiles>
+		<impacteffect>effects\impacts\mortar</impacteffect>
+		<accuracy>1.0</accuracy>
+		<aimbonus>5</aimbonus>
+		<throw>1</throw>
+		<rate type="All">1.0 </rate>
+		<perfectaccuracy>1</perfectaccuracy>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<outerdamageareadistance>.25</outerdamageareadistance>
+		<outerdamageareafactor>.20</outerdamageareafactor>
+	</action>
+
+	<tactic>
+		Normal
+		<action priority="1">WCSICBMACT</action>
+	</tactic>
+
+</tactics>

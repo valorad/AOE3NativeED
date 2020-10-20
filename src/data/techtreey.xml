@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--> 附加到决定版 Data/techtreey.xml中 <!-->
+
+<!--西方国家部分。 将代码添加到以下国家项的末尾-->
+
+      <!--> NativeED mod enabler EU Starts <!-->
+      <effect type="TechStatus" status="active">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+      <!--> NativeED mod enabler EU Ends <!-->
+
+<!--西方国家有： -->
+<ul>
+    <li>Age0French</li>
+    <li>Age0Russian</li>
+    <li>Age0British</li>
+    <li>Age0Dutch</li>
+    <li>Age0German</li>
+    <li>Age0Portuguese</li>
+    <li>Age0Ottoman</li>
+    <li>Age0Spanish</li>
+    <li>Age0SPCAct2</li>
+    <li>Age0SPCAct1</li>
+    <li>Age0SPCAct3</li>
+</ul>
+
+
+<!--示例：-->
+<tech name="Age0French" type="Normal">
+    <dbid>105</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+        <!-- ... -->
+        <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
+        <!--> NativeED mod enabler EU Starts <!-->
+        <effect type="TechStatus" status="active">WCTxfjsyhTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+        <!--> NativeED mod enabler EU Ends <!-->
+    </effects>
+</tech>
+
+<!--美洲国家部分。 将代码添加到以下国家项的末尾-->
+
+<!--> NativeED mod enabler NA Starts <!-->
+<effect type="TechStatus" status="active">WCTamyjtTech</effect>
+<effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+<effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+<!--> NativeED mod enabler NA Ends <!-->
+
+<!--美洲国家有： -->
+<ul>
+    <li>Age0XPIroquois</li>
+    <li>Age0XPAztec</li>
+    <li>Age0XPSioux</li>
+    <li>Age0XPSPC</li>
+    <li>XPSPCAct1Age0</li>
+    <li>XPSPCAct2Age0</li>
+</ul>
+
+<!--示例：-->
+<tech name="Age0XPIroquois" type="Normal">
+    <dbid>2713</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+        <!-- ... -->
+        <effect type="Data" action="Gather" amount="0.75" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+            <target type="ProtoUnit">Herdable</target>
+        </effect>
+        <!--> NativeED mod enabler NA Starts <!-->
+        <effect type="TechStatus" status="active">WCTamyjtTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+        <!--> NativeED mod enabler NA Ends <!-->
+    </effects>
+</tech>
+
+<!--亚洲国家部分。 将代码添加到以下国家项的末尾-->
+
+<!--> NativeED mod enabler AS Starts <!-->
+<effect type="TechStatus" status="active">WCTjhtTech</effect>
+<effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+<effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+<!--> NativeED mod enabler AS Ends <!-->
+
+<!--亚洲国家有： -->
+<ul>
+    <li>YPAge0Japanese</li>
+    <li>YPAge0Chinese</li>
+    <li>YPAge0Indians</li>
+    <li>YPAge0JapaneseSPC</li>
+    <li>YPAge0ChineseClone6</li>
+    <li>YPAge0ChineseSPC</li>
+    <li>YPAge0IndiansSPC</li>
+</ul>
+
+<!--示例：-->
+<tech name="YPAge0Japanese" type="Normal">
+    <dbid>3525</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+        <!-- ... -->
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">ypBankAsian</target>
+        </effect>
+        <!--> NativeED mod enabler AS Starts <!-->
+        <effect type="TechStatus" status="active">WCTjhtTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+        <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+        <!--> NativeED mod enabler AS Ends <!-->
+    </effects>
+</tech>
+
+<!-- 科技部分。 将代码添加到techtreeY文件末尾-->
+
+<!-- AOE3 NativeED mod Tech Starts -->
+
+<tech name="WCTxfjsyhTech" type="Normal">
+    <dbid>6000</dbid>
+    <status>UNOBTAINABLE</status>
+    <rollovertextid>640000</rollovertextid>
+    <cost resourcetype="Gold">3000.0000</cost>
+    <researchpoints>300.0000</researchpoints>
+    <icon>buildings\capitol\capitol_portrait</icon>
+    <prereqs>
+        <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCBxfjsyh</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEJason</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCERoderhan</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCESteelBoots</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCERaiit</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCERayman</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCECaroide</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEGraRockMis</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEDonaraad</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEPhillip</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEChampion</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEAlliedMonitor</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCVCouncilConsWagon</target>
+        </effect>
+    </effects>
+</tech>
+<tech name="WCTamyjtTech" type="Normal">
+    <dbid>7000</dbid>
+    <status>UNOBTAINABLE</status>
+    <displaynameid>700000</displaynameid>
+    <rollovertextid>740000</rollovertextid>
+    <cost resourcetype="Wood">3000.0000</cost>
+    <researchpoints>300.0000</researchpoints>
+    <icon>ui\techs\asians\army_of_the_pure</icon>
+    <prereqs>
+        <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCBamyjt</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEShiriki</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEWamblee</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCECheveyo</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEMakya</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEOhanzee</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCVAltarConsWagon</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEAmiasShield</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCELycanWarrior</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEBidziil</target>
+        </effect>
+    </effects>
+</tech>
+<tech name="WCTjhtTech" type="Normal">
+    <dbid>8000</dbid>
+    <status>UNOBTAINABLE</status>
+    <displaynameid>800000</displaynameid>
+    <rollovertextid>840000</rollovertextid>
+    <cost resourcetype="Food">3000.0000</cost>
+    <researchpoints>300.0000</researchpoints>
+    <icon>ui\techs\asians\army_of_the_pure</icon>
+    <prereqs>
+        <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCBjht</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEGongyi</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCETianhu</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEKunal</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEYamato</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEAkatsuki</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEVikas</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEJuhePikeman</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCEJuheHorseArcher</target>
+        </effect>
+        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+            <target type="ProtoUnit">WCVJuheConsWagon</target>
+        </effect>
+    </effects>
+</tech>
+
+<!-- AOE3 NativeED mod Tech Ends -->

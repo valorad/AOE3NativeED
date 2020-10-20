@@ -1,0 +1,328 @@
+
+
+<tactics>
+	<action>
+		<name stringid="69148">Discover</name>
+		<type>Discover</type>
+		<anim>Pickup</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="AbstractNugget">1.0</rate>
+	</action>
+	<action>
+		<name stringid="38127">VolleyRangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Volley_standing_attack</anim>
+		<idleanim>Volley_standing_idle</idleanim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>TorchProjectile</projectile>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>450.0</impactforcemin>
+		<impactforcemax>600.0</impactforcemax>
+		<impactlaunchangle>50.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38118">BuildingAttack</name>
+		<type>Attack</type>
+		<rangedlogic>1</rangedlogic>
+		<maxrange>6</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Volley_standing_attack</anim>
+		<idleanim>Volley_standing_idle</idleanim>
+		<projectile>TorchProjectile</projectile>
+		<impacteffect>effects\impacts\torch</impacteffect>
+	</action>
+	<action>
+		<name stringid="38130">VolleyHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="38136">DefendRangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Volley_standing_attack</anim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>TorchProjectile</projectile>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>450.0</impactforcemin>
+		<impactforcemax>600.0</impactforcemax>
+		<impactlaunchangle>50.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38137">DefendHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="38129">StaggerRangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>Volley_standing_attack</anim>
+		<idleanim>Volley_standing_idle</idleanim>
+		<accuracy>1.0</accuracy>
+		<accuracyreductionfactor>0.5</accuracyreductionfactor>
+		<aimbonus>0</aimbonus>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.25</spreadfactor>
+		<trackrating>12</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
+		<projectile>TorchProjectile</projectile>
+		<impacteffect>effects\impacts\torch</impacteffect>
+		<minrange>2</minrange>
+		<rate type="Unit">1.0 </rate>
+		<throw>1</throw>
+		<impactforcemin>450.0</impactforcemin>
+		<impactforcemax>600.0</impactforcemax>
+		<impactlaunchangle>50.0</impactlaunchangle>
+		<areasortmode>Radial</areasortmode>
+		<targetground>1</targetground>
+		<basedamagecap>1</basedamagecap>
+	</action>
+	<action>
+		<name stringid="38132">StaggerHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="38135">MeleeHandAttack</name>
+		<type>Attack</type>
+		<maxrange>2</maxrange>
+		<rate type="Unit">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+	</action>
+	<action>
+		<name stringid="46491">Stealth</name>
+		<type>Stealth</type>
+		<maxrange>20.0</maxrange>
+		<active>1</active>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="500024">WCSSneakBuildingAttack</name>
+		<type>Attack</type>
+		<handlogic>1</handlogic>
+		<maxrange>1.3</maxrange>
+		<rate type="LogicalTypeShipsAndBuildings">1.0 </rate>
+		<attackaction>1</attackaction>
+		<speedboost>1</speedboost>
+		<anim>Charge_attack</anim>
+		<impacteffect>effects\impacts\cannon</impacteffect>
+		<projectile>WCMGodsForce</projectile>
+	</action>
+	<tactic>
+		Volley
+		<action priority="100">VolleyRangedAttack</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="25">VolleyHandAttack</action>
+		<action>Discover</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Volley_standing_idle</idleanim>
+		<boredanim>Volley_standing_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Volley_walk</walkanim>
+		<joganim>Volley_jog</joganim>
+		<runanim>Volley_run</runanim>
+	</tactic>
+	<tactic>
+		Defend
+		<action priority="100">DefendRangedAttack</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="25">DefendHandAttack</action>
+		<action>Discover</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Defend_idle</idleanim>
+		<boredanim>Defend_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>
+	<tactic>
+		Stagger
+		<action priority="100">StaggerRangedAttack</action>
+		<action priority="75">BuildingAttack</action>
+		<action priority="25">StaggerHandAttack</action>
+		<action>Discover</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Cover_ranged_idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>
+	<tactic>
+		Melee
+		<action priority="100">BuildingAttack</action>
+		<action priority="75">MeleeHandAttack</action>
+		<action>Discover</action>
+		<attacktype>LogicalTypeRangedUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype>
+		<runaway>0</runaway>
+		<autoretarget>1</autoretarget>
+		<transition>
+			<tactic>Normal</tactic>
+			<length>0</length>
+			<exit>1</exit>
+		</transition>
+		<transition>
+			<tactic>Stealth</tactic>
+			<length>2</length>
+			<anim>Cover_In</anim>
+			<exit>1</exit>
+		</transition>
+		<idleanim>Charge_idle</idleanim>
+		<boredanim>Charge_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Charge_walk</walkanim>
+		<joganim>Charge_jog</joganim>
+		<runanim>Charge_run</runanim>
+	</tactic>
+	<tactic>
+		Stealth
+		<action>Stealth</action>
+		<action priority="2">WCSSneakBuildingAttack</action>
+		<action>Discover</action>
+		<active>1</active>
+		<checkifcanstealth range="20.0">1</checkifcanstealth>
+		<speedmodifier>0.5</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<transition>
+			<tactic>Volley</tactic>
+			<length>0.8</length>
+			<anim>Cover_Out</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Melee</tactic>
+			<length>0.8</length>
+			<anim>Cover_Out</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Defend</tactic>
+			<length>0.8</length>
+			<anim>Cover_Out</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<transition>
+			<tactic>Stagger</tactic>
+			<length>0.8</length>
+			<anim>Cover_Out</anim>
+			<exit>1</exit>
+			<automatic>1</automatic>
+			<commandautomatic>1</commandautomatic>
+		</transition>
+		<autoretarget>0</autoretarget>
+		<idleanim>Cover_Idle</idleanim>
+		<boredanim>Cover_bored</boredanim>
+		<deathanim>Death_by_melee</deathanim>
+		<walkanim>Cover_walk</walkanim>
+		<joganim>Cover_jog</joganim>
+		<runanim>Cover_run</runanim>
+	</tactic>
+</tactics>
