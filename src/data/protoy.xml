@@ -27,6 +27,12 @@
 
 <!--(然后对 id="1359" 也做相同修改)-->
 
+<!-- 下面的内容加入 id="294" name="TownCenter" 里面-->
+
+    <train row="1" page="0" column="0">WCVCouncilConsWagon</train>
+    <train row="1" page="0" column="0">WCVAltarConsWagon</train>
+    <train row="1" page="0" column="0">WCVJuheConsWagon</train>
+
 <!-- 下面的内容加入文件最后一排Proto闭标签前面-->
 
 <!-- AOE3 NativeED mod Proto Starts -->
