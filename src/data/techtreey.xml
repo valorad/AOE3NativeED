@@ -125,7 +125,7 @@
     <rollovertextid>640000</rollovertextid>
     <cost resourcetype="Gold">3000.0000</cost>
     <researchpoints>300.0000</researchpoints>
-    <icon>buildings\capitol\capitol_portrait</icon>
+    <icon>resources\images\icons\techs\millet_system\millet_system_64x64.png</icon>
     <prereqs>
         <techstatus status="Active">Imperialize</techstatus>
     </prereqs>
@@ -178,7 +178,7 @@
     <rollovertextid>740000</rollovertextid>
     <cost resourcetype="Wood">3000.0000</cost>
     <researchpoints>300.0000</researchpoints>
-    <icon>ui\techs\asians\army_of_the_pure</icon>
+    <icon>resources\images\icons\techs\millet_system\millet_system_64x64.png</icon>
     <prereqs>
         <techstatus status="Active">Imperialize</techstatus>
     </prereqs>
@@ -222,7 +222,7 @@
     <rollovertextid>840000</rollovertextid>
     <cost resourcetype="Food">3000.0000</cost>
     <researchpoints>300.0000</researchpoints>
-    <icon>ui\techs\asians\army_of_the_pure</icon>
+    <icon>resources\images\icons\techs\millet_system\millet_system_64x64.png</icon>
     <prereqs>
         <techstatus status="Active">Imperialize</techstatus>
     </prereqs>

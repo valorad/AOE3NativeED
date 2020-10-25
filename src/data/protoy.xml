@@ -122,8 +122,8 @@
 				<rate type="Food">2.000000</rate>
 		</protoaction>
 </unit>
-<unit id="2100" name="WCEJason">
-		<dbid>2100</dbid>
+<unit id="3100" name="WCEJason">
+		<dbid>3100</dbid>
 		<displaynameid>210000</displaynameid>
 		<editornameid>230000</editornameid>
 		<populationcount>1</populationcount>
@@ -230,8 +230,8 @@
 				<maxrange>1.000000</maxrange>
 		</protoaction>
 </unit>
-<unit id="2101" name="WCERoderhan">
-		<dbid>2101</dbid>
+<unit id="3101" name="WCERoderhan">
+		<dbid>3101</dbid>
 		<displaynameid>210001</displaynameid>
 		<editornameid>230001</editornameid>
 		<populationcount>1</populationcount>
@@ -303,14 +303,14 @@
 		<tactics>WCERoderhan.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>40.000000</damage>
+				<damage>100.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>15.000000</maxrange>
 				<rof>5.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>GrenadeAttack</name>
-				<damage>50.000000</damage>
+				<damage>120.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>12.000000</maxrange>
 				<rof>5.000000</rof>
@@ -320,7 +320,7 @@
 		</protoaction>
 		<protoaction>
 				<name>HandAttack</name>
-				<damage>32.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
@@ -336,8 +336,8 @@
 				<damageflags>GAIAEnemy</damageflags>
 		</protoaction>
 </unit>
-<unit id="2102" name="WCESteelBoots">
-		<dbid>2102</dbid>
+<unit id="3102" name="WCESteelBoots">
+		<dbid>3102</dbid>
 		<displaynameid>210002</displaynameid>
 		<editornameid>230002</editornameid>
 		<populationcount>1</populationcount>
@@ -351,8 +351,8 @@
 		<animfile>units\WCESteelBoots\WCESteelBoots_horse.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>ui\Units\elmeti_icon.png</icon>
-		<portraiticon>ui\Units\elmeti_portrait.png</portraiticon>
+    <icon>resources\art\units\elmeti_icon.png</icon>
+    <portraiticon>resources\art\units\elmeti_portrait.png</portraiticon>
 		<rollovertextid>250002</rollovertextid>
 		<shortrollovertextid>270002</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -453,8 +453,8 @@
 				<damageflags>GAIAEnemy</damageflags>
 		</protoaction>
 </unit>
-<unit id="2103" name="WCERaiit">
-		<dbid>2103</dbid>
+<unit id="3103" name="WCERaiit">
+		<dbid>3103</dbid>
 		<displaynameid>210003</displaynameid>
 		<editornameid>230003</editornameid>
 		<obstructionradiusx>0.4900</obstructionradiusx>
@@ -551,8 +551,8 @@
 				<rof>3.000000</rof>
 		</protoaction>
 </unit>
-<unit id="2104" name="WCERayman">
-		<dbid>2104</dbid>
+<unit id="3104" name="WCERayman">
+		<dbid>3104</dbid>
 		<displaynameid>210004</displaynameid>
 		<editornameid>230004</editornameid>
 		<populationcount>1</populationcount>
@@ -659,8 +659,8 @@
 				<damageflags>Enemy</damageflags>
 		</protoaction>
 </unit>
-<unit id="2105" name="WCECaroide">
-		<dbid>2105</dbid>
+<unit id="3105" name="WCECaroide">
+		<dbid>3105</dbid>
 		<displaynameid>210005</displaynameid>
 		<editornameid>230005</editornameid>
 		<populationcount>1</populationcount>
@@ -771,8 +771,8 @@
 				<damagebonus type="AbstractCoyoteMan">4.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="2106" name="WCEGraRockMis">
-		<dbid>2106</dbid>
+<unit id="3106" name="WCEGraRockMis">
+		<dbid>3106</dbid>
 		<displaynameid>210006</displaynameid>
 		<editornameid>230006</editornameid>
 		<populationcount>6</populationcount>
@@ -852,8 +852,8 @@
 				<damagebonus type="xpArrowKnight">0.700000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="2107" name="WCEDonaraad">
-		<dbid>2107</dbid>
+<unit id="3107" name="WCEDonaraad">
+		<dbid>3107</dbid>
 		<displaynameid>210007</displaynameid>
 		<editornameid>230007</editornameid>
 		<populationcount>1</populationcount>
@@ -973,8 +973,8 @@
 				<damageflags>GAIAEnemy</damageflags>
 		</protoaction>
 </unit>
-<unit id="2108" name="WCEPhillip">
-		<dbid>2108</dbid>
+<unit id="3108" name="WCEPhillip">
+		<dbid>3108</dbid>
 		<displaynameid>210008</displaynameid>
 		<editornameid>230008</editornameid>
 		<populationcount>1</populationcount>
@@ -1139,8 +1139,8 @@
 				<rof>3.000000</rof>
 		</protoaction>
 </unit>
-<unit id="2109" name="WCEChampion">
-		<dbid>2109</dbid>
+<unit id="3109" name="WCEChampion">
+		<dbid>3109</dbid>
 		<displaynameid>210009</displaynameid>
 		<editornameid>230009</editornameid>
 		<populationcount>1</populationcount>
@@ -1236,8 +1236,8 @@
 				<damagebonus type="AbstractCavalry">2.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="2110" name="WCEAlliedMonitor">
-		<dbid>2110</dbid>
+<unit id="3110" name="WCEAlliedMonitor">
+		<dbid>3110</dbid>
 		<displaynameid>210010</displaynameid>
 		<editornameid>230010</editornameid>
 		<obstructionradiusx>2.9900</obstructionradiusx>
@@ -1341,8 +1341,8 @@
 				<damagebonus type="YPDockAsian">0.100000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="2111" name="WCVCouncilConsWagon">
-		<dbid>2111</dbid>
+<unit id="3111" name="WCVCouncilConsWagon">
+		<dbid>3111</dbid>
 		<displaynameid>210011</displaynameid>
 		<editornameid>230011</editornameid>
 		<obstructionradiusx>0.9900</obstructionradiusx>
@@ -1411,8 +1411,8 @@
 				<rate type="WCBxfjsyh">1.500000</rate>
 		</protoaction>
 </unit>
-<unit id="3000" name="WCBamyjt">
-		<dbid>3000</dbid>
+<unit id="4000" name="WCBamyjt">
+		<dbid>4000</dbid>
 		<displaynameid>300000</displaynameid>
 		<editornameid>320000</editornameid>
 		<obstructionradiusx>7.0000</obstructionradiusx>
@@ -1488,8 +1488,8 @@
 				<maxrange>20.000000</maxrange>
 		</protoaction>
 </unit>
-<unit id="3100" name="WCEShiriki">
-		<dbid>3100</dbid>
+<unit id="4100" name="WCEShiriki">
+		<dbid>4100</dbid>
 		<displaynameid>310000</displaynameid>
 		<editornameid>330000</editornameid>
 		<populationcount>1</populationcount>
@@ -1503,8 +1503,8 @@
 		<animfile>units\WCEShiriki\WCEShiriki.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_skull_knight_icon.png</icon>
-		<portraiticon>ui\units\az_skull_knight_portrait.png</portraiticon>
+    <icon>resources\art\units\az_skull_knight_icon.png</icon>
+    <portraiticon>resources\art\units\az_skull_knight_portrait.png</portraiticon>
 		<rollovertextid>350000</rollovertextid>
 		<shortrollovertextid>370000</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1611,8 +1611,8 @@
 				<damagebonus type="AbstractLightInfantry">4.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="3101" name="WCEWamblee">
-		<dbid>3101</dbid>
+<unit id="4101" name="WCEWamblee">
+		<dbid>4101</dbid>
 		<displaynameid>310001</displaynameid>
 		<editornameid>330001</editornameid>
 		<populationcount>1</populationcount>
@@ -1627,8 +1627,8 @@
 		<animfile>units\WCEWamblee\WCEWamblee.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_eagle_knight_icon.png</icon>
-		<portraiticon>ui\units\az_eagle_knight_portrait.png</portraiticon>
+    <icon>resources\art\units\az_eagle_knight_icon.png</icon>
+    <portraiticon>resources\art\units\az_eagle_knight_portrait.png</portraiticon>
 		<rollovertextid>350001</rollovertextid>
 		<shortrollovertextid>370001</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1709,8 +1709,8 @@
 				<damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="3102" name="WCECheveyo">
-		<dbid>3102</dbid>
+<unit id="4102" name="WCECheveyo">
+		<dbid>4102</dbid>
 		<displaynameid>310002</displaynameid>
 		<editornameid>330002</editornameid>
 		<populationcount>0</populationcount>
@@ -1814,8 +1814,8 @@
 				<damagebonus type="AbstractCavalry">4.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="3103" name="WCEMakya">
-		<dbid>3103</dbid>
+<unit id="4103" name="WCEMakya">
+		<dbid>4103</dbid>
 		<displaynameid>310003</displaynameid>
 		<editornameid>330003</editornameid>
 		<populationcount>1</populationcount>
@@ -1829,8 +1829,8 @@
 		<animfile>units\WCEMakya\WCEMakya.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\sx_warbow_icon.png</icon>
-		<portraiticon>ui\units\sx_warbow_portrait.png</portraiticon>
+    <icon>resources\art\units\sx_warbow_icon.png</icon>
+    <portraiticon>resources\art\units\sx_warbow_portrait.png</portraiticon>
 		<rollovertextid>350003</rollovertextid>
 		<shortrollovertextid>370003</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -1972,8 +1972,8 @@
 				<damagebonus type="AbstractCavalry">1.50000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="3104" name="WCEOhanzee">
-		<dbid>3104</dbid>
+<unit id="4104" name="WCEOhanzee">
+		<dbid>4104</dbid>
 		<displaynameid>310004</displaynameid>
 		<editornameid>330004</editornameid>
 		<populationcount>1</populationcount>
@@ -1987,8 +1987,8 @@
 		<animfile>units\WCEOhanzee\WCEOhanzee.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\iro_forrest_runner_icon.png</icon>
-		<portraiticon>ui\units\iro_forrest_runner_portrait.png</portraiticon>
+    <icon>resources\art\units\iro_forrest_runner_icon.png</icon>
+    <portraiticon>resources\art\units\iro_forrest_runner_portrait.png</portraiticon>
 		<rollovertextid>350004</rollovertextid>
 		<shortrollovertextid>370004</shortrollovertextid>
 		<initialhitpoints>10000.0000</initialhitpoints>
@@ -2146,8 +2146,8 @@
 				<damagebonus type="xpCoyoteMan">1.50000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="3105" name="WCVAltarConsWagon">
-		<dbid>3105</dbid>
+<unit id="4105" name="WCVAltarConsWagon">
+		<dbid>4105</dbid>
 		<displaynameid>310005</displaynameid>
 		<editornameid>330005</editornameid>
 		<obstructionradiusx>0.9900</obstructionradiusx>
@@ -2216,8 +2216,8 @@
 				<rate type="WCBamyjt">1.500000</rate>
 		</protoaction>
 </unit>
-<unit id="3106" name="WCEAmiasShield">
-		<dbid>3106</dbid>
+<unit id="4106" name="WCEAmiasShield">
+		<dbid>4106</dbid>
 		<displaynameid>310006</displaynameid>
 		<editornameid>330006</editornameid>
 		<populationcount>0</populationcount>
@@ -2307,8 +2307,8 @@
 				<projectile>Tomahawk</projectile>
 		</protoaction>
 </unit>
-<unit id="3107" name="WCELycanWarrior">
-		<dbid>3107</dbid>
+<unit id="4107" name="WCELycanWarrior">
+		<dbid>4107</dbid>
 		<displaynameid>310007</displaynameid>
 		<editornameid>330007</editornameid>
 		<populationcount>1</populationcount>
@@ -2322,8 +2322,8 @@
 		<animfile>units\natives\aztec\coyote_man\coyote_man.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>dude</physicsinfo>
-		<icon>ui\units\az_coyote_man_icon.png</icon>
-		<portraiticon>ui\units\az_coyote_man_portrait.png</portraiticon>
+    <icon>resources\art\units\az_coyote_man_icon.png</icon>
+    <portraiticon>resources\art\units\az_coyote_man_portrait.png</portraiticon>
 		<rollovertextid>350007</rollovertextid>
 		<shortrollovertextid>370007</shortrollovertextid>
 		<initialhitpoints>1500.0000</initialhitpoints>
@@ -2404,8 +2404,8 @@
 				<rof>1.500000</rof>
 		</protoaction>
 </unit>
-<unit id="3108" name="WCEBidziil">
-		<dbid>3108</dbid>
+<unit id="4108" name="WCEBidziil">
+		<dbid>4108</dbid>
 		<displaynameid>310008</displaynameid>
 		<editornameid>330008</editornameid>
 		<populationcount>1</populationcount>
@@ -2420,8 +2420,8 @@
 		<animfile>units\WCEBidziil\WCEBidziil.xml</animfile>
 		<impacttype>Flesh</impacttype>
 		<physicsinfo>cav</physicsinfo>
-		<icon>ui\units\cheyenne_cav_icon.png</icon>
-		<portraiticon>ui\units\cheyenne_cav_portrait.png</portraiticon>
+    <icon>resources\art\units\cheyenne_cav_icon.png</icon>
+    <portraiticon>resources\art\units\cheyenne_cav_portrait.png</portraiticon>
 		<rollovertextid>350008</rollovertextid>
 		<shortrollovertextid>370008</shortrollovertextid>
 		<initialhitpoints>15000.0000</initialhitpoints>
@@ -2571,8 +2571,8 @@
 		<flag>Invulnerable</flag>
 		<flag>NoUnitAI</flag>
 </unit>
-<unit id="4000" name="WCBjht">
-		<dbid>4000</dbid>
+<unit id="5000" name="WCBjht">
+		<dbid>5000</dbid>
 		<displaynameid>400000</displaynameid>
 		<editornameid>420000</editornameid>
 		<populationcapaddition>20</populationcapaddition>
@@ -2664,8 +2664,8 @@
 				<damagebonus type="YPDockAsian">1.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4100" name="WCEGongyi">
-		<dbid>4100</dbid>
+<unit id="5100" name="WCEGongyi">
+		<dbid>5100</dbid>
 		<displaynameid>410000</displaynameid>
 		<editornameid>430000</editornameid>
 		<populationcount>1</populationcount>
@@ -2825,8 +2825,8 @@
 				<damagebonus type="AbstractCavalry">1.50000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4101" name="WCETianhu">
-		<dbid>4101</dbid>
+<unit id="5101" name="WCETianhu">
+		<dbid>5101</dbid>
 		<displaynameid>410001</displaynameid>
 		<editornameid>430001</editornameid>
 		<populationcount>1</populationcount>
@@ -2939,8 +2939,8 @@
 				<maxrange>10.000000</maxrange>
 		</protoaction>
 </unit>
-<unit id="4102" name="WCEKunal">
-		<dbid>4102</dbid>
+<unit id="5102" name="WCEKunal">
+		<dbid>5102</dbid>
 		<displaynameid>410002</displaynameid>
 		<editornameid>430002</editornameid>
 		<populationcount>1</populationcount>
@@ -3090,8 +3090,8 @@
 				<rof>3.000000</rof>
 		</protoaction>
 </unit>
-<unit id="4103" name="WCEYamato">
-		<dbid>4103</dbid>
+<unit id="5103" name="WCEYamato">
+		<dbid>5103</dbid>
 		<displaynameid>410003</displaynameid>
 		<editornameid>430003</editornameid>
 		<populationcount>1</populationcount>
@@ -3213,8 +3213,8 @@
 				<damagebonus type="AbstractLightInfantry">4.50000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4104" name="WCEAkatsuki">
-		<dbid>4104</dbid>
+<unit id="5104" name="WCEAkatsuki">
+		<dbid>5104</dbid>
 		<displaynameid>410004</displaynameid>
 		<editornameid>430004</editornameid>
 		<obstructionradiusx>2.9900</obstructionradiusx>
@@ -3315,8 +3315,8 @@
 				<maxrange>0.500000</maxrange>
 		</protoaction>
 </unit>
-<unit id="4105" name="WCEVikas">
-		<dbid>4105</dbid>
+<unit id="5105" name="WCEVikas">
+		<dbid>5105</dbid>
 		<displaynameid>410005</displaynameid>
 		<editornameid>430005</editornameid>
 		<populationcount>1</populationcount>
@@ -3400,8 +3400,8 @@
 				<damagebonus type="AbstractArtillery">10.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4106" name="WCEJuhePikeman">
-		<dbid>4106</dbid>
+<unit id="5106" name="WCEJuhePikeman">
+		<dbid>5106</dbid>
 		<displaynameid>410006</displaynameid>
 		<editornameid>430006</editornameid>
 		<populationcount>1</populationcount>
@@ -3503,8 +3503,8 @@
 				<damagebonus type="AbstractLightInfantry">4.50000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4107" name="WCEJuheHorseArcher">
-		<dbid>4107</dbid>
+<unit id="5107" name="WCEJuheHorseArcher">
+		<dbid>5107</dbid>
 		<displaynameid>410007</displaynameid>
 		<editornameid>430007</editornameid>
 		<populationcount>2</populationcount>
@@ -3601,8 +3601,8 @@
 				<damagebonus type="AbstractCoyoteMan">4.000000</damagebonus>
 		</protoaction>
 </unit>
-<unit id="4108" name="WCVJuheConsWagon">
-		<dbid>4108</dbid>
+<unit id="5108" name="WCVJuheConsWagon">
+		<dbid>5108</dbid>
 		<displaynameid>410008</displaynameid>
 		<editornameid>430008</editornameid>
 		<obstructionradiusx>0.9900</obstructionradiusx>
