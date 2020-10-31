@@ -145,7 +145,7 @@
 		<maxhitpoints>13500.0000</maxhitpoints>
 		<los>12.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Food">650.0000</cost>
@@ -203,7 +203,7 @@
 		</protoaction>
 		<protoaction>
 				<name>CoverHandAttack</name>
-				<damage>12.000000</damage>
+				<damage>24.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractCavalry">7.00000</damagebonus>
@@ -212,14 +212,14 @@
 		<protoaction>
 				<name>DefendHandAttack</name>
 				<damagebonus type="AbstractLightInfantry">4.50000</damagebonus>
-				<damage>22.000000</damage>
+				<damage>44.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractCavalry">7.00000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>44.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractCavalry">7.00000</damagebonus>
@@ -254,7 +254,7 @@
 		<los>15.0000</los>
 		<projectileprotounit>Hoop</projectileprotounit>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000</buildbounty>
 		<cost resourcetype="Food">800.0000</cost>
@@ -303,7 +303,7 @@
 		<tactics>WCERoderhan.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>100.000000</damage>
+				<damage>150.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>15.000000</maxrange>
 				<rof>5.000000</rof>
@@ -359,7 +359,7 @@
 		<maxhitpoints>15000.0000</maxhitpoints>
 		<los>12.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>600.0000</trainpoints>
+		<trainpoints>200.0000</trainpoints>
 		<bounty>3000.0000</bounty>
 		<buildbounty>3000.0000</buildbounty>
 		<buildlimit>1</buildlimit>
@@ -415,27 +415,27 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>80.000000</damage>
+				<damage>130.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">6.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>GuardianAttack</name>
-				<damage>80.000000</damage>
+				<damage>130.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>80.000000</damage>
+				<damage>150.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">6.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>TrampleHandAttack</name>
-				<damage>54.000000</damage>
+				<damage>204.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>2.000000</rof>
 				<damagecap>78.000000</damagecap>
@@ -477,7 +477,7 @@
 		<unitaitype>RangedCombative</unitaitype>
 		<bounty>500.0000</bounty>
 		<cost resourcetype="Gold">1500.0000</cost>
-		<trainpoints>150.0000</trainpoints>
+		<trainpoints>50.0000</trainpoints>
 		<allowedage>2</allowedage>
 		<buildlimit>1</buildlimit>
 		<armor type="Hand" value="0.4000"></armor>
@@ -525,7 +525,7 @@
 		</protoaction>
 		<protoaction>
 				<name>HandAttack</name>
-				<damage>28.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
@@ -538,7 +538,7 @@
 		</protoaction>
 		<protoaction>
 				<name>MusketAttack</name>
-				<damage>48.000000</damage>
+				<damage>75.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<maxrange>30.000000</maxrange>
 				<rof>5.000000</rof>
@@ -574,7 +574,7 @@
 		<maxhitpoints>7000.0000</maxhitpoints>
 		<los>35.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Food">330.0000</cost>
@@ -630,30 +630,30 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>40.000000</damage>
+				<damage>120.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">6.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>GuardianAttack</name>
-				<damage>40.000000</damage>
+				<damage>120.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>40.000000</damage>
+				<damage>140.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">6.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>TrampleHandAttack</name>
-				<damage>26.000000</damage>
+				<damage>100.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>2.000000</rof>
-				<damagecap>78.000000</damagecap>
+				<damagecap>178.000000</damagecap>
 				<damagebonus type="AbstractInfantry">6.000000</damagebonus>
 				<damagearea>3.000000</damagearea>
 				<damageflags>Enemy</damageflags>
@@ -683,7 +683,7 @@
 		<los>18.0000</los>
 		<projectileprotounit>InvisibleProjectile</projectileprotounit>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Gold">1000.0000</cost>
@@ -742,7 +742,7 @@
 		<protoaction>
 				<name>DefendRangedAttack</name>
 				<damagebonus type="AbstractVillager">0.500000</damagebonus>
-				<damage>80.000000</damage>
+				<damage>120.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<maxrange>12.000000</maxrange>
 				<rof>3.000000</rof>
@@ -875,7 +875,7 @@
 		<maxhitpoints>8000.0000</maxhitpoints>
 		<los>12.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<buildlimit>1</buildlimit>
@@ -998,7 +998,7 @@
 		<projectileprotounit>Arrow</projectileprotounit>
 		<autoattackrange>20.0000</autoattackrange>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<buildlimit>1</buildlimit>
@@ -1046,13 +1046,14 @@
 		<tactics>WCEPhillip.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>10.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Siege</damagetype>
+				<maxrange>30.000000</maxrange>
 				<rof>3.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -1063,7 +1064,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendRangedAttack</name>
-				<damage>34.000000</damage>
+				<damage>80.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>30.000000</maxrange>
@@ -1076,7 +1077,7 @@
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -1087,7 +1088,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>35.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -1098,7 +1099,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerRangedAttack</name>
-				<damage>34.000000</damage>
+				<damage>38.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>30.000000</maxrange>
@@ -1111,7 +1112,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>35.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -1122,7 +1123,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyRangedAttack</name>
-				<damage>34.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>30.000000</maxrange>
@@ -1511,7 +1512,7 @@
 		<maxhitpoints>10000.0000</maxhitpoints>
 		<los>20.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Gold">1500.0000</cost>
@@ -1573,7 +1574,7 @@
 		</protoaction>
 		<protoaction>
 				<name>CoverHandAttack</name>
-				<damage>15.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.000000</rof>
 				<damagecap>120.000000</damagecap>
@@ -1584,10 +1585,10 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>20.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.000000</rof>
-				<damagecap>120.000000</damagecap>
+				<damagecap>1200.000000</damagecap>
 				<damagebonus type="AbstractCavalry">6.000000</damagebonus>
 				<damagearea>2.000000</damagearea>
 				<damageflags>Enemy</damageflags>
@@ -1595,16 +1596,16 @@
 		</protoaction>
 		<protoaction>
 				<name>GuardianAttack</name>
-				<damage>30.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>30.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.000000</rof>
-				<damagecap>68.000000</damagecap>
+				<damagecap>680.000000</damagecap>
 				<damagebonus type="AbstractCavalry">6.000000</damagebonus>
 				<damagearea>3.000000</damagearea>
 				<damageflags>Enemy</damageflags>
@@ -1637,7 +1638,7 @@
 		<projectileprotounit>Arrow</projectileprotounit>
 		<autoattackrange>16.0000</autoattackrange>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<buildlimit>1</buildlimit>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
@@ -1688,20 +1689,20 @@
 		<tactics>WCEWamblee.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>20.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Siege</damagetype>
 				<rof>3.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>HandAttack</name>
-				<damage>12.000000</damage>
+				<damage>20.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractHeavyInfantry">2.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>VolleyAttack</name>
-				<damage>22.000000</damage>
+				<damage>25.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>14.000000</maxrange>
@@ -1733,7 +1734,7 @@
 		<maxhitpoints>15000.0000</maxhitpoints>
 		<los>20.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>3000.0000</bounty>
 		<buildbounty>3000.0000</buildbounty>
 		<cost resourcetype="Food">2400.0000</cost>
@@ -1788,27 +1789,27 @@
 		</protoaction>
 		<protoaction>
 				<name>CoverBuildingAttack</name>
-				<damage>60.000000</damage>
+				<damage>80.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>6.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>CoverHandAttack</name>
-				<damage>24.000000</damage>
+				<damage>45.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>3.000000</rof>
 				<damagebonus type="AbstractCavalry">4.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>44.000000</damage>
+				<damage>80.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>3.000000</rof>
 				<damagebonus type="AbstractCavalry">4.000000</damagebonus>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>44.000000</damage>
+				<damage>80.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>3.000000</rof>
 				<damagebonus type="AbstractCavalry">4.000000</damagebonus>
@@ -1839,7 +1840,7 @@
 		<projectileprotounit>Arrow</projectileprotounit>
 		<autoattackrange>16.0000</autoattackrange>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<buildlimit>1</buildlimit>
@@ -1893,7 +1894,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>20.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.750000</rof>
 				<damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -1904,7 +1905,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendRangedAttack</name>
-				<damage>30.000000</damage>
+				<damage>45.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<maxrange>16.000000</maxrange>
 				<rof>0.750000</rof>
@@ -1916,7 +1917,7 @@
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>20.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.750000</rof>
 				<damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -1927,7 +1928,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerHandAttack</name>
-				<damage>20.000000</damage>
+				<damage>35.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.750000</rof>
 				<damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -1938,7 +1939,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerRangedAttack</name>
-				<damage>30.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<maxrange>16.000000</maxrange>
 				<rof>0.750000</rof>
@@ -1950,7 +1951,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyHandAttack</name>
-				<damage>20.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.750000</rof>
 				<damagebonus type="AbstractHeavyInfantry">4.000000</damagebonus>
@@ -1961,7 +1962,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyRangedAttack</name>
-				<damage>30.000000</damage>
+				<damage>50.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<maxrange>16.000000</maxrange>
 				<rof>0.750000</rof>
@@ -1997,7 +1998,7 @@
 		<projectileprotounit>InvisibleProjectile</projectileprotounit>
 		<autoattackrange>16.0000</autoattackrange>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Food">500.0000</cost>
@@ -2375,19 +2376,19 @@
 		<tactics>swordsman.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>22.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Siege</damagetype>
 				<rof>3.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>CoverBuildingAttack</name>
-				<damage>12.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Siege</damagetype>
 				<rof>3.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>CoverHandAttack</name>
-				<damage>18.000000</damage>
+				<damage>35.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
@@ -2428,7 +2429,7 @@
 		<maxhitpoints>15000.0000</maxhitpoints>
 		<los>20.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<buildlimit>1</buildlimit>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
@@ -2485,28 +2486,28 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>42.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>GuardianAttack</name>
-				<damage>42.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>42.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>TrampleHandAttack</name>
-				<damage>22.000000</damage>
+				<damage>50.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>2.000000</rof>
-				<damagecap>42.000000</damagecap>
+				<damagecap>420.000000</damagecap>
 				<damagearea>3.000000</damagearea>
 				<damageflags>Enemy</damageflags>
 		</protoaction>
@@ -2689,7 +2690,7 @@
 		<projectileprotounit>Arrow</projectileprotounit>
 		<autoattackrange>16.0000</autoattackrange>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>24.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>9.0000</bounty>
 		<buildbounty>9.0000</buildbounty>
 		<cost resourcetype="Food">355.0000</cost>
@@ -2737,13 +2738,13 @@
 		<tactics>WCEGongyi.tactics</tactics>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>6.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Siege</damagetype>
 				<rof>1.000000</rof>
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>12.000000</damage>
+				<damage>20.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -2754,7 +2755,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendRangedAttack</name>
-				<damage>10.000000</damage>
+				<damage>50.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>16.000000</maxrange>
@@ -2767,7 +2768,7 @@
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>12.000000</damage>
+				<damage>20.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -2778,7 +2779,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerHandAttack</name>
-				<damage>12.000000</damage>
+				<damage>15.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -2789,7 +2790,7 @@
 		</protoaction>
 		<protoaction>
 				<name>StaggerRangedAttack</name>
-				<damage>10.000000</damage>
+				<damage>15.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>16.000000</maxrange>
@@ -2802,7 +2803,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyHandAttack</name>
-				<damage>12.000000</damage>
+				<damage>30.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.500000</rof>
 				<damagebonus type="AbstractLightCavalry">4.000000</damagebonus>
@@ -2813,7 +2814,7 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyRangedAttack</name>
-				<damage>10.000000</damage>
+				<damage>40.000000</damage>
 				<damagetype>Ranged</damagetype>
 				<minrange>2.000000</minrange>
 				<maxrange>16.000000</maxrange>
@@ -2848,7 +2849,7 @@
 		<maxhitpoints>15000.0000</maxhitpoints>
 		<los>18.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Gold">1005.0000</cost>
@@ -2903,7 +2904,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>30.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">4.000000</damagebonus>
@@ -2911,13 +2912,13 @@
 		</protoaction>
 		<protoaction>
 				<name>GuardianAttack</name>
-				<damage>30.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>30.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 				<damagebonus type="AbstractInfantry">4.000000</damagebonus>
@@ -2925,7 +2926,7 @@
 		</protoaction>
 		<protoaction>
 				<name>TrampleHandAttack</name>
-				<damage>16.000000</damage>
+				<damage>45.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>2.000000</rof>
 				<damagecap>20.000000</damagecap>
@@ -2963,7 +2964,7 @@
 		<los>33.0000</los>
 		<projectileprotounit>TorchProjectile</projectileprotounit>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>600.0000</trainpoints>
+		<trainpoints>200.0000</trainpoints>
 		<bounty>3000.0000</bounty>
 		<buildbounty>3000.0000</buildbounty>
 		<cost resourcetype="Food">200.0000</cost>
@@ -3021,7 +3022,7 @@
 		</protoaction>
 		<protoaction>
 				<name>DefendHandAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
@@ -3029,7 +3030,7 @@
 				<name>DefendRangedAttack</name>
 				<damagebonus type="AbstractLightInfantry">0.500000</damagebonus>
 				<damagebonus type="AbstractCavalry">1.500000</damagebonus>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>12.000000</maxrange>
 				<rof>3.000000</rof>
@@ -3040,23 +3041,23 @@
 		</protoaction>
 		<protoaction>
 				<name>MeleeHandAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>StaggerHandAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>StaggerRangedAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>12.000000</maxrange>
 				<rof>3.000000</rof>
-				<damagecap>44.000000</damagecap>
+				<damagecap>440.000000</damagecap>
 				<damagebonus type="Building">3.000000</damagebonus>
 				<damagearea>3.000000</damagearea>
 				<damageflags>GAIAEnemy</damageflags>
@@ -3065,13 +3066,13 @@
 		</protoaction>
 		<protoaction>
 				<name>VolleyHandAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>1.500000</rof>
 		</protoaction>
 		<protoaction>
 				<name>VolleyRangedAttack</name>
-				<damage>48.000000</damage>
+				<damage>60.000000</damage>
 				<damagetype>Siege</damagetype>
 				<maxrange>12.000000</maxrange>
 				<rof>3.000000</rof>
@@ -3084,7 +3085,7 @@
 		</protoaction>
 		<protoaction>
 				<name>WCSSneakBuildingAttack</name>
-				<damage>600.000000</damage>
+				<damage>5000.000000</damage>
 				<damagetype>Hand</damagetype>
 				<maxrange>2.000000</maxrange>
 				<rof>3.000000</rof>
@@ -3113,7 +3114,7 @@
 		<maxhitpoints>10000.0000</maxhitpoints>
 		<los>12.0000</los>
 		<unitaitype>HandCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
 		<cost resourcetype="Gold">1000.0000</cost>
@@ -3236,7 +3237,7 @@
 		<los>34.0000</los>
 		<projectileprotounit>Cannonball</projectileprotounit>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<buildlimit>1</buildlimit>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
@@ -3338,7 +3339,7 @@
 		<los>29.0000</los>
 		<projectileprotounit>InvisibleProjectile</projectileprotounit>
 		<unitaitype>RangedCombative</unitaitype>
-		<trainpoints>300.0000</trainpoints>
+		<trainpoints>100.0000</trainpoints>
 		<buildlimit>1</buildlimit>
 		<bounty>1000.0000</bounty>
 		<buildbounty>1000.0000</buildbounty>
@@ -3385,12 +3386,12 @@
 		<tactics>WCEVikas.tactics</tactics>
 		<protoaction>
 				<name>CannonAttack</name>
-				<damage>160.000000</damage>
+				<damage>500.000000</damage>
 				<damagetype>Siege</damagetype>
 				<minrange>0.000000</minrange>
 				<maxrange>28.000000</maxrange>
 				<rof>9.000000</rof>
-				<damagecap>400.000000</damagecap>
+				<damagecap>2000.000000</damagecap>
 				<damagebonus type="AbstractVillager">2.000000</damagebonus>
 				<damagearea>1.000000</damagearea>
 				<damageflags>GAIAEnemy</damageflags>
@@ -3586,14 +3587,15 @@
 		</protoaction>
 		<protoaction>
 				<name>BuildingAttack</name>
-				<damage>22.000000</damage>
+				<damage>45.000000</damage>
 				<damagetype>Siege</damagetype>
 				<rof>1.500000</rof>
+				<maxrange>12.000000</maxrange>
 				<projectile>ArrowFlaming</projectile>
 		</protoaction>
 		<protoaction>
 				<name>ChargeAttack</name>
-				<damage>28.000000</damage>
+				<damage>66.000000</damage>
 				<damagetype>Hand</damagetype>
 				<rof>0.750000</rof>
 				<damagebonus type="AbstractArtillery">4.000000</damagebonus>

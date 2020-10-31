@@ -63,7 +63,7 @@
 	<power name="WCSForcedMarch" type="Informers">
 		<displaynameid>500005</displaynameid>
 		<rolloverid>540005</rolloverid>
-		<icon>ui\techs\hc_riding_school\hc_riding_school.png</icon>
+		<icon>resources\art\ui\techs\hc_riding_school\hc_riding_school.png</icon>
 	</power>
 
 	<power name="WCSIntruder" type="Informers">
@@ -124,7 +124,7 @@
 	<power name="WCSShiftofGale" type="UnitModify">
 		<displaynameid>500011</displaynameid>
 		<rolloverid>540011</rolloverid>
-		<icon>units\animals\eagle\eagle_portrait.png</icon>
+		<icon>resources\art\units\animals\eagle\eagle_portrait.png</icon>
 		<minimapeventtime sendalertto="player">1</minimapeventtime>
 		<activetime>5</activetime>
 		<unitmodify amount="2" apply="multiply">Speed</unitmodify>
@@ -138,7 +138,7 @@
 	<power name="WCSRageofMars" type="UnitModify">
 		<displaynameid>500012</displaynameid>
 		<rolloverid>540012</rolloverid>
-		<icon>ui\command\generate_wood_icon.png</icon>
+		<icon>resources\art\ui\command\generate_wood_icon.png</icon>
 		<minimapeventtime sendalertto="player">1</minimapeventtime>
 		<activetime>15</activetime>
 		<unitmodify amount="2" apply="multiply">Damage</unitmodify>
@@ -154,13 +154,13 @@
 	<power name="WCSInspiration" type="Informers">
 		<displaynameid>500016</displaynameid>
 		<rolloverid>540016</rolloverid>
-		<icon>ui\units\cheyenne_cav_portrait.png</icon>
+		<icon>resources\art\ui\units\cheyenne_cav_portrait.png</icon>
 	</power>
 
 	<power name="WCSICBM" type="UnitAction">
 		<displaynameid>500017</displaynameid>
 		<rolloverid>540017</rolloverid>
-		<icon>units\artillery\rocket\rocket_icon.png</icon>
+		<icon>resources\art\units\artillery\rocket\rocket_icon.png</icon>
 		<minimapeventtime sendalertto="all">1</minimapeventtime>
 		<activetime>8</activetime>
 		<radius>5.0</radius>
@@ -178,7 +178,7 @@
 	<power name="WCSFightWinOrDie" type="UnitModify">
 		<displaynameid>500019</displaynameid>
 		<rolloverid>540019</rolloverid>
-		<icon>units\asians\chinese\steppe_rider\steppe_rider_icon_portrait.png</icon>
+		<icon>resources\art\units\asians\chinese\steppe_rider\steppe_rider_icon_portrait.png</icon>
 		<minimapeventtime sendalertto="player">1</minimapeventtime>
 		<activetime>15</activetime>
 		<unitmodify amount="2" apply="multiply">Damage</unitmodify>

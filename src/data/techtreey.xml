@@ -139,9 +139,9 @@
         <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCERoderhan</target>
         </effect>
-        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <!-- <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCESteelBoots</target>
-        </effect>
+        </effect> -->
         <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCERaiit</target>
         </effect>
@@ -239,9 +239,9 @@
         <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCEKunal</target>
         </effect>
-        <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <!-- <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCEYamato</target>
-        </effect>
+        </effect> -->
         <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
             <target type="ProtoUnit">WCEAkatsuki</target>
         </effect>
