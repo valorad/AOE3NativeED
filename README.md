@@ -42,7 +42,8 @@
 如果下次va没事情干了会考虑做English和Français版，敬请期待。
 
 # 工具
-- [xml-tag-to-lowercase](tools/xml-tag-to-lowercase)：用来把xml的大写标签批量转换成小写。基于deno/TypeScript。
+- [XML Tags To Lowercase](tools/xml-tag-to-lowercase)：用来把xml的大写标签批量转换成小写。基于deno/TypeScript。
+- [XMLInject](tools/xml-inject)：自动将NativeED的Data文件注入到原版或第三方xml中。基于.Net/C#
 
 # LICENSE
 我大GPL v3
