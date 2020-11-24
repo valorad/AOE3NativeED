@@ -4,11 +4,11 @@
 
 <!--西方国家部分。 将代码添加到以下国家项的末尾-->
 
-      <!--> NativeED mod enabler EU Starts <!-->
+      <!-- NativeED mod enabler EU Starts-->
       <effect type="TechStatus" status="active">WCTxfjsyhTech</effect>
       <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
       <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
-      <!--> NativeED mod enabler EU Ends <!-->
+      <!-- NativeED mod enabler EU Ends -->
 
 <!--西方国家有： -->
 <ul>
@@ -23,6 +23,10 @@
     <li>Age0SPCAct2</li>
     <li>Age0SPCAct1</li>
     <li>Age0SPCAct3</li>
+    <li>Age0SPCBandits</li>
+    <li>Age0XPSPCFalcon</li>
+
+    <li>DEAge0Swedish</li>
 </ul>
 
 
@@ -44,11 +48,11 @@
 
 <!--美洲国家部分。 将代码添加到以下国家项的末尾-->
 
-<!--> NativeED mod enabler NA Starts <!-->
-<effect type="TechStatus" status="active">WCTamyjtTech</effect>
-<effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
-<effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
-<!--> NativeED mod enabler NA Ends <!-->
+      <!-- NativeED mod enabler NA Starts -->
+      <effect type="TechStatus" status="active">WCTamyjtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+      <!-- NativeED mod enabler NA Ends -->
 
 <!--美洲国家有： -->
 <ul>
@@ -58,6 +62,8 @@
     <li>Age0XPSPC</li>
     <li>XPSPCAct1Age0</li>
     <li>XPSPCAct2Age0</li>
+    <li>Age0XPSPCLakota</li>
+    <li>DEAge0Inca</li>
 </ul>
 
 <!--示例：-->
@@ -80,11 +86,11 @@
 
 <!--亚洲国家部分。 将代码添加到以下国家项的末尾-->
 
-<!--> NativeED mod enabler AS Starts <!-->
-<effect type="TechStatus" status="active">WCTjhtTech</effect>
-<effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
-<effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
-<!--> NativeED mod enabler AS Ends <!-->
+      <!-- NativeED mod enabler AS Starts -->
+      <effect type="TechStatus" status="active">WCTjhtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+      <!-- NativeED mod enabler AS Ends -->
 
 <!--亚洲国家有： -->
 <ul>
@@ -114,6 +120,15 @@
         <!--> NativeED mod enabler AS Ends <!-->
     </effects>
 </tech>
+
+
+<!--未探明的国家有： -->
+<ul>
+  <li>DEAge0BarbarySPC</li>
+  <li>DEAge0AmericansSPC</li>
+  <li>DEAge0TatarsSPC</li>
+  <li>DEAge0EthiopiansSPC</li>
+</ul>
 
 <!-- 科技部分。 将代码添加到techtreeY文件末尾-->
 

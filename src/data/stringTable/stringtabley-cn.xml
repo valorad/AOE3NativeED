@@ -1,6 +1,7 @@
-    <?xml version="1.0" encoding="utf-8"?>
-    <!--> 附加到决定版 Data/strings/SimplifiedChinese/stringtabley.xml中 <!-->
-
+<?xml version="1.0" encoding="utf-8"?>
+    
+<nedStrings>
+	<!--> 附加到决定版 Data/strings/SimplifiedChinese/stringtabley.xml中 <!-->
 	<!--NativeED String Starts-->
 		<string _locid="200000">西方军事议会</string>
 		<string _locid="220000">WCB 西方军事议会</string>
@@ -245,3 +246,5 @@
 		<string _locid="800000">签订聚合条约，取得组织的帮助</string>
 		<string _locid="840000">签订聚合条约，取得组织的帮助</string>
 	<!--NativeED String Ends-->
+</nedStrings>
+

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
   
+<NEDPowers>
   <!--> 附加到决定版 Data/Abilities/powers.xml中 <!-->
 
 	<!--> AOE3 NativeED mod Powers Starts <!-->
@@ -228,3 +229,5 @@
 	</power>
 
 	<!--> AOE3 NativeED mod Powers Ends <!-->
+</NEDPowers>
+

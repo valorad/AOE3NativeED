@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--> 附加到决定版 Data/Abilities/abilities.xml中 <!-->
 
+<NEDAbilities>
 <!--> AOE3 NativeED mod Abilities Starts <!-->
 	<WCBxfjsyh>
 		<ability>
@@ -166,3 +167,4 @@
 	</WCEVikas>
 
 	<!--> AOE3 NativeED mod Abilities Ends <!-->
+</NEDAbilities>
