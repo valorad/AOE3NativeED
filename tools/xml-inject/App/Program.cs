@@ -29,11 +29,12 @@ namespace App
 
     class Injection {
 
+        string basePath = AppDomain.CurrentDomain.BaseDirectory;
+        XmlReaderSettings xmlSettings = new XmlReaderSettings() {
+            IgnoreComments = true,
+        };
+
         public void InjectXMLToBottom(InjectXMLParams settings) {
-
-            var xmlSettings = new XmlReaderSettings();
-            xmlSettings.IgnoreComments = true;
-
 
             XmlReader sourceReader = XmlReader.Create(settings.SourceFilePath, xmlSettings);
             var source = new XmlDocument();
@@ -50,17 +51,13 @@ namespace App
             }
             
             Directory.CreateDirectory(settings.OutputFolder);
-
             string outputPath = Path.GetFullPath(Path.Combine(settings.OutputFolder, settings.OutputFileName));
-
             File.WriteAllText(outputPath, target.OuterXml);
 
             sourceReader.Dispose();
             targetReader.Dispose();
 
         }
-
-        string basePath = AppDomain.CurrentDomain.BaseDirectory;
 
         public void InjectAbilities() {
 
@@ -129,6 +126,64 @@ namespace App
 
         }
 
+        public void InjectProtos() {
+
+            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "protoy.xml"), basePath), xmlSettings);
+            var source = new XmlDocument();
+            source.Load(reader);
+
+            reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "in", "protoy.xml"), basePath), xmlSettings);
+            var target = new XmlDocument();
+            target.Load(reader);
+            
+
+            // Offering explorers the privileges to build Hero Structures
+
+            var explorerStore = new XmlDocument(); // TODO: Write this map
+
+            // Town Center can build wagons to deploy the Hero Structures
+
+            XmlNode townCenter = target.SelectSingleNode("/proto/unit@id='294'");
+
+            // Attach the new units to the bottom
+
+
+
+
+            string outputFolder = Path.GetFullPath(Path.Combine(".", "workbench", "out"), basePath);
+            Directory.CreateDirectory(outputFolder);
+            string outputPath = Path.GetFullPath(Path.Combine(outputFolder, "protoy.xml"));
+            File.WriteAllText(outputPath, target.OuterXml);
+
+            reader.Dispose();
+        }
+
+        public void InjectTechtrees() {
+
+            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "techtreey.xml"), basePath), xmlSettings);
+            var source = new XmlDocument();
+            source.Load(reader);
+
+            reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "in", "techtreey.xml"), basePath), xmlSettings);
+            var target = new XmlDocument();
+            target.Load(reader);
+
+            // Countries enable their own heroes
+            var civStore = new XmlDocument(); // TODO: Write this map
+
+            // Attach the new techs to the bottom
+
+
+
+
+            string outputFolder = Path.GetFullPath(Path.Combine(".", "workbench", "out"), basePath);
+            Directory.CreateDirectory(outputFolder);
+            string outputPath = Path.GetFullPath(Path.Combine(outputFolder, "techtreey.xml"));
+            File.WriteAllText(outputPath, target.OuterXml);
+
+            reader.Dispose();
+
+        }
 
         // Inject protoy.xml (Add new content + Edit exixting node)
 
@@ -136,40 +191,19 @@ namespace App
 
         public Injection()
         {
-            // Inject abilities/abilities.xml (Just add new content to bottom)
 
             try
             {
-                InjectAbilities();
+                // InjectAbilities();
+                // InjectPowers();
+                // InjectI18nStrings();
+                InjectProtos();
             }
             catch (System.Exception e)
             {
                 Console.WriteLine($"Error!: {e}");
             }
-
-
-            // Inject abilities/powers.xml (Just add new content to bottom)
             
-            try
-            {
-                InjectPowers();
-            }
-            catch (System.Exception e)
-            {
-                Console.WriteLine($"Error!: {e}");
-            }
-
-            // Inject strings/English/stringtabley.xml (Just add new content to bottom)
-            // Inject strings/SimplifiedChinese/stringtabley.xml (Just add new content to bottom)
-            try
-            {
-                InjectI18nStrings();
-            }
-            catch (System.Exception e)
-            {
-                Console.WriteLine($"Error!: {e}");
-            }
-
         }
 
     }
