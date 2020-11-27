@@ -1,0 +1,61 @@
+<nedTechtrees>
+
+  <factions>
+  
+    <faction id="EU" name="Europeen Countries">
+      <effect type="TechStatus" status="active">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+    </faction>
+
+    <faction id="NA" name="Native American Countries">
+      <effect type="TechStatus" status="active">WCTamyjtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTjhtTech</effect>
+    </faction>
+
+    <faction id="AS" name="Asian Countries">
+      <effect type="TechStatus" status="active">WCTjhtTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTxfjsyhTech</effect>
+      <effect type="TechStatus" status="obtainable">WCTamyjtTech</effect>
+    </faction>
+  
+  </factions>
+
+  <countries>
+  
+    <country name="Age0French" faction="EU"></country>
+    <country name="Age0Russian" faction="EU"></country>
+    <country name="Age0British" faction="EU"></country>
+    <country name="Age0Dutch" faction="EU"></country>
+    <country name="Age0German" faction="EU"></country>
+    <country name="Age0Portuguese" faction="EU"></country>
+    <country name="Age0Ottoman" faction="EU"></country>
+    <country name="Age0Spanish" faction="EU"></country>
+    <country name="Age0SPCAct2" faction="EU"></country>
+    <country name="Age0SPCAct1" faction="EU"></country>
+    <country name="Age0SPCAct3" faction="EU"></country>
+    <country name="Age0SPCBandits" faction="EU"></country>
+    <country name="Age0XPSPCFalcon" faction="EU"></country>
+    <country name="DEAge0Swedish" faction="EU"></country>
+
+    <country name="Age0XPIroquois" faction="NA"></country>
+    <country name="Age0XPAztec" faction="NA"></country>
+    <country name="Age0XPSioux" faction="NA"></country>
+    <country name="Age0XPSPC" faction="NA"></country>
+    <country name="XPSPCAct1Age0" faction="NA"></country>
+    <country name="XPSPCAct2Age0" faction="NA"></country>
+    <country name="Age0XPSPCLakota" faction="NA"></country>
+    <country name="DEAge0Inca" faction="NA"></country>
+
+    <country name="YPAge0Japanese" faction="AS"></country>
+    <country name="YPAge0Chinese" faction="AS"></country>
+    <country name="YPAge0Indians" faction="AS"></country>
+    <country name="YPAge0JapaneseSPC" faction="AS"></country>
+    <country name="YPAge0ChineseClone6" faction="AS"></country>
+    <country name="YPAge0ChineseSPC" faction="AS"></country>
+    <country name="YPAge0IndiansSPC" faction="AS"></country>
+  
+  </countries>
+
+</nedTechtrees>

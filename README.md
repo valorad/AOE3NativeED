@@ -23,18 +23,18 @@
 - 将发布版本解压到以下目录：`%userprofile%\Games\Age of Empires 3 DE\[玩家ID]\mods\local\`
 
 # Compilation
-要注入其他mod或有其他目的之玩家需要手动编译
+要注入其他mod或有其他目的之玩家需要重新编译
 - 克隆本repo到本地文件夹
-- 使用[Resource-Manager](https://github.com/VladTheJunior/Resource-Manager)提取或者直接复制原版（或者其他mod）游戏中的以下文件：
+- 使用[Resource-Manager](https://github.com/VladTheJunior/Resource-Manager)提取或者直接复制原版（或者其他mod）游戏中的以下文件，保持目录结构：
   - Data/protoy.xml
   - Data/techtree.xml
   - Data/strings/SimplifiedChinese/stringtabley.xml
   - Data/abilities/abilities.xml
   - Data/abilities/powers.xml
+- 对于Art, Sound目录下全部，以及Data/tactics目录下全部：直接拷贝src下的源文件至目标（原版或第三方mod）目录即可
+- 对于其他Data文件，你可以使用本repo自带的工具XMLInject帮助你快速完成注入。将工具下载好后将本repo的`src/Data`文件夹中的文件拷贝至XMLInject的`src`目录下，将目标目录的xml文件拷贝至`in`文件夹，运行工具，然后将`out`文件夹中生成的文件拷回目标目录即可。详细请参考[XMLInject的说明页](tools/xml-inject)
+- 如果出于任何原因，你无法使用XMLInject，那么请参考[完全手动注入指南](manualInjection.md)。
 
-保持目录结构。接下来对这些文件进行修改
-1. 以下两个文件需要按照本repo的`src`中的xml文件中的指示进行代码插入工作：`Data/protoy.xml`, `Data/techtree.xml`
-2. 对于`src/Data`下其余所有文件，只需要打开，并将其中的内容按需拷贝至目标mod的到相应目录。对于`src/Art`和`src/Sound`里的文件，直接拷贝即可。
 
 # i18n
 没有！wc没事情干的时候只是做了简体中文版。

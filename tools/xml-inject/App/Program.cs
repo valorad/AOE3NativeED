@@ -10,9 +10,7 @@ namespace App
         static void Main(string[] args)
         {
             var i = new Injection();
-
         }
-
 
     }
 
@@ -128,7 +126,7 @@ namespace App
 
         public void InjectProtos() {
 
-            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "protoy.xml"), basePath), xmlSettings);
+            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "proto-addition.xml"), basePath), xmlSettings);
             var source = new XmlDocument();
             source.Load(reader);
 
@@ -139,17 +137,41 @@ namespace App
 
             // Offering explorers the privileges to build Hero Structures
 
-            var explorerStore = new XmlDocument(); // TODO: Write this map
+            reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "proto-modifs.xml"), basePath), xmlSettings);
+            var protoModifsStore = new XmlDocument();
+            protoModifsStore.Load(reader);
+
+            // target.ImportNode(protoModifsStore.SelectSingleNode("/nedProtos"), false);
+
+            XmlNode storeExplorers = protoModifsStore.SelectSingleNode("/nedProtos/explorers");
+
+            foreach (XmlNode explorer in storeExplorers.ChildNodes) {
+                string id = explorer.Attributes["id"].Value;
+                XmlNode targetExplorer = target.SelectSingleNode($"/proto/unit[@id='{id}']");
+                targetExplorer.OwnerDocument.ImportNode(explorer.ChildNodes[0], true);
+                // targetExplorer.AppendChild(explorer.ChildNodes[0]);
+            }
 
             // Town Center can build wagons to deploy the Hero Structures
 
-            XmlNode townCenter = target.SelectSingleNode("/proto/unit@id='294'");
+            XmlNode storeTownCenter = protoModifsStore.SelectSingleNode("/nedProtos/townCenter");
+
+            XmlNode targetTownCenter = target.SelectSingleNode("/proto/unit[@id='294']");
+
+            foreach (XmlNode trainables in storeTownCenter.ChildNodes) {
+                targetTownCenter.OwnerDocument.ImportNode(trainables, true);
+            //   targetTownCenter.AppendChild(trainables);
+            }
 
             // Attach the new units to the bottom
+            
+            XmlNode parentNode = target.SelectSingleNode("/proto");
 
+            foreach(XmlNode node in source.SelectSingleNode("/nedProtos").ChildNodes) {
+                XmlNode importedNode = parentNode.OwnerDocument.ImportNode(node, true);
+            }
 
-
-
+            // output to a file
             string outputFolder = Path.GetFullPath(Path.Combine(".", "workbench", "out"), basePath);
             Directory.CreateDirectory(outputFolder);
             string outputPath = Path.GetFullPath(Path.Combine(outputFolder, "protoy.xml"));
@@ -160,7 +182,7 @@ namespace App
 
         public void InjectTechtrees() {
 
-            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "techtreey.xml"), basePath), xmlSettings);
+            XmlReader reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "techtree-addition.xml"), basePath), xmlSettings);
             var source = new XmlDocument();
             source.Load(reader);
 
@@ -169,13 +191,38 @@ namespace App
             target.Load(reader);
 
             // Countries enable their own heroes
-            var civStore = new XmlDocument(); // TODO: Write this map
+            reader = XmlReader.Create(Path.GetFullPath(Path.Combine(".", "workbench", "src", "techtree-modifs.xml"), basePath), xmlSettings);
+            var techtreeModifs = new XmlDocument();
+            techtreeModifs.Load(reader);
+
+            // target.ImportNode(techtreeModifs, false);
+
+            XmlNode storeCountries = techtreeModifs.SelectSingleNode("/nedTechtrees/countries");
+
+            foreach (XmlNode country in storeCountries.ChildNodes) {
+                string factionID = country.Attributes["faction"].Value;
+                string countryName = country.Attributes["name"].Value;
+                XmlNode faction = techtreeModifs.SelectSingleNode($"/nedTechtrees/factions/faction[@id='{factionID}']");
+                
+                XmlNode targetCountry = target.SelectSingleNode($"/techtree/tech[@name='{countryName}']");
+                XmlNode effects = targetCountry.SelectSingleNode("effects");
+                
+                foreach (XmlNode effect in faction.ChildNodes) {
+                    effects.OwnerDocument.ImportNode(effect, true);
+                    // effects.AppendChild(effect);
+                }
+
+            }
 
             // Attach the new techs to the bottom
 
+            XmlNode parentNode = target.SelectSingleNode("/techtree");
 
+            foreach(XmlNode node in source.SelectSingleNode("/nedTechtrees").ChildNodes) {
+                XmlNode importedNode = parentNode.OwnerDocument.ImportNode(node, true);
+            }
 
-
+            // output to a file
             string outputFolder = Path.GetFullPath(Path.Combine(".", "workbench", "out"), basePath);
             Directory.CreateDirectory(outputFolder);
             string outputPath = Path.GetFullPath(Path.Combine(outputFolder, "techtreey.xml"));
@@ -185,19 +232,16 @@ namespace App
 
         }
 
-        // Inject protoy.xml (Add new content + Edit exixting node)
-
-        // Inject techtreey.xml (Add new content + Edit exixting node)
-
         public Injection()
         {
 
             try
             {
-                // InjectAbilities();
-                // InjectPowers();
-                // InjectI18nStrings();
+                InjectAbilities();
+                InjectPowers();
+                InjectI18nStrings();
                 InjectProtos();
+                InjectTechtrees();
             }
             catch (System.Exception e)
             {

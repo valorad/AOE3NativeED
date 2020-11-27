@@ -1,0 +1,33 @@
+<nedProtos>
+
+  <explorers>
+    <explorer id="288" name="Explorer">
+      <train row="1" page="6" column="0">WCBxfjsyh</train>
+    </explorer>
+    <explorer id="712" name="xpIroquoisWarChief">
+      <train row="1" page="6" column="0">WCBamyjt</train>
+    </explorer>
+    <explorer id="741" name="xpLakotaWarchief">
+      <train row="1" page="6" column="0">WCBamyjt</train>
+    </explorer>
+    <explorer id="760" name="xpAztecWarchief">
+      <train row="1" page="6" column="0">WCBamyjt</train>
+    </explorer>
+    <explorer id="1500" name="deIncaWarChief">
+      <train row="1" page="6" column="0">WCBamyjt</train>
+    </explorer>
+    <explorer id="918" name="ypMonkChinese">
+      <train row="1" page="6" column="0">WCBjht</train>
+    </explorer>
+    <explorer id="1359" name="ypMonkChinese2">
+      <train row="1" page="6" column="0">WCBjht</train>
+    </explorer>
+  </explorers> 
+
+  <townCenter id="294">
+    <train row="1" page="0" column="0">WCVCouncilConsWagon</train>
+    <train row="1" page="0" column="0">WCVAltarConsWagon</train>
+    <train row="1" page="0" column="0">WCVJuheConsWagon</train>
+  </townCenter>
+
+</nedProtos>
