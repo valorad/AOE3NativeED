@@ -46,6 +46,7 @@ namespace App
 
             foreach(var node in source.SelectSingleNode(settings.SourceParentTagName).ChildNodes) {
                 XmlNode importedNode = parentNode.OwnerDocument.ImportNode(node as XmlNode, true);
+                parentNode.AppendChild(importedNode);
             }
             
             Directory.CreateDirectory(settings.OutputFolder);
@@ -148,8 +149,8 @@ namespace App
             foreach (XmlNode explorer in storeExplorers.ChildNodes) {
                 string id = explorer.Attributes["id"].Value;
                 XmlNode targetExplorer = target.SelectSingleNode($"/proto/unit[@id='{id}']");
-                targetExplorer.OwnerDocument.ImportNode(explorer.ChildNodes[0], true);
-                // targetExplorer.AppendChild(explorer.ChildNodes[0]);
+                XmlNode importedExplorer = targetExplorer.OwnerDocument.ImportNode(explorer.ChildNodes[0], true);
+                targetExplorer.AppendChild(importedExplorer);
             }
 
             // Town Center can build wagons to deploy the Hero Structures
@@ -208,8 +209,8 @@ namespace App
                 XmlNode effects = targetCountry.SelectSingleNode("effects");
                 
                 foreach (XmlNode effect in faction.ChildNodes) {
-                    effects.OwnerDocument.ImportNode(effect, true);
-                    // effects.AppendChild(effect);
+                    XmlNode importedEffect = effects.OwnerDocument.ImportNode(effect, true);
+                    effects.AppendChild(importedEffect);
                 }
 
             }

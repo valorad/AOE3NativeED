@@ -3,7 +3,7 @@
 <nedStrings>
 	<!--> 附加到决定版 Data/strings/SimplifiedChinese/stringtabley.xml中 <!-->
 	<!--NativeED String Starts-->
-		<string _locid="200000">西方军事议会</string>
+		<string _locid="210000">西方军事议会</string>
 		<string _locid="220000">WCB 西方军事议会</string>
 		<string _locid="240000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。【请注意：如果您要申请海军援助，请将议会建在紧挨海边的位置！】</string>
 		<string _locid="260000">西方国家的军事联盟机构，派遣精英或特工执行不同的任务。</string>
